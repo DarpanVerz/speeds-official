@@ -33,14 +33,11 @@
         {% assign iso_code_downcase = localization.language.iso_code | downcase %}
         {%- if supported_language_flags contains iso_code_downcase -%}
           <img
-            src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}"
-            alt="{{ 'header.flag_of' | t: country: localization.language.name }}"
-            width="17"
-            height="12"
-            {% if origin == 'footer' %}
-              loading="lazy"
-            {% endif %}
-          >
+  src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}"
+  alt="{{ localization.language.name }}"
+  width="17"
+  height="12"
+>
         {% else %}
           <span class="mobile-hide">{{ localization.language.iso_code | upcase }}</span>
         {%- endif -%}
