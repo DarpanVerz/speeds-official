@@ -138,8 +138,16 @@
             {% endif %}
           >
             <a href="#" data-value="{{ country.iso_code }}">
-              {{ country.name }}&nbsp;<span>({{ country.currency.iso_code }}&nbsp;{{ country.currency.symbol }})</span>
-            </a>
+  <img 
+    src="https://flagcdn.com/24x18/{{ country.iso_code | downcase }}.png" 
+    alt="{{ country.name }}"
+    width="18"
+    height="13"
+    style="margin-right:5px;"
+  >
+  {{ country.name }}
+  <span>({{ country.currency.iso_code }} {{ country.currency.symbol }})</span>
+</a>
           </li>
         {%- endfor -%}
       </ul>
