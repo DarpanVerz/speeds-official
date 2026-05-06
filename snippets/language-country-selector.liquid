@@ -107,10 +107,15 @@
         <span>{{ localization.country.currency.iso_code }}</span>
       {% else %}
         <span class="mobile-hide">
-          {{- localization.country.iso_code }}&nbsp;({{ localization.country.currency.iso_code }}&nbsp;
-          {{- localization.country.currency.symbol -}}
-          )</span
-        >
+  <img 
+    src="https://flagcdn.com/24x18/{{ localization.country.iso_code | downcase }}.png" 
+    alt="{{ localization.country.name }}"
+    width="18"
+    height="13"
+    style="margin-right:5px;"
+  >
+  {{ localization.country.iso_code }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
+</span>
         <span class="hidden">{{ 'general.accessibility.menu' | t }}</span>
       {% endif %}
     </a>
