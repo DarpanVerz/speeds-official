@@ -65,7 +65,7 @@ a.overlay-buy_button:hover {
     --secondary_bg_btn: #000 !important;
 }
 
-.custom-sub { background:#EFEFEF; }
+.custom-sub { background-color:#efefef !important; }
 
 @media only screen and (min-width: 1001px) {
     #root #nav.hr>ul>li.active>a, #root #nav-bar.hr>ul>li.active>a {
