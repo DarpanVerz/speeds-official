@@ -66,6 +66,8 @@ a.overlay-buy_button:hover {
 }
 
 .custom-sub { background-color:#efefef !important; }
+.custom-sub .sub > a { text-transform:uppercase; }
+
 
 @media only screen and (min-width: 1001px) {
     #root #nav.hr>ul>li.active>a, #root #nav-bar.hr>ul>li.active>a {
