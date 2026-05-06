@@ -108,7 +108,7 @@
       {% else %}
         <span class="mobile-hide">
   <img 
-    src="https://flagcdn.com/24x18/{{ localization.country.iso_code | downcase }}.png" 
+    src="{{ 'flag-id.png' | asset_url }}"
     alt="{{ localization.country.name }}"
     width="18"
     height="13"
