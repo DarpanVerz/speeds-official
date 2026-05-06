@@ -34,9 +34,10 @@
         {%- if supported_language_flags contains iso_code_downcase -%}
           <img
   src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}"
-  alt="{{ localization.language.name }}"
+  alt="{{ language.endonym_name }}"
   width="17"
   height="12"
+  loading="lazy"
 >
         {% else %}
           <span class="mobile-hide">{{ localization.language.iso_code | upcase }}</span>
@@ -48,12 +49,12 @@
       <a class="mobile-only" href="./" aria-controls="nav">
         {%- if supported_language_flags contains iso_code_downcase -%}
           <img
-            src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}"
-            alt="{{ 'header.flag_of' | t: country: localization.language.name }}"
-            width="17"
-            height="12"
-            loading="lazy"
-          >
+  src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}"
+  alt="{{ language.endonym_name }}"
+  width="17"
+  height="12"
+  loading="lazy"
+>
         {% else %}
           <span class="mobile-only">{{ localization.language.iso_code | upcase }}</span>
         {%- endif -%}
