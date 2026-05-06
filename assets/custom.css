@@ -67,7 +67,7 @@ a.overlay-buy_button:hover {
 
 .custom-sub { background-color:#efefef !important; }
 .custom-sub .sub > a { text-transform:uppercase; }
-.custom-sub .sub ul li { text-transform:uppercase; }
+.custom-sub .sub ul li { line-height: 35px !important; }
 
 
 @media only screen and (min-width: 1001px) {
