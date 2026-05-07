@@ -128,7 +128,7 @@
         "menubar_menu": "main-menu",
         "menubar_height": "45px",
         "menu_layout": "mega",
-        "menu_scroll": true,
+        "menu_scroll": false,
         "menu_compact": true,
         "show_dropdown_images": true,
         "show_dropdown_images_subs": true,
