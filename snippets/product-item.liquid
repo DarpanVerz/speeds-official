@@ -436,7 +436,14 @@
             {{ vendor }}
           </span>
         {%- endif -%}
-         {{ vendor }}
+         {% for collection in product.collections %}
+          {% unless collection.handle == 'frontpage' %}
+            <p class="product-category">
+              {{ collection.title }}
+            </p>
+            {% break %}
+          {% endunless %}
+        {% endfor %}
         {%- if show_title -%}
           <a
             href="{{ product.url }}"
