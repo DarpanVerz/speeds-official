@@ -56,6 +56,7 @@
     "enable_cart_drawer_undo_remove": true,
     "enable_cart_drawer_undo_remove_delay": true,
     "cart_drawer_checkout_button": true,
+    "cart_drawer_order_notes": true,
     "enable_cart_drawer_upsell_complementary": true,
     "enable_cart_drawer_upsell_related": true,
     "enable_cart_drawer_upsell_variants": true,
