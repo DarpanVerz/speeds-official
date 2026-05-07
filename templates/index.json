@@ -51,7 +51,7 @@
             "title_underline_style": "none",
             "text": "",
             "show_link": true,
-            "link_text": "Shop now",
+            "link_text": "SHOP NOW",
             "link_url": "shopify://collections/mom-baby",
             "button_style": "tertiary plain",
             "show_overlay_link": true,
@@ -77,7 +77,7 @@
             "title_underline_style": "gradient",
             "text": "<h4>New in</h4><h1>Home & Living</h1>",
             "show_link": true,
-            "link_text": "Shop now",
+            "link_text": "SHOP NOW",
             "link_url": "shopify://collections/home-living",
             "button_style": "secondary plain",
             "show_overlay_link": true,
@@ -420,8 +420,8 @@
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
-            "position_left": 72,
-            "position_top": 88,
+            "position_left": 25,
+            "position_top": 70,
             "position_left_mobile": 70,
             "position_top_mobile": 20
           }
@@ -433,8 +433,8 @@
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
-            "position_left": 82,
-            "position_top": 56,
+            "position_left": 73,
+            "position_top": 63,
             "position_left_mobile": 30,
             "position_top_mobile": 50
           }
@@ -442,12 +442,12 @@
         "hotspot_7Wier6": {
           "type": "hotspot",
           "settings": {
-            "product": "prosotan-sni-anak-seluncur-mainan-anak-prusutan-anak-hiburan-anak-kids-slide-berstandar-001-m1104",
+            "product": "mainan-sni-perosotan-anak-papan-seluncur-anak-playground-prosotan-babyfence-playfence-berstandar-001-m1101-1",
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
-            "position_left": 50,
-            "position_top": 70,
+            "position_left": 45,
+            "position_top": 35,
             "position_left_mobile": 50,
             "position_top_mobile": 70
           }
@@ -459,21 +459,21 @@
         "hotspot_7Wier6"
       ],
       "settings": {
-        "image": "shopify://shop_images/11.jpg",
+        "image": "shopify://shop_images/7.png",
         "overlay_opacity": 0,
         "color_palette": "scheme-9a1cab68-091b-481f-b64e-32310979fd25",
         "hotspot_height": 24,
         "hotspot_color_palette": "primary",
         "layout": "right",
-        "height": "1/1",
-        "enable_custom_height": true,
-        "custom_height": 420,
+        "height": "adapt",
+        "enable_custom_height": false,
+        "custom_height": 560,
         "width_banner": "boxed",
         "width": "boxed",
         "text_position": "align-start text-start",
-        "title": "<h3>Excepteur sint deserunt<br/>occaecat cupidatat non.</h3>",
+        "title": "<h3>Semua Kebutuhan Olahraga, Outdoor & Rumah dalam Satu Tempat</h3>",
         "title_underline_style": "none",
-        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+        "text": "<p>Dari peralatan olahraga, playground anak berbahan HDPE, perlengkapan camping, hingga produk home living — semuanya tersedia dengan kualitas terbaik untuk mendukung aktivitas dan kenyamanan keluarga Anda.</p>",
         "show_link": true,
         "link_text": "Shop now",
         "link_url": "/",
