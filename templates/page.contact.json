@@ -182,7 +182,7 @@
         "width": "boxed",
         "title": "<h2>Contact form</h2>",
         "title_underline_style": "none",
-        "button_style": "tertiary plain",
+        "button_style": "primary plain",
         "show_placeholder": true,
         "spacing_desktop": 50,
         "spacing_mobile": 30,
