@@ -304,6 +304,8 @@ button:hover:before, .link-btn a:hover:before, .n6pg li.prev a:hover:after, .n6p
   background:#ee1a24 !important;
 }
 
+a.overlay-primary:hover { color:#ee1a24 !important }
+
 @media(max-width:767px){
 .palette-scheme-4 img {
     width: 320px !important;
@@ -314,4 +316,8 @@ button:hover:before, .link-btn a:hover:before, .n6pg li.prev a:hover:after, .n6p
     bottom: 42px;
     padding-bottom: 78px;
 }
+}
+
+.wa__btn_popup {
+    left: 0 !important;
 }
