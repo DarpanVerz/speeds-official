@@ -324,6 +324,6 @@ a.overlay-primary:hover { color:#ee1a24 !important }
 }
 }
 
-.module-color-palette[class*=palette-]:before {
-    background: #000000;
+.module-color-palette[class*=palette-]  {
+    
 }
