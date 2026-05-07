@@ -315,7 +315,7 @@ a.overlay-primary:hover { color:#ee1a24 !important }
 
 .link-btn a.overlay-primary:hover { color:#fff; }
 
-button.overlay-tertiaryoverlay-tertiary:before:hover { background:#EE1A24; color:#fff; }
+button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color:#fff; }
 
 @media(max-width:767px){
 .palette-scheme-4 img {
