@@ -199,6 +199,7 @@ background-color:#efefef !important;
     color: #000;
 }
 
+.icon-phone, .icon-envelope { color:#FF8000; }
 
 .overlay-buy_button:hover { background:#262626; }
 button:hover:before, .link-btn a:hover:before, .n6pg li.prev a:hover:after, .n6pg li.next a:hover:after, #totop a:hover:before { 
