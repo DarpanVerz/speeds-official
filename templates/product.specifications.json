@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -102,8 +111,10 @@
           "settings": {
             "enable_tab": true,
             "collapse": true,
+            "title_size": "h2",
             "title": "Size chart",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "text": "",
             "page": "",
@@ -118,8 +129,10 @@
           "settings": {
             "enable_tab": true,
             "collapse": true,
+            "title_size": "h2",
             "title": "Care instructions",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "text": "<p>- <strong>Machine wash</strong> inside out at 30 to 40 degrees<br/>- Can be put in the <strong>dryer</strong><br/>- Do <strong>Not Bleach</strong><br/>- <strong>Limited chemical cleaning</strong> allowed</p>",
             "page": "",
@@ -151,15 +164,20 @@
         "shipping_timer"
       ],
       "settings": {
+        "width": "boxed",
         "show_thumbs_desktop": true,
         "show_thumbs_mobile": false,
         "images_layout": "bottom",
         "show_product_description": true,
+        "description_title_size": "h2",
         "product_description_enable_read_more": true,
+        "pros_cons_title_size": "h2",
         "pros": "<p>Sustainably produced, Ideal for everyday use</p>",
         "cons": "",
+        "specs_title_size": "h2",
         "specifications": "<p>Weight: 200gr, Usage: Indoor & outdoor</p>",
-        "product_description_mobile_collapse": false
+        "product_description_mobile_collapse": false,
+        "mobile_tabs_title_size": "h4"
       }
     },
     "09d74aa3-7d12-4c62-a049-6c17d47d26f1": {
@@ -177,7 +195,9 @@
             "show_link": false,
             "link_text": "Button",
             "link_url": "",
-            "button_style": "primary plain"
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
           }
         },
         "502ac03e-4e94-4d64-944d-c38d07aceff4": {
@@ -192,7 +212,9 @@
             "show_link": false,
             "link_text": "Button",
             "link_url": "",
-            "button_style": "primary plain"
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
           }
         }
       },
@@ -200,20 +222,25 @@
         "template--16710192201974__09d74aa3-7d12-4c62-a049-6c17d47d26f1-167025138534b68f72-0",
         "502ac03e-4e94-4d64-944d-c38d07aceff4"
       ],
+      "disabled": true,
       "settings": {
         "items_layout": "playful-grid",
         "items_width": 2,
         "height": "32/9",
+        "enable_custom_height": false,
+        "custom_height": 300,
         "width": "boxed",
         "space_between": 0,
         "image_zoom": true,
         "image_move": false,
         "show_content_on_hover": true,
+        "show_content_below": false,
         "content_on_hover_color_palette": "scheme-2",
         "layout_mobile": "rows",
         "mobile_height": "1/1",
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     },
     "recommendations": {
@@ -222,6 +249,7 @@
         "recommended_products_qty": 6,
         "number_of_items": 5,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "<h2>You may also like</h2>",
         "title_underline_style": "none",
         "enable_quick_buy_desktop": true,
@@ -232,6 +260,7 @@
         "enable_quick_buy_compact": false,
         "spacing_desktop": 50,
         "spacing_mobile": 0,
+        "fix_zindex": 0,
         "mobile_collapse": false
       }
     },
@@ -241,6 +270,7 @@
         "template--16805393465590__4545afb5-a1c2-4f1a-89e6-162575a3ca8a-1681972535d857eded-1": {
           "type": "hotspot",
           "settings": {
+            "product": "",
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
@@ -253,6 +283,7 @@
         "template--16805393465590__4545afb5-a1c2-4f1a-89e6-162575a3ca8a-1681972535d857eded-2": {
           "type": "hotspot",
           "settings": {
+            "product": "",
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
@@ -269,14 +300,15 @@
       ],
       "settings": {
         "overlay_opacity": 0,
-        "color_palette": "scheme-4",
+        "color_palette": "scheme-dba61018-44a4-4422-a646-9181cebee328",
         "hotspot_height": 33,
         "hotspot_color_palette": "secondary",
         "layout": "right",
         "height": "4/5",
-        "width": "boxed",
         "enable_custom_height": false,
         "custom_height": 300,
+        "width_banner": "boxed",
+        "width": "boxed",
         "text_position": "text-start",
         "title": "<h2>You may also like this outfit!</h2>",
         "title_underline_style": "none",
@@ -284,10 +316,11 @@
         "show_link": true,
         "link_text": "Discover all pajamas",
         "link_url": "/",
-        "button_style": "primary plain",
+        "button_style": "tertiary plain",
         "height_mobile": "m",
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     },
     "1656404215630561fc": {
@@ -310,7 +343,9 @@
             "show_second_link": false,
             "second_link_text": "Button",
             "second_link_url": "",
-            "second_button_style": "secondary plain"
+            "second_button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
           }
         }
       },
@@ -319,13 +354,15 @@
       ],
       "settings": {
         "height": "32/9",
+        "width_banner": "boxed",
         "width": "boxed",
         "autoplay": false,
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "xs",
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     },
     "1655736197e3f3d938": {
@@ -336,6 +373,7 @@
           "settings": {
             "faq_question": "When will my order be delivered?",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "faq_answer": "<p>We ship worldwide. Your order will be packaged really carefully and delivered wherever you want. Delivery takes between 2-4 business days. You will receive an e-mail after ordering with more information about the delivery.</p>",
             "page": "",
@@ -350,6 +388,7 @@
           "settings": {
             "faq_question": "Can I return my product?",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "faq_answer": "<p>Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
             "page": "",
@@ -364,6 +403,7 @@
           "settings": {
             "faq_question": "What can I do if my item (or part of it) is damaged?",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "faq_answer": "<p>We work hard to deliver your items without damage. Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
             "page": "",
@@ -382,20 +422,24 @@
       "settings": {
         "alignment": "left",
         "compact": false,
+        "width": "boxed",
         "title": "",
         "title_underline_style": "none",
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     },
     "1655199380bd7f8fd3": {
       "type": "section-collection-list",
       "settings": {
+        "collections": [],
         "image_ratio": "square",
         "fill_images": true,
         "layout": "slider",
         "number_of_items": 6,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "<h2>Collections with similar products</h2>",
         "title_underline_style": "none",
         "show_link": false,
@@ -405,7 +449,8 @@
         "collection_title_size": "p",
         "mobile_layout": "slider",
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     },
     "recently-viewed": {
@@ -413,16 +458,18 @@
       "settings": {
         "number_of_items": 6,
         "text_alignment": "left",
+        "width": "boxed",
         "title": "<h2>Products you've watched</h2>",
         "title_underline_style": "none",
         "enable_quick_buy_desktop": false,
-        "enable_quick_buy_drawer": false,
         "enable_quick_buy_mobile": false,
+        "enable_quick_buy_drawer": false,
         "enable_quick_buy_qty_selector": false,
         "enable_color_picker": false,
         "enable_quick_buy_compact": false,
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     }
   },
