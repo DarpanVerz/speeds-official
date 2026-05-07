@@ -17,6 +17,15 @@
     --lime: #FF8000 !important;
 }
 
+button:not([class*=overlay-]), .link-btn:not([class*=overlay-]) a:not([class*=overlay-]), #nav-user>ul>li>a i span, #totop a, .overlay-primary, .link-btn.overlay-primary a, .link-btn a.overlay-primary, button.overlay-primary, .overlay-primary button, .s1bx.overlay-primary
+Specificity: (0,3,1)
+ {
+    --secondary_btn_text: var(--primary_btn_text);
+    --secondary_bg: var(--primary_bg_btn);
+    --secondary_bg_btn: var(--primary_bg_btn);
+    --secondary_bg_btn_dark: #EE1A24;
+}
+
 input::placeholder {
   color: #000 !important;
   opacity: 1; 
