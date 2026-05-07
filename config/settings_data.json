@@ -433,6 +433,48 @@
           "accent": "#f0702c",
           "accent_gradient": "linear-gradient(320deg, rgba(232, 74, 147, 1) 4%, rgba(239, 179, 76, 1) 100%)"
         }
+      },
+      "scheme-dba61018-44a4-4422-a646-9181cebee328": {
+        "settings": {
+          "primary_bg": "#ffffff",
+          "primary_bg_gradient": "",
+          "secondary_bg": "#f4f4f4",
+          "title_color": "#000000",
+          "title_color_gradient": "",
+          "primary_fg": "#0b1613",
+          "primary_button_bg": "#ee1a24",
+          "primary_button_fg": "#ffffff",
+          "secondary_button_bg": "#0b1613",
+          "secondary_button_fg": "#ffffff",
+          "tertiary_button_bg": "#262626",
+          "tertiary_button_fg": "#ffffff",
+          "input_bg": "#ffffff",
+          "input_fg": "#ffffff",
+          "primary_bd": "#ecedec",
+          "accent": "#f0702c",
+          "accent_gradient": "linear-gradient(320deg, rgba(232, 74, 147, 1) 4%, rgba(239, 179, 76, 1) 100%)"
+        }
+      },
+      "scheme-40af2c4e-5841-4558-b23b-d94294106e46": {
+        "settings": {
+          "primary_bg": "#ffffff",
+          "primary_bg_gradient": "",
+          "secondary_bg": "#f4f4f4",
+          "title_color": "#ffffff",
+          "title_color_gradient": "",
+          "primary_fg": "#0b1613",
+          "primary_button_bg": "#000096",
+          "primary_button_fg": "#ffffff",
+          "secondary_button_bg": "#0b1613",
+          "secondary_button_fg": "#ffffff",
+          "tertiary_button_bg": "#262626",
+          "tertiary_button_fg": "#ffffff",
+          "input_bg": "#ffffff",
+          "input_fg": "#ffffff",
+          "primary_bd": "#ecedec",
+          "accent": "#f0702c",
+          "accent_gradient": "linear-gradient(320deg, rgba(232, 74, 147, 1) 4%, rgba(239, 179, 76, 1) 100%)"
+        }
       }
     }
   },
