@@ -194,7 +194,7 @@ background-color:#efefef !important;
         color:#EE1A24 !important;
 }
 
-.static .price { color:#EE1A24; }
+/* .static .price { color:#EE1A24; } */
 #root .input-amount .decr:before, #root .input-amount .incr:before {
     color: #000;
 }
