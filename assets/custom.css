@@ -308,7 +308,7 @@ background-color:#efefef !important;
 
 .link-btn a:hover:before {
   background:#ee1a24 !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 a.overlay-primary:hover { color:#ee1a24 !important }
