@@ -19,19 +19,12 @@
     "main-page": {
       "type": "main-page",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "title_size": "h1"
-          }
-        },
         "content": {
           "type": "content",
           "settings": {}
         }
       },
       "block_order": [
-        "title",
         "content"
       ],
       "settings": {
