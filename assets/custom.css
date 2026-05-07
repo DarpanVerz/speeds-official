@@ -324,4 +324,4 @@ a.overlay-primary:hover { color:#ee1a24 !important }
 }
 }
 
-#search button:hover { background:none !important; }
+#search button:before:hover { background:none !important; }
