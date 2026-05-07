@@ -351,3 +351,7 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 }
 
 #shopify-section-template--27256896586020__1663055785f2c7b641 .blog-section:before, #shopify-section-template--27256896586020__1663055785f2c7b641 .blog-section { background:none; }
+
+.f8sr .bv_mainselect .bv_ul_inner .li a {
+    color: #000;
+}
