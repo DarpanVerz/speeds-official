@@ -61,6 +61,7 @@
     "enable_cart_drawer_upsell_variants": true,
     "show_trustbadge": true,
     "trustbadge_image": "shop pay",
+    "search_drawer_show_vendor": true,
     "productcards_text_alignment": "left",
     "stock_label_qty": 5,
     "show_new_label": false,
@@ -88,6 +89,24 @@
     "checkout_accent_color": "#ea558d",
     "checkout_button_color": "#64cd82",
     "checkout_error_color": "#e93d3d",
+    "sections": {
+      "sticky-add-to-cart": {
+        "type": "sticky-add-to-cart",
+        "settings": {
+          "enable": false,
+          "position": "bottom",
+          "color_palette": "",
+          "button_style": "buy_button plain",
+          "show_variant_picker": true,
+          "show_unavailable_variants": true,
+          "show_tax": false,
+          "show_amount_selection": true,
+          "preorder": false,
+          "hide_in_theme_editor": false,
+          "show_mobile": true
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "11813581335429059158": {
