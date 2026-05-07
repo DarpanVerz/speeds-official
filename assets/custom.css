@@ -42,9 +42,9 @@ input::placeholder {
     background: #ed1a24;
 }
 
-#newsletter-footer button.overlay-primary { background:#262626 !important; }
+.n6br ol li:last-child { text-transform:uppercase; }
 
-.testimonial-content p { font-size:14px; }
+#newsletter-footer button.overlay-primary { background:#262626 !important; }
 
 .link-btn a:hover::before {
   background: #ee1a24 !important;
