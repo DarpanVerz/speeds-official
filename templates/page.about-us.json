@@ -250,7 +250,7 @@
       "settings": {
         "image": "shopify://shop_images/About-us-1.webp",
         "overlay_opacity": 0,
-        "color_palette": "scheme-1",
+        "color_palette": "scheme-dba61018-44a4-4422-a646-9181cebee328",
         "layout": "image-right",
         "text_position": "text-start",
         "width": "boxed",
@@ -297,7 +297,7 @@
       "settings": {
         "image": "shopify://shop_images/About-us-8.webp",
         "overlay_opacity": 0,
-        "color_palette": "scheme-1",
+        "color_palette": "scheme-dba61018-44a4-4422-a646-9181cebee328",
         "layout": "image-left",
         "text_position": "text-start",
         "width": "boxed",
