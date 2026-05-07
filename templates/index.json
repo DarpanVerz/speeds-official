@@ -355,6 +355,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Frame_78.png",
+            "video": "shopify://files/videos/file_example_MP4_480_1_5MG.mp4",
             "overlay_opacity_img": 0,
             "color_palette": "scheme-6",
             "overlay_opacity": 0,
