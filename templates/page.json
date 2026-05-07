@@ -19,12 +19,26 @@
     "main-page": {
       "type": "main-page",
       "blocks": {
+        "spacer_kNUYRp": {
+          "type": "spacer",
+          "settings": {
+            "height": 35
+          }
+        },
+        "title_8krkXj": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1"
+          }
+        },
         "content": {
           "type": "content",
           "settings": {}
         }
       },
       "block_order": [
+        "spacer_kNUYRp",
+        "title_8krkXj",
         "content"
       ],
       "settings": {
