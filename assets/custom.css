@@ -252,19 +252,16 @@ button:hover:before, .link-btn a:hover:before, .n6pg li.prev a:hover:after, .n6p
 }
 
 
-/* Apply flex ONLY when menu is open */
 #nav-bar li.sub:hover > ul.wide {
   display: flex !important;
 }
 
-/* Column styling */
 #nav-bar ul.wide > li.ff-secondary {
   flex: 1;
-  padding: 0 25px;
+  padding: 0 55px;
   border-right: 1px solid #ddd;
 }
 
-/* Remove last border */
 #nav-bar ul.wide > li.ff-secondary:last-child {
   border-right: none;
 }
