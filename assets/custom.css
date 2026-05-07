@@ -18,7 +18,7 @@
 
 input::placeholder {
   color: #000 !important;
-  opacity: 1; /* ensures it's fully visible */
+  opacity: 1; 
 }
 
 #root .l4cl h3 a:hover { color:#ee1a24 !important; }
