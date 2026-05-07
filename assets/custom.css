@@ -313,6 +313,8 @@ background-color:#efefef !important;
 
 a.overlay-primary:hover { color:#ee1a24 !important }
 
+.link-btn a.overlay-primary:hover { color:#fff; }
+
 @media(max-width:767px){
 .palette-scheme-4 img {
     width: 320px !important;
