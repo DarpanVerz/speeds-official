@@ -262,7 +262,7 @@ button:hover:before, .link-btn a:hover:before, .n6pg li.prev a:hover:after, .n6p
   border-right: 1px solid #ddd;
 }
 
-#nav-bar ul.wide > .custom-sub > li.ff-secondary { padding:0; }
+#nav-bar ul.custom-sub > li.ff-secondary { padding:0; }
 
 
 #nav-bar ul.wide > li.ff-secondary:last-child {
