@@ -44,6 +44,8 @@ input::placeholder {
 
 #newsletter-footer button.overlay-primary { background:#262626 !important; }
 
+.testimonial-content p { font-size:14px; }
+
 .link-btn a:hover::before {
   background: #ee1a24 !important;
 }
