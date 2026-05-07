@@ -280,7 +280,7 @@
           "settings": {
             "show_first_link": true,
             "first_link_text": "Contact us",
-            "first_link_url": "/",
+            "first_link_url": "shopify://pages/contact",
             "first_button_style": "primary plain",
             "show_second_link": false,
             "second_link_text": "Button",
