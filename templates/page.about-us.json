@@ -281,7 +281,7 @@
             "show_first_link": true,
             "first_link_text": "Contact us",
             "first_link_url": "shopify://pages/contact",
-            "first_button_style": "primary plain",
+            "first_button_style": "secondary plain",
             "show_second_link": false,
             "second_link_text": "Button",
             "second_link_url": "",
