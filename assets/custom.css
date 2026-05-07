@@ -80,9 +80,7 @@ a.overlay-buy_button:hover {
     #root #nav.hr>ul>li.active>a, #root #nav-bar.hr>ul>li.active>a {
         color:#EE1A24;
     }
-
     #root #nav-bar.hr>ul>li.active>a:after { border-bottom: 1px solid #ee1a24; }
-
 }
 
 #nav>ul>li>a:hover, #nav-bar>ul>li>a:hover { color:#ee1a24 !important; }
@@ -324,8 +322,4 @@ a.overlay-primary:hover { color:#ee1a24 !important }
     bottom: 42px;
     padding-bottom: 78px;
 }
-}
-
-.wa__btn_popup {
-    left: 0 !important;
 }
