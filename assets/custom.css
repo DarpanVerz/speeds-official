@@ -300,10 +300,7 @@ button:hover:before, .link-btn a:hover:before, .n6pg li.prev a:hover:after, .n6p
     color: #121212;
 }
 
-button:hover:before,
-.link-btn a:hover:before,
-#nav-user > ul > li > a:hover i span:before,
-#totop a:hover:before {
+.overlay-tertiary:hover {
     background:#ee1a24; 
 }
 
