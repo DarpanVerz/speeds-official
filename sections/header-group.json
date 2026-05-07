@@ -120,7 +120,7 @@
         "searchbar_height": 50,
         "searchbar_width": 600,
         "show_searchbar_border": true,
-        "enable_sticky_header": false,
+        "enable_sticky_header": true,
         "sticky": "sticky-header",
         "cart_icon": "cart|e903",
         "cart_icon_color": "primary",
