@@ -34,7 +34,7 @@ input::placeholder {
 .link-btn a:hover::before {
   background: #ee1a24 !important;
 }
-.title-styling h2 { color:#6C0101; font-size:32px; }
+.title-styling h2 { color:#6C0101; font-size:32px; margin-bottom:25px; }
 .product-card h3 a { color:#000; }
 
 .wa__btn_popup_txt { display:none !important; }
