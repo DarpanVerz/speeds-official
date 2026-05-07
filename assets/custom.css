@@ -9,8 +9,9 @@
     --secondary_bg_btn_dark: #ed1a24;
     --buy_btn_bg: #EE1A24;
 	--secondary_bg_btn: #EE1A24;
-	--secondary_bg_btn_dark: #EE1A24;
-  --custom_footer_fg_hover: #EE1A24;
+	--secondary_bg_btn_dark: #EE1A24 !important;
+  --custom_footer_fg_hover: #EE1A24 !important;
+  --secondary_bg_btn_dark: #EE1A24 !important;
 }
 .l4us li:before {
     --lime: #FF8000 !important;
