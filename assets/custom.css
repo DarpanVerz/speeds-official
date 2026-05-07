@@ -304,7 +304,7 @@ button:hover:before,
 .link-btn a:hover:before,
 #nav-user > ul > li > a:hover i span:before,
 #totop a:hover:before {
-    left: 0;
+    background:#ee1a24; 
 }
 
 @media(max-width:767px){
