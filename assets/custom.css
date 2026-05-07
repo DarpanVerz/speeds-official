@@ -323,3 +323,5 @@ a.overlay-primary:hover { color:#ee1a24 !important }
     padding-bottom: 78px;
 }
 }
+
+#search button:hover { background:none !important; }
