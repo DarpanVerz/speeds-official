@@ -39,7 +39,8 @@ input::placeholder {
 .product-category {
    font-size:13px;
    font-weight: 400;
-   color: #939393
+   color: #939393;
+   margin-bottom:5px !important;
 }
 
 .wa__btn_popup_txt { display:none !important; }
