@@ -36,6 +36,11 @@ input::placeholder {
 }
 .title-styling h2 { color:#6C0101; font-size:32px; margin-bottom:25px; }
 .product-card h3 a { color:#000; }
+.product-category {
+   font-size:13px;
+   font-weight: 400;
+   color: #939393
+}
 
 .wa__btn_popup_txt { display:none !important; }
 
