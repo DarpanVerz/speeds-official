@@ -302,12 +302,6 @@
       "type": "section-featured-products",
       "settings": {
         "products": [
-          "speeds-alat-masak-camping-2in1-piknik-portable-serbaguna-outdoor",
-          "speeds-kursi-lipat-outdoor",
-          "speeds-kursi-roda-lipat-travel",
-          "speeds-mainan-kuda-kudaan-anak",
-          "speeds-matras-yoga-serba-guna-pvc-tebal-dan-berkualitas",
-          "speeds-perosotan-anak-karakter-lucu-mainan-seluncuran-anak-prosotan-playground-motif-dholpin",
           "pagar-bayi-pagar-mainan-anak-hdpe-multifungsi-baby-fence-kokoh-play-fence-pagar-anak-001-m1210",
           "pagar-bayi-pagar-mainan-anak-baby-fence-kokoh-play-fence-pagar-anak-001-m1208",
           "pagar-bayi-anak-pintu-playfence-pengaman-anak-bayi-balita-play-fence-babyfence-001-m1204"
@@ -320,7 +314,7 @@
         "title_underline_style": "none",
         "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>",
         "show_link": true,
-        "link_text": "Top 100 most sold",
+        "link_text": "TOP 100 MOST SOLD",
         "link_url": "/",
         "button_style": "primary link",
         "enable_quick_buy_desktop": true,
