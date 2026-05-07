@@ -44,6 +44,8 @@ input::placeholder {
 
 .n6br ol li:last-child { text-transform:uppercase; }
 
+.input-range span:last-child input { width: 125px; }
+
 #newsletter-footer button.overlay-primary { background:#262626 !important; }
 
 .link-btn a:hover::before {
