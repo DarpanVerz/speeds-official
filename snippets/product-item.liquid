@@ -285,7 +285,7 @@
 
 <{{ container }}
   class="
-    {% if extra_class %}{% unless extra_style contains '--vertical' %}{{ extra_class }}{% endunless %}{% endif %} product-card {{ width_class }}{% if settings.enable_quick_buy != 'none' %} has-form{% endif %}
+    {% if extra_class %}{% unless extra_style contains '--vertical' %}{{ extra_class }}{% endunless %}{% endif %} product-card ppp {{ width_class }}{% if settings.enable_quick_buy != 'none' %} has-form{% endif %}
     {% unless current_variant.available %}unavailable{% endunless %}
     {% unless layout contains 'list' %}{% if settings.productcards_text_alignment == 'center' %}text-center{% elsif settings.productcards_text_alignment == 'right' %}text-end{% endif %}{% endunless %}
     {% if settings.show_secondary_image %}second-img-hover{% endif %}
