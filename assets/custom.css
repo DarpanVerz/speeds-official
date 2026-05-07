@@ -324,6 +324,6 @@ a.overlay-primary:hover { color:#ee1a24 !important }
 }
 }
 
-.module-color-palette[class*=palette-]  {
-    
+.module-color-palette[class*=palette-] .link-btn a.overlay-secondary.inline:hover {
+    color:#000;
 }
