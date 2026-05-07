@@ -121,7 +121,7 @@
         "searchbar_width": 600,
         "show_searchbar_border": true,
         "enable_sticky_header": true,
-        "sticky": "sticky-menu",
+        "sticky": "sticky-header",
         "cart_icon": "cart|e903",
         "cart_icon_color": "primary",
         "show_cart_total": false,
