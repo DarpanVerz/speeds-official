@@ -434,8 +434,8 @@
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
-            "position_left": 73,
-            "position_top": 63,
+            "position_left": 35,
+            "position_top": 67,
             "position_left_mobile": 30,
             "position_top_mobile": 50
           }
