@@ -36,6 +36,8 @@ input::placeholder {
 
 #root .l4cl h3 a:hover { color:#ee1a24 !important; }
 
+.check.box input:checked~label * { color:#000; }
+
 #root .shopify-section-header #nav>ul>li.toggle>a.toggle-back, .m2a #root .shopify-section-header #nav>ul>li.toggle>a.toggle-back { color:#ed1a24 !important; }
 
 #nav-bar { justify-content: center; }
