@@ -55,7 +55,6 @@
           {%- endif -%}
         {%- endif -%}
       {%- when 'text' -%}
-        <p class="product-category"> {{ collection.title }} </p>
         <span {{ block.shopify_attributes }}>{{ block.settings.text }}</span>
       {%- when 'short_description' -%}
         {%- if settings.product_short_description != 'none' %}
