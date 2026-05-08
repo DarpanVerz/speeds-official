@@ -44,7 +44,7 @@
         {{ block.settings.custom_html }}
       {%- when 'title' -%}
         {% if product.collections.size > 0 %}
-  <param class="product-category">
+  <p class="product-category">
     {{ product.collections.first.title }}
         </p>
 {% endif %}
