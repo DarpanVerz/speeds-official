@@ -59,6 +59,7 @@
         },
         "upsell_T3XMzj": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "product_list": [],
             "color_scheme": "scheme-1",
