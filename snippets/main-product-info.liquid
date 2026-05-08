@@ -44,9 +44,9 @@
         {{ block.settings.custom_html }}
       {%- when 'title' -%}
         {% if product.collections.size > 0 %}
-  <p class="product-category">
+  <span class="product-category">
     {{ product.collections.first.title }}
-        </p>
+  </span>
 {% endif %}
         {%- if forloop.first == false -%}
           {%- if title_block.settings.layout == 'title-right' -%}
