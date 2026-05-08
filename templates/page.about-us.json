@@ -18,8 +18,32 @@
     "16534637855a1536b8": {
       "type": "section-slideshow",
       "blocks": {
+        "slide_VdGEee": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "layout": "background",
+            "overlay_opacity": 0,
+            "color_palette": "scheme-7",
+            "text_position": "align-center text-center",
+            "title": "<h2>Image banner</h2>",
+            "title_underline_style": "none",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "show_first_link": true,
+            "first_link_text": "Button",
+            "first_link_url": "/",
+            "first_button_style": "primary plain",
+            "show_second_link": false,
+            "second_link_text": "Button",
+            "second_link_url": "",
+            "second_button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
         "1653463785b75d0fb8-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/About-us-4.webp",
             "layout": "background",
@@ -43,6 +67,7 @@
         }
       },
       "block_order": [
+        "slide_VdGEee",
         "1653463785b75d0fb8-0"
       ],
       "settings": {
@@ -80,6 +105,7 @@
         },
         "16552050441176bcdf-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "overlay_opacity": 25,
             "color_palette": "scheme-8",
@@ -119,6 +145,7 @@
         "16552050441176bcdf-1",
         "16552050441176bcdf-2"
       ],
+      "disabled": true,
       "settings": {
         "items_layout": "playful-grid-inv",
         "items_width": 2,
@@ -160,6 +187,7 @@
         "1653463837107b96d3-0",
         "1653463837107b96d3-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/About-us-2.webp",
         "overlay_opacity": 0,
@@ -210,6 +238,7 @@
         "6858738e-9d68-49d0-b163-f42911f6a319",
         "8147e47a-3fd9-4bb5-80d3-2944c4474dc5"
       ],
+      "disabled": true,
       "settings": {
         "overlay_opacity": 100,
         "color_palette": "scheme-4",
@@ -247,6 +276,7 @@
         "1653463854c4d6293d-0",
         "1653463854c4d6293d-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/About-us-1.webp",
         "overlay_opacity": 0,
@@ -265,14 +295,14 @@
         "1655202769b66966f1-0": {
           "type": "title",
           "settings": {
-            "title": "<h2>Service is our top priority</h2>",
+            "title": "<h2>Speeds — Dari Kebutuhan Harian hingga Hobi Favorit Anda</h2>",
             "title_underline_style": "none"
           }
         },
         "1655202769b66966f1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We are available 24/7/365 for you! Do you want to surprise someone? Take advantage of our gift service. Do you need advice? One of our private shoppers will be happy to help you put together an ideal package.</p>"
+            "text": "<p>Selamat datang di <strong>Speeds</strong> — partner terpercaya untuk memenuhi berbagai kebutuhan keluarga dan gaya hidup aktif Anda.</p><p>Sejak berdiri pada tahun <strong>2019</strong>, Speeds terus berkembang menjadi brand yang dipercaya oleh pelanggan di seluruh Indonesia. Kami hadir dengan beragam pilihan produk berkualitas mulai dari <strong>perlengkapan olahraga</strong>, <strong>peralatan camping</strong>, <strong>kebutuhan ibu & bayi</strong>, hingga <strong>mainan playground anak</strong> yang aman dan menyenangkan.</p><p>Melalui berbagai toko resmi kami di marketplace seperti Shopee dan TikTok Shop, Speeds telah melayani jutaan kebutuhan pelanggan dengan pengiriman <strong>ratusan ribu paket setiap bulannya</strong> ke berbagai daerah di Indonesia.</p><p>Kami percaya bahwa kualitas produk, pelayanan terbaik, dan pengiriman yang cepat adalah kunci kepuasan pelanggan. Karena itu, kami selalu berkomitmen untuk menghadirkan produk pilihan dengan harga terbaik serta pengalaman belanja yang aman dan nyaman.</p><p>Terima kasih telah menjadi bagian dari perjalanan Speeds. Kami akan terus tumbuh dan berinovasi untuk memberikan yang terbaik bagi Anda dan keluarga.</p>"
           }
         },
         "1655202769b66966f1-2": {
@@ -295,7 +325,7 @@
         "1655202769b66966f1-2"
       ],
       "settings": {
-        "image": "shopify://shop_images/About-us-8.webp",
+        "image": "shopify://shop_images/1_e8485592-6423-49dc-8d52-4fd6ecb181bf.jpg",
         "overlay_opacity": 0,
         "color_palette": "scheme-dba61018-44a4-4422-a646-9181cebee328",
         "layout": "image-left",
@@ -335,6 +365,7 @@
         "165520496913c5dc92-0",
         "165520496913c5dc92-2"
       ],
+      "disabled": true,
       "settings": {
         "color_palette": "scheme-3",
         "overlay_opacity": 100,
@@ -418,6 +449,7 @@
         "16552028481d4c4222-1",
         "16552028481d4c4222-2"
       ],
+      "disabled": true,
       "settings": {
         "items_width": 3,
         "height": "16/9",
