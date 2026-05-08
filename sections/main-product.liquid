@@ -124,7 +124,7 @@
   {%- elsif title_block.settings.layout == 'title-top' and title_block.settings.layout_mobile == 'title-top' %}
     {{ header | replace: 'class-x', '' }}
   {%- endif -%}
-  <div class="l4pr-container sss">
+  <div class="l4pr-container">
     {%- render 'main-product-gallery',
       product: product,
       has_pros_and_cons: has_pros_and_cons,
