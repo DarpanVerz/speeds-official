@@ -94,7 +94,7 @@
       "sticky-add-to-cart": {
         "type": "sticky-add-to-cart",
         "settings": {
-          "enable": false,
+          "enable": true,
           "position": "bottom",
           "color_palette": "",
           "button_style": "buy_button plain",
