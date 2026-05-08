@@ -366,3 +366,10 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 .f8sr .bv_mainselect .bv_ul_inner .li a {
     color: #000;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #root .l4hs > li > div {
+    left: auto;
+    bottom: 131px;
+  }
+}
