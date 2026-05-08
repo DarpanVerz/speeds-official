@@ -356,7 +356,7 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 }
 
 .cols>* {
-    border-left-width: 0 !important;
+    border-left-width: 10px !important;
 }
 
 }
