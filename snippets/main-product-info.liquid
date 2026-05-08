@@ -25,14 +25,13 @@
   endif
   assign form_class = 'f8pr f8pr-buy-button'
 -%}
-
-<div class="f8pr base-font{% if current_variant == null %} unavailable{% endif %}">
-  <legend>{{ 'product.form.title' | t }}</legend>
-  {% if product.collections.size > 0 %}
+{% if product.collections.size > 0 %}
   <span class="product-category">
     {{ product.collections.first.title }}
   </span>
 {% endif %}
+<div class="f8pr base-font{% if current_variant == null %} unavailable{% endif %}">
+  <legend>{{ 'product.form.title' | t }}</legend>
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
