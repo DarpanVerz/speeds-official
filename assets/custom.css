@@ -350,6 +350,11 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
     bottom: 42px;
     padding-bottom: 78px;
 }
+
+.blog-section .shopify-section {
+    padding: 50px 5px;
+}
+
 }
 
 .module-color-palette[class*=palette-] .link-btn a.overlay-secondary.inline:hover {
