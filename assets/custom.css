@@ -369,6 +369,6 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #root .l4hs > li > div {
-    top: 0;
+    top: -50px !important;
   }
 }
