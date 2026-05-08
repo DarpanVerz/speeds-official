@@ -358,7 +358,7 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 .cols>* {
     border-left-width: 10px !important;
 }
-
+#root .shopify-section-header #nav>ul.nav-top>li.has-link-accessible { display:none; }
 }
 
 .module-color-palette[class*=palette-] .link-btn a.overlay-secondary.inline:hover {
