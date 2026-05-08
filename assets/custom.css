@@ -244,7 +244,7 @@ background-color:#efefef !important;
 #shopify-section-template--26979631661348__section_image_hotspots_qffPmj .m6fr article h3 a { font-size:18px;}
 #shopify-section-template--26979631661348__section_image_hotspots_qffPmj .palette-scheme-1.text-start.desktop-only h3 { line-height:20px; }
 
-.blog-section { background: #F3F3F3; margin-bottom: 50px; position:relative; }
+.blog-section { background: #F3F3F3; margin-bottom: 50px; position:relative;  }
 .blog-section::before {
     content: "";
     position: absolute;
