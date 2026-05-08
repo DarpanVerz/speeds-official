@@ -374,4 +374,9 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
   .blog-section, .blog-section:before {
     background: none !important;
 }
+
+.cols>* {
+    border-left-width: 0;
+}
+
 }
