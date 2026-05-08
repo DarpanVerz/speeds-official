@@ -355,6 +355,10 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
     padding: 50px 5px;
 }
 
+.cols>* {
+    border-left-width: 0 !important;
+}
+
 }
 
 .module-color-palette[class*=palette-] .link-btn a.overlay-secondary.inline:hover {
@@ -376,7 +380,7 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 }
 
 .cols>* {
-    border-left-width: 0;
+    border-left-width: 0 !important;
 }
 
 }
