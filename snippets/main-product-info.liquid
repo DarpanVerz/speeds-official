@@ -25,6 +25,7 @@
   endif
   assign form_class = 'f8pr f8pr-buy-button'
 -%}
+{{ collection.title }}
 <div class="f8pr base-font{% if current_variant == null %} unavailable{% endif %}">
   <legend>{{ 'product.form.title' | t }}</legend>
   {%- for block in section.blocks -%}
