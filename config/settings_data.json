@@ -69,6 +69,7 @@
     "show_product_stock": true,
     "show_product_stock_qty": 20,
     "enable_color_swatches": true,
+    "enable_quick_buy_drawer": true,
     "enable_quick_buy_qty_selector": true,
     "enable_free_shipping": true,
     "free_shipping_amount": 50,
