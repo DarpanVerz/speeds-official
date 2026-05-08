@@ -25,7 +25,9 @@ button:not([class*=overlay-]), .link-btn:not([class*=overlay-]) a:not([class*=ov
     --secondary_bg_btn_dark: #EE1A24;
 }
 
-.link-btn a.overlay-secondary:hover { !important; color:#EE1A24; }
+.link-btn a.overlay-secondary:hover {
+    color: #fff;
+}
 
 input::placeholder {
   color: #000 !important;
