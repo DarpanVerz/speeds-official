@@ -371,7 +371,7 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
   /* #root .l4hs > li > div {
     top: -86px !important;
   } */
-  .blog-section {
+  .blog-section, .blog-section:before {
     background: none !important;
 }
 }
