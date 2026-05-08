@@ -137,11 +137,6 @@
     -%}
   </div>
   <div class="custom-pro-content">
-    {% if product.collections.size > 0 %}
-  <span class="product-category">
-    {{ product.collections.first.title }}
-  </span>
-{% endif %}
     {%- render 'main-product-info',
       product: product,
       image_width_small: image_width_small,
@@ -149,6 +144,11 @@
       form_id: form_id,
       header: header
     -%}
+    {% if product.collections.size > 0 %}
+  <span class="product-category">
+    {{ product.collections.first.title }}
+  </span>
+{% endif %}
   </div>
   {%- if has_pros_and_cons == false and has_specs == false -%}
     {%- if section.settings.show_product_description and product.description != empty -%}
