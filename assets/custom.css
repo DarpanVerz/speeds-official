@@ -36,6 +36,8 @@ input::placeholder {
 
 #root .l4cl h3 a:hover { color:#ee1a24 !important; }
 
+#root .shopify-section-header #nav>ul>li.toggle>a.toggle-back, .m2a #root .shopify-section-header #nav>ul>li.toggle>a.toggle-back { color:#ed1a24; }
+
 #nav-bar { justify-content: center; }
 #root #nav-user>ul>li>a i span:before, #header-inner>.link-btn a:before, #nav-user>ul>li.link-btn>a:before {
     border-color: #ee1a24;
