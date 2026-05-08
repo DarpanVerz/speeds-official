@@ -25,7 +25,7 @@
   endif
   assign form_class = 'f8pr f8pr-buy-button'
 -%}
-{{ collection.title }}
+
 <div class="f8pr base-font{% if current_variant == null %} unavailable{% endif %}">
   <legend>{{ 'product.form.title' | t }}</legend>
   {%- for block in section.blocks -%}
@@ -55,6 +55,7 @@
           {%- endif -%}
         {%- endif -%}
       {%- when 'text' -%}
+        <p class="product-category"> {{ collection.title }} </p>
         <span {{ block.shopify_attributes }}>{{ block.settings.text }}</span>
       {%- when 'short_description' -%}
         {%- if settings.product_short_description != 'none' %}
