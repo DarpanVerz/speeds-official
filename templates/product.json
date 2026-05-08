@@ -143,7 +143,7 @@
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 30,
-            "text": "<p>Easily pay within 30 days after you have received your package. <br/><a href=\"/policies/shipping-policy\" title=\"Shipping Policy\"><strong>Read more</strong></a></p>",
+            "text": "<p>Easily pay within 30 days after you have received your package. <br/><a href=\"/pages/shipping-info\" title=\"Shipping info\"><strong>Read more</strong></a></p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
