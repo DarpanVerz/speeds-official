@@ -57,6 +57,28 @@
           "type": "inventory",
           "settings": {}
         },
+        "upsell_T3XMzj": {
+          "type": "upsell",
+          "settings": {
+            "product_list": [],
+            "color_scheme": "scheme-1",
+            "heading_position": "left",
+            "heading_size": "p",
+            "heading": "You may be interested in these products",
+            "show_out_of_stock_products": false,
+            "show_unavailable_variants": false,
+            "is_child_product": false,
+            "visible_products": 4,
+            "show_border": true,
+            "show_image": true,
+            "show_title": false,
+            "custom_label": "Gift wrap my product",
+            "show_price": true,
+            "price_location": "below_title",
+            "variant_in_popup": false,
+            "variant_selector_color_scheme": "primary"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -178,6 +200,7 @@
         "short_description",
         "variant_selection",
         "inventory",
+        "upsell_T3XMzj",
         "price",
         "buy_button",
         "beafbaf1-a0af-4326-b4de-6e78c472249c",
