@@ -100,7 +100,7 @@
   if layout == 'list' and origin == 'image-with-banners'
     assign show_labels = false
   endif
-  assign current_variant = product.selected_or_first_available_variant
+  assign current_variant = product.product.featured_media
   assign product_image_ratio = settings.product_image_ratio
   case product_image_ratio
     when '310x430'
@@ -330,8 +330,8 @@
       {%- liquid
         if layout == 'list-compact' and current_variant.featured_image
           assign product_image = current_variant.featured_image
-        elsif product.selected_or_first_available_variant.featured_image
-          assign product_image = product.selected_or_first_available_variant.featured_image
+        elsif product.product.featured_media.featured_image
+          assign product_image = product.product.featured_media.featured_image
         else
           assign product_image = product.media.first
         endif
