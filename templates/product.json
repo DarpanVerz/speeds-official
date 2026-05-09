@@ -258,22 +258,22 @@
         "1655199906a88142bc-0": {
           "type": "title",
           "settings": {
-            "title": "<h2>Top 10 best selling products</h2>",
+            "title": "<h1>Diskon Spesial Hari Ini</h1>",
             "title_underline_style": "none"
           }
         },
         "1655199906a88142bc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You may also like these products. These products are rated as 'top 10 best of the best' by our clients</p>"
+            "text": "<p>Nikmati promo besar-besaran dengan diskon spesial untuk produk pilihan. Harga lebih hemat, kualitas tetap terbaik. Berlaku terbatas selama persediaan masih ada.</p>"
           }
         },
         "1655199906a88142bc-2": {
           "type": "buttons",
           "settings": {
             "show_first_link": true,
-            "first_link_text": "Shop now",
-            "first_link_url": "/",
+            "first_link_text": "Cek Sekarang",
+            "first_link_url": "shopify://collections/produk-promo",
             "first_button_style": "secondary plain",
             "show_second_link": false,
             "second_link_text": "Button",
@@ -288,6 +288,7 @@
         "1655199906a88142bc-2"
       ],
       "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_May_9_2026_02_20_27_PM.png",
         "overlay_opacity": 0,
         "color_palette": "scheme-6",
         "layout": "image-right",
@@ -304,11 +305,11 @@
         "1655736197d4a3dd1a-0": {
           "type": "text",
           "settings": {
-            "faq_question": "When will my order be delivered?",
+            "faq_question": "Kapan Pesanan Saya Akan Dikirimkan?",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>We ship worldwide. Your order will be packaged really carefully and delivered wherever you want. Delivery takes between 2-4 business days. You will receive an e-mail after ordering with more information about the delivery.</p>",
+            "faq_answer": "<p>Pesanan yang masuk sebelum pukul 15.00 WIB akan diproses di hari yang sama, sedangkan pesanan setelah pukul 15.00 WIB akan diproses pada hari kerja berikutnya. Estimasi pengiriman dalam kota 1–2 hari kerja dan luar kota 2–5 hari kerja. </p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -319,11 +320,11 @@
         "1655736197d4a3dd1a-1": {
           "type": "text",
           "settings": {
-            "faq_question": "Can I return my product?",
+            "faq_question": "Apakah Saya Dapat Mengembalikan Produk Saya?",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
+            "faq_answer": "<p>Ya, pengembalian atau refund dapat diajukan jika produk rusak, tidak sesuai pesanan, atau pesanan dibatalkan sesuai ketentuan. Pengajuan wajib disertai video unboxing tanpa jeda, foto produk, dan nomor pesanan maksimal 2 x 24 jam setelah barang diterima. </p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -334,11 +335,11 @@
         "1655736197d4a3dd1a-2": {
           "type": "text",
           "settings": {
-            "faq_question": "What can I do if my item (or part of it) is damaged?",
+            "faq_question": "Apa Yang Dapat Saya Lakukan Jika Barang Saya Rusak Atau Rusak Sebagian?",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>We work hard to deliver your items without damage. Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
+            "faq_answer": "<p>Segera hubungi customer service dengan menyertakan video unboxing tanpa jeda, foto resi, foto kerusakan produk, dan nomor pesanan. Pengajuan komplain maksimal 1 x 24 jam setelah barang diterima.</p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -356,31 +357,8 @@
         "alignment": "left",
         "compact": false,
         "width": "boxed",
-        "title": "<h2>Returns & Delivery</h2>",
+        "title": "<h2>Pengiriman Dan Pengembalian</h2>",
         "title_underline_style": "none",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "1655199380bd7f8fd3": {
-      "type": "section-collection-list",
-      "settings": {
-        "collections": [],
-        "image_ratio": "square",
-        "fill_images": true,
-        "layout": "slider",
-        "number_of_items": 6,
-        "text_alignment": "start",
-        "width": "boxed",
-        "title": "<h2>Collections with similar products</h2>",
-        "title_underline_style": "none",
-        "show_link": false,
-        "link_text": "",
-        "link_url": "",
-        "button_style": "primary plain",
-        "collection_title_size": "p",
-        "mobile_layout": "slider",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -392,7 +370,7 @@
         "number_of_items": 5,
         "text_alignment": "left",
         "width": "boxed",
-        "title": "<h2>Recently viewed products</h2>",
+        "title": "<h2>Baru Saja Dilihat</h2>",
         "title_underline_style": "none",
         "enable_quick_buy_desktop": true,
         "enable_quick_buy_mobile": true,
@@ -412,7 +390,6 @@
     "recommendations",
     "16551999062a9697ac",
     "1655736197e3f3d938",
-    "1655199380bd7f8fd3",
     "recently-viewed"
   ]
 }
