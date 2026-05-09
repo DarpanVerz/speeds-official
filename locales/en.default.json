@@ -521,7 +521,7 @@
     "results": "Search results",
     "results_plus_term": "Search results for \"{{ term }}\"",
     "search_form": {
-      "placeholder": "What are you looking for?",
+      "placeholder": "Cari Disini",
       "search_again": "Search again",
       "submit": "Zoeken"
     },
