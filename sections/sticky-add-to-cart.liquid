@@ -20,7 +20,7 @@
                     assign image_width =  140
                     assign image_height = 140
             endcase
-            assign current_variant = product.selected_or_first_available_variant
+            assign current_variant = product.product.featured_media
         -%}
         <form action="./" method="post" id="sticky-add-to-cart" class="palette-{{ section.settings.color_palette }} module-color-palette f8ps{% if section.settings.position == 'top' %} align-top{% endif %}{% unless section.settings.show_mobile %} mobile-hide{% endunless %} base-font{% if current_variant == null%} unavailable{% endif %}" aria-hidden="true">
             <fieldset>
