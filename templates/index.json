@@ -335,17 +335,17 @@
         "16620576954435429a-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/8.jpg",
+            "image": "shopify://shop_images/d40f05a3-f419-4bad-919f-ea85544b9405.png",
             "overlay_opacity_img": 0,
             "color_palette": "scheme-6",
             "overlay_opacity": 0,
             "text_position": "text-center",
-            "title": "LOREM IPSUM DOLOR",
+            "title": "Kursi Lipat Nyaman untuk Santai & Camping",
             "title_underline_style": "none",
-            "text": "<p>New arrivals: Urban Jungle</p>",
+            "text": "<p>Hadir dengan berbagai model dan ukuran, cocok untuk camping, santai, hingga kebutuhan harian.</p>",
             "show_link": true,
-            "link_text": "SHOP NOW",
-            "link_url": "/",
+            "link_text": "Cek Sekarang",
+            "link_url": "shopify://collections/folding-chairs",
             "button_style": "primary link",
             "show_overlay_link": true,
             "overlay_url": ""
