@@ -27,9 +27,9 @@
             "overlay_opacity": 85,
             "color_palette": "scheme-7",
             "text_position": "align-center text-center",
-            "title": "<h1>Hi there. How can we help you?</h1>",
+            "title": "<h1>Hi. Bagaimana Kami Dapat Membantu Anda?</h1>",
             "title_underline_style": "none",
-            "text": "<p>You can email and call us. We are there for you 24/7, every day</p>",
+            "text": "<p>Anda dapat menghubungi customer service kami melalui WhatsApp atau email.</p>",
             "show_first_link": false,
             "first_link_text": "Button",
             "first_link_url": "/",
@@ -61,6 +61,7 @@
     },
     "page-service-menu": {
       "type": "page-service-menu",
+      "disabled": true,
       "settings": {
         "menu": "main-menu"
       }
@@ -71,11 +72,11 @@
         "faq_1": {
           "type": "text",
           "settings": {
-            "faq_question": "When will my order be delivered?",
+            "faq_question": "Kapan Pesanan Saya Akan Dikirimkan?",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>We ship worldwide. Your order will be packaged really carefully and delivered wherever you want. Delivery takes between 2-4 business days. You will receive an e-mail after ordering with more information about the delivery.</p>",
+            "faq_answer": "<p>Pesanan yang masuk sebelum pukul 15.00 WIB akan diproses di hari yang sama, sedangkan pesanan setelah pukul 15.00 WIB akan diproses pada hari kerja berikutnya. Estimasi pengiriman dalam kota 1–2 hari kerja dan luar kota 2–5 hari kerja. </p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -86,11 +87,11 @@
         "faq_2": {
           "type": "text",
           "settings": {
-            "faq_question": "Can I Return my product?",
+            "faq_question": "Apakah Saya Dapat Mengembalikan Produk Saya?",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
+            "faq_answer": "<p>Ya, pengembalian atau refund dapat diajukan jika produk rusak, tidak sesuai pesanan, atau pesanan dibatalkan sesuai ketentuan. Pengajuan wajib disertai video unboxing tanpa jeda, foto produk, dan nomor pesanan maksimal 2 x 24 jam setelah barang diterima.</p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -101,11 +102,11 @@
         "faq_3": {
           "type": "text",
           "settings": {
-            "faq_question": "What can I do if my item (or part of it) is damaged?",
+            "faq_question": "Apa Yang Dapat Saya Lakukan Jika Barang Saya Rusak Atau Rusak Sebagian?",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>We work hard to deliver your items without damage. Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
+            "faq_answer": "<p>Segera hubungi customer service dengan menyertakan video unboxing tanpa jeda, foto resi, foto kerusakan produk, dan nomor pesanan. Pengajuan komplain maksimal 1 x 24 jam setelah barang diterima.</p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -123,7 +124,7 @@
         "alignment": "left",
         "compact": false,
         "width": "boxed",
-        "title": "<h2>Frequently asked questions</h2>",
+        "title": "<h2>Pertanyaan Yang Sering Ditanyakan (FAQ)</h2>",
         "title_underline_style": "none",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
@@ -143,15 +144,15 @@
         "b5e4bbb1-c18d-4871-8369-8084a11a9ba8": {
           "type": "text",
           "settings": {
-            "title": "Name",
-            "placeholder": "Name",
-            "required": false
+            "title": "Nama",
+            "placeholder": "Nama",
+            "required": true
           }
         },
         "42924c9f-d314-4b70-98a2-8c9c70530399": {
           "type": "textarea",
           "settings": {
-            "title": "Message",
+            "title": "Pesan",
             "placeholder": "Message",
             "required": false
           }
@@ -159,9 +160,9 @@
         "99db52c7-524d-42d1-b323-6fa663d9bcd3": {
           "type": "checkbox",
           "settings": {
-            "title": "I want to receive marketing",
-            "option_1": "Yes",
-            "option_2": "No",
+            "title": "Saya Ingin Menerima Pesan Marketing",
+            "option_1": "Ya",
+            "option_2": "Tidak",
             "option_3": "",
             "option_4": "",
             "option_5": "",
@@ -180,7 +181,7 @@
         "alignment": "left",
         "compact": true,
         "width": "boxed",
-        "title": "<h2>Contact form</h2>",
+        "title": "<h2>Formulir Kontak</h2>",
         "title_underline_style": "none",
         "button_style": "primary plain",
         "show_placeholder": true,
@@ -244,6 +245,7 @@
     },
     "section-google-maps": {
       "type": "section-google-maps",
+      "disabled": true,
       "settings": {
         "google_maps_iframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.4613648351315!2d-75.69569834823506!3d45.420200278997804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0502f07d210b%3A0xa1502f7f1d25c118!2sShopify!5e0!3m2!1snl!2snl!4v1653470436404!5m2!1snl!2snl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
         "width": "boxed",
