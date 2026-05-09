@@ -124,13 +124,19 @@
         "usp_1": {
           "type": "usp",
           "settings": {
-            "usp": "<p>Above $500.000 Rupiah is free delivery</p>"
+            "usp": "<p>Pengiriman cepat ke seluruh Indonesia</p>"
           }
         },
         "usp_2": {
           "type": "usp",
           "settings": {
-            "usp": "<p>No <strong>hassle returns, </strong>30 days return</p>"
+            "usp": "<p>Refund & komplain mudah diproses</p>"
+          }
+        },
+        "usp_EYKr4B": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Produk bermasalah siap dibantu</p>"
           }
         },
         "2e2d451c-7968-4d6b-a516-6f6e842c92ee": {
@@ -210,6 +216,7 @@
         "shipping_timer",
         "usp_1",
         "usp_2",
+        "usp_EYKr4B",
         "2e2d451c-7968-4d6b-a516-6f6e842c92ee",
         "eeef3269-90c3-44f1-91c4-65f04ff8b23e",
         "f2290434-741b-4731-a534-ad679331e164"
