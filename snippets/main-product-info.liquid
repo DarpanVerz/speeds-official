@@ -976,7 +976,7 @@
             {% assign maximum = true %}
             {% assign show_quantity_rules = true %}
           {%- endif -%}
-          {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
+          {%- if product.product.featured_media.quantity_rule.increment > 1 -%}
             {% assign increment = true %}
             {% assign show_quantity_rules = true %}
           {%- endif -%}
@@ -992,7 +992,7 @@
                   {%- if minimum -%}
                     {{-
                       'product.volume_pricing.minimum_of'
-                      | t: quantity: product.selected_or_first_available_variant.quantity_rule.min
+                      | t: quantity: product.product.featured_media.quantity_rule.min
                       | capitalize
                     -}}
                   {%- endif -%}
@@ -1001,12 +1001,12 @@
                       /
                       {{
                         'product.volume_pricing.maximum_of'
-                        | t: quantity: product.selected_or_first_available_variant.quantity_rule.max
+                        | t: quantity: product.product.featured_media.quantity_rule.max
                       -}}
                     {% else %}
                       {{-
                         'product.volume_pricing.maximum_of'
-                        | t: quantity: product.selected_or_first_available_variant.quantity_rule.max
+                        | t: quantity: product.product.featured_media.quantity_rule.max
                         | capitalize
                       -}}
                     {% endif %}
@@ -1015,7 +1015,7 @@
                     {% if minimum or maximum %} / {% endif %}
                     {{
                       'product.volume_pricing.multiples_of'
-                      | t: quantity: product.selected_or_first_available_variant.quantity_rule.increment
+                      | t: quantity: product.product.featured_media.quantity_rule.increment
                     -}}
                   {%- endif -%}
                 {% endif %}
