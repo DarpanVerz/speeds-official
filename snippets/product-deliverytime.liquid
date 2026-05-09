@@ -2,7 +2,7 @@
   Renders product delivery time and stock information with support for custom metafields and theme settings. Displays different messages based on stock availability and includes optional tooltips with additional delivery information.
 
   @param {object} product - Product object to display delivery information for (required)
-  @param {object} [current_variant] - Variant to check inventory for. Defaults to product.selected_or_first_available_variant.
+  @param {object} [current_variant] - Variant to check inventory for. Defaults to product.product.featured_media.
   @param {string} [origin] - Display context: 'productpage' for bold styling and stock display, 'productitem' for grid items with aggregate stock calculation
   @param {string} [container] - HTML element to wrap content in. Defaults to 'p'.
   @param {boolean} [no_margin] - Whether to remove margins from the container. Defaults to false.
@@ -19,7 +19,7 @@
 {% enddoc %}
 
 {%- liquid
-  assign current_variant = current_variant | default: product.selected_or_first_available_variant
+  assign current_variant = current_variant | default: product.product.featured_media
   assign no_margin = no_margin | default: false
   assign extra_class = extra_class | default: false
   assign container = container | default: 'p'

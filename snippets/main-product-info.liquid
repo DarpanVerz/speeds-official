@@ -1031,7 +1031,7 @@
           endif
 
           assign show_volume_pricing = false
-          if product.quantity_price_breaks_configured? and product.selected_or_first_available_variant.quantity_price_breaks.size > 0
+          if product.quantity_price_breaks_configured? and product.product.featured_media.quantity_price_breaks.size > 0
             assign show_volume_pricing = true
           endif
         -%}
@@ -1045,7 +1045,7 @@
                   <br>
                   {{ 'product.volume_pricing.price_at_each_html' | t: quantity: '4', price: '€85,00' }}
                 {% else %}
-                  {%- for price_break in product.selected_or_first_available_variant.quantity_price_breaks -%}
+                  {%- for price_break in product.product.featured_media.quantity_price_breaks -%}
                     {%- assign price = price_break.price | money -%}
                     {{
                       'product.volume_pricing.price_at_each_html'
