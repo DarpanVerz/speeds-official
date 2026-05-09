@@ -21,14 +21,14 @@
         "1655209702b314cdd2-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Xtra-warehouse-blog.webp",
+            "image": "shopify://shop_images/pexels-alesiakozik-8154202.jpg",
             "layout": "right",
             "overlay_opacity": 5,
             "color_palette": "scheme-2",
             "text_position": "text-start",
             "title": "<h1>{{ blog.title }}</h1>",
             "title_underline_style": "none",
-            "text": "<p>Get inspired by our blog posts</p>",
+            "text": "<p>Temukan berbagai tips kesehatan, olahraga, dan gaya hidup aktif di blog Speeds Official. Mulai dari panduan olahraga, menjaga kebugaran, hingga inspirasi hidup sehat sehari-hari.</p>",
             "show_first_link": false,
             "first_link_text": "Button",
             "first_link_url": "/",
