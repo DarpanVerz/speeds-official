@@ -489,7 +489,7 @@
     "1653468546493c13a2": {
       "type": "section-blog-posts",
       "settings": {
-        "blog": "news",
+        "blog": "tips",
         "number_of_items": 5,
         "big_first_item": false,
         "text_alignment": "start",
