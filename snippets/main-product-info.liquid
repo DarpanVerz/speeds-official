@@ -1,6 +1,6 @@
 {% liquid
   assign product = product
-  assign current_variant = product.selected_or_first_available_variant
+  assign current_variant = product.product.featured_media
   assign title_block = section.blocks | where: 'type', 'title' | first
   assign buy_button_block = section.blocks | where: 'type', 'buy_button' | first
   assign first_block = section.blocks | first
@@ -666,7 +666,7 @@
         </p>
         {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
         {%- form 'product', product, id: product_form_installment_id, class: 'f8pr-product-form-installment' -%}
-          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+          <input type="hidden" name="id" value="{{ product.product.featured_media.id }}">
           <div class="shopify-installments-container">{{ form | payment_terms }}</div>
         {%- endform -%}
       {%- when 'buy_button' -%}
@@ -968,11 +968,11 @@
           {% assign minimum = false %}
           {% assign maximum = false %}
           {% assign increment = false %}
-          {%- if product.selected_or_first_available_variant.quantity_rule.min > 1 -%}
+          {%- if product.product.featured_media.quantity_rule.min > 1 -%}
             {% assign minimum = true %}
             {% assign show_quantity_rules = true %}
           {%- endif -%}
-          {%- if product.selected_or_first_available_variant.quantity_rule.max != null -%}
+          {%- if product.product.featured_mediae.max != null -%}
             {% assign maximum = true %}
             {% assign show_quantity_rules = true %}
           {%- endif -%}
