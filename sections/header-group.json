@@ -25,6 +25,7 @@
       "block_order": [
         "announcement-block-1"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "color_palette": "scheme-4",
