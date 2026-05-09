@@ -22,10 +22,10 @@
         "slide_1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/customerservice-new_40750ebe-add3-45b9-be82-0b23211e9ea2.webp",
-            "layout": "background",
+            "image": "shopify://shop_images/ChatGPT_Image_May_9_2026_03_06_49_PM.png",
+            "layout": "right",
             "overlay_opacity": 85,
-            "color_palette": "scheme-7",
+            "color_palette": "scheme-3",
             "text_position": "align-center text-center",
             "title": "<h1>Hi. Bagaimana Kami Dapat Membantu Anda?</h1>",
             "title_underline_style": "none",
