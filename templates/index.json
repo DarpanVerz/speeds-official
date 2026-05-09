@@ -515,6 +515,7 @@
       "blocks": {
         "slide_etkUYp": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_1.png",
             "layout": "right",
