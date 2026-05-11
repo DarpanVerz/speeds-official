@@ -3079,7 +3079,7 @@ fieldset, hr { min-width: 0; margin: 0; padding: 0; border-width: 0; }
 		button[class*="overlay"], [class*="overlay"] button { color: var(--secondary_btn_text); }
 		button, .link-btn a, #totop a { box-shadow: none; background: none; }
 		#root button, #root .link-btn a { background: none; }
-			button:before, .link-btn a:before, #nav-user > ul > li > a i span:before, #totop a:before { content: ""; display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: -1; box-shadow: var(--btn_sh_inner); border-radius: var(--btn_br); border: 0 solid var(--secondary_bg_btn); background: var(--secondary_bg_btn); }
+			button:before, .link-btn a:before, #nav-user > ul > li > a i span:before, #totop a:before { content: ""; display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: -1; box-shadow: var(--btn_sh_inner); border-radius: var(--btn_br); border: 0 solid #262626; background: #262626; }
 			.n6pg li.prev a, .n6pg li.next a, .spr-pagination > div > .spr-pagination-prev a, .spr-pagination > div > .spr-pagination-next a { overflow: visible; }
 			#root .n6pg li.prev a:before, #root .n6pg li.next a:before, .spr-pagination > div > .spr-pagination-prev a:before, .spr-pagination > div > .spr-pagination-next a:before { content: ""; display: block; position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 0; }
 			button.no-shadow:before, .link-btn a.no-shadow:before { box-shadow: none; }
