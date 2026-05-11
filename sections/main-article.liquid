@@ -99,6 +99,13 @@
     {%- when 'excerpt' -%}
       {%- if article.excerpt -%}
         <p {{ block.shopify_attributes }}>{{ article.excerpt | strip_html }}</p>
+
+        <h2>TEST COMMENT</h2>
+
+{% form 'new_comment', article %}
+  TEST COMMENT FORM
+{% endform %}
+
       {%- endif -%}
     {%- when 'content' -%}
       {{ article.content }}
@@ -162,11 +169,7 @@
             endif
           endcapture
         -%}
-
-        {% form 'new_comment', article %}
-  TEST COMMENT FORM
-{% endform %}
-
+        
         {%- form 'new_comment', article, class: 'f8cm base-font' -%}
           {%- if form.errors -%}
           	<script>
