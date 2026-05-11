@@ -23,6 +23,7 @@
     "buy_button_color": "#ee1a24",
     "buy_button_text_color": "#FFFFFF",
     "dynamic_buy_button_color": "#000000",
+    "preorder_button_color": "#000000",
     "checkout_button_style": "buy_button plain",
     "price_color": "#000000",
     "compare_at_price_color": "#e70000",
