@@ -10,7 +10,7 @@
           assign is_link = true
         endif
       -%}
-      <p class="link-btn">
+      <p class="link-btn custom-btn">
         <a href="{{ section.settings.link_url }}" class="overlay-{{ button_color }} {% if is_link %}strong inline{% elsif button_style == 'inv' %}inv{% endif %}">
         {% if is_link %}<span>{% endif %}{{ section.settings.link_text }}{% if is_link %}</span>&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}
         </a>
