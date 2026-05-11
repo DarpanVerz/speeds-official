@@ -52,9 +52,10 @@
       <div class="cols aside b50">
         <article class="base-font">
           <p class="m20">
-            <a href="#" onclick="window.history.go(-1); return false;" class="strong"
-              ><i aria-hidden="true" class="icon-chevron-left"></i> {{ 'cart.continue_shopping' | t -}}
-            </a>
+            <a href="/collections/all" class="strong">
+  <i aria-hidden="true" class="icon-chevron-left"></i>
+  {{ 'cart.continue_shopping' | t }}
+</a>
           </p>
           {% if section.settings.enable_terms_checkbox and section.settings.terms_text != empty %}
             <p class="check mobile-only">
