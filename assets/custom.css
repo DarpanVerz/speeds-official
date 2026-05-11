@@ -413,22 +413,5 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
 .section-width-boxed .link-btn a.overlay-secondary  { color:#fff;}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  body,
-  html {
-    overflow-x: hidden;
-  }
-
-  .footer,
-  footer {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-
-  .shopify-section:last-child {
-    margin-bottom: 0 !important;
-  }
-
-  #shopify-section-footer {
-    margin-bottom: 0 !important;
-  }
+ #shopify-section-template--27256896520484__main-404 { height:100vh; }
 }
