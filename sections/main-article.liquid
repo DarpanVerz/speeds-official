@@ -162,7 +162,7 @@
             endif
           endcapture
         -%}
-        {%- form 'new_comment', article, class: 'f8cm base-font' -%}
+       {% form 'new_comment', article, class: 'f8cm base-font' %}
           {%- if form.errors -%}
           	<script>
               document.addEventListener('DOMContentLoaded', function () {
