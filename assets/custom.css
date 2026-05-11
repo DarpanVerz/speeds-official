@@ -52,7 +52,7 @@ input::placeholder {
 
 .input-range span #max { width:113px; }
 .input-range>span {
-    width: 45%;
+    width: 43%;
 }
 
 #newsletter-footer button.overlay-primary { background:#262626 !important; }
