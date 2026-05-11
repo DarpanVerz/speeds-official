@@ -395,7 +395,7 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 
 }
 
-body:has(.m6pn#cart.active) .whatsapp-widget,
+body:has(.m6pn#cart.active) .wa__widget_container,
 body:has(.m6pn#cart.active) [class*="whatsapp"] {
     display: none !important;
 }
