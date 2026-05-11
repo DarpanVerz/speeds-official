@@ -85,6 +85,7 @@
     },
     "blogs_row": {
       "type": "section-blog-posts",
+      "disabled": true,
       "settings": {
         "blog": "",
         "number_of_items": 3,
