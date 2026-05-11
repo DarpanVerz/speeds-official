@@ -403,3 +403,8 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 .m6pn#cart * {
     z-index: inherit;
 }
+
+.whatsapp-widget,
+[class*="whatsapp"] {
+    z-index: 999 !important;
+}
