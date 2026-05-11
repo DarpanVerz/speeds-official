@@ -50,7 +50,7 @@ input::placeholder {
 
 .n6br ol li:last-child { text-transform:uppercase; }
 
-.input-range span #max { width:125px; }
+.input-range span #max { width:113px; }
 .input-range>span {
     width: 45%;
 }
