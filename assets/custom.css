@@ -401,3 +401,4 @@ body:has(.m6pn#cart.active) [class*="whatsapp"] {
 }
 
 html.m6pn-open .wa__widget_container { display:none !important; }
+.m6pn-close { color:#EE1A24; }
