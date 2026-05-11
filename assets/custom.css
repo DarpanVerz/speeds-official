@@ -395,23 +395,7 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 
 }
 
-.m6pn#cart {
-    position: fixed !important;
-    z-index: 9999999 !important;
-}
-
-.m6pn#cart * {
-    z-index: inherit;
-}
-
-#cart,
-.cart-drawer,
-.drawer {
-    position: fixed !important;
-    z-index: 2147483647 !important;
-}
-
-.whatsapp-widget,
-[class*="whatsapp"] {
-    z-index: 999 !important;
+body:has(.m6pn#cart.active) .whatsapp-widget,
+body:has(.m6pn#cart.active) [class*="whatsapp"] {
+    display: none !important;
 }
