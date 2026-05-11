@@ -10,7 +10,7 @@
   endif
 -%}
 <div
-  class="zzz section-width-boxed {% if section.settings.text_alignment == 'center' %}text-center{% endif %}{% if section.settings.content_alignment == 'center' %} align-center{% endif %}{% if title_block.settings.title_size == 'size-50' %} size-16 mobile-size-14{% endif %}"
+  class="section-width-boxed {% if section.settings.text_alignment == 'center' %}text-center{% endif %}{% if section.settings.content_alignment == 'center' %} align-center{% endif %}{% if title_block.settings.title_size == 'size-50' %} size-16 mobile-size-14{% endif %}"
   {% unless settings.width < 2000 and section.settings.max_width == 1280 %}
     style="max-width: {{ section.settings.max_width }}px;"
   {% endunless %}
