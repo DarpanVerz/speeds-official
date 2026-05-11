@@ -410,4 +410,4 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
     color: #fff;
 }
 
-.section-width-boxed {}
+.section-width-boxed .link-btn a { background:#262626; color:#fff;}
