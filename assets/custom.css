@@ -399,3 +399,5 @@ body:has(.m6pn#cart.active) .wa__widget_container,
 body:has(.m6pn#cart.active) [class*="whatsapp"] {
     display: none !important;
 }
+
+html.m6pn-open .wa__widget_container { display:none !important; }
