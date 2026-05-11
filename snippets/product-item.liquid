@@ -270,7 +270,7 @@
         </fieldset>
       {%- endform -%}
     {%- else -%}
-      <p class="link-btn wide {% unless enable_quick_buy_mobile %}mobile-hide{% endunless %} {% unless enable_quick_buy_desktop %}mobile-only{% endunless %} {% if quick_buy_compact and layout == 'list' %} w160{% endif %}">
+      <p class="aa link-btn wide {% unless enable_quick_buy_mobile %}mobile-hide{% endunless %} {% unless enable_quick_buy_desktop %}mobile-only{% endunless %} {% if quick_buy_compact and layout == 'list' %} w160{% endif %}">
         <a class="overlay-buy_button{% if settings.button_style == 'inv' %} inv{% endif %}" href="{{ product.url }}"{% if enable_quick_buy_drawer and product != blank %} data-quickshop{% endif %}>
           {%- if quick_buy_compact -%}
             {{ 'product.form.view' | t }}
