@@ -394,3 +394,12 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 }
 
 }
+
+.m6pn#cart {
+    position: fixed !important;
+    z-index: 9999999 !important;
+}
+
+.m6pn#cart * {
+    z-index: inherit;
+}
