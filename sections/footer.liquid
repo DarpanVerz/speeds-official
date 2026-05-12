@@ -139,7 +139,7 @@
                   {%- assign social_info = social | split: '|' -%}
                   {%- assign social_translation = 'socials.' | append: social_info[0] -%}
                   <li>
-  <a href="{{ social_info[1] }}">
+  <a href="{{ social_info[1] }}" target="_blank">
     
     {% if social_info[0] == 'shopee' %}
       <img src="{{ 'shopee-icon.png' | asset_url }}" alt="Shopee" class="social-icon">
