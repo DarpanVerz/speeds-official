@@ -295,7 +295,7 @@
                             endcase
                             assign width_2 = width | times: 2
                           -%}
-                          <figure class="size-{{ section.settings.image_swatches_size }}{% if section.settings.image_swatches_fill_images %} cover{% if section.settings.image_swatches_show_in_circle %} rounded{% endif %}{% endif %}">
+                          <figure class="size-{{ section.settings.image_swatches_size }}{% if section.settings.image_swatches_fill_images %} cover{% if section.settings.image_swatches_show_in_circle %} {% endif %}{% endif %}">
                             <picture>
                               <img
                                 src="{{ filter_value.swatch.image | image_url: width: width }}"
