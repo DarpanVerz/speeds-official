@@ -417,3 +417,5 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
 }
 
  #shopify-section-template--27256896520484__main-404 .custom-btn a { color:#fff !important;}
+
+ #root #nav-bar>ul>li>ul ul li a .img img { border-radius:0px !important; }
