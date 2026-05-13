@@ -139,24 +139,6 @@
             "usp": "<p>Produk bermasalah siap dibantu</p>"
           }
         },
-        "2e2d451c-7968-4d6b-a516-6f6e842c92ee": {
-          "type": "content",
-          "settings": {
-            "enable_tab": true,
-            "collapse": true,
-            "title_size": "h2",
-            "title": "Pay whenever you want",
-            "icon": "none",
-            "header_image_svg": "",
-            "header_image_width": 30,
-            "text": "<p>Easily pay within 30 days after you have received your package. <br/><a href=\"/pages/shipping-info\" title=\"Shipping info\"><strong>Read more</strong></a></p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
         "eeef3269-90c3-44f1-91c4-65f04ff8b23e": {
           "type": "content",
           "settings": {
@@ -173,32 +155,6 @@
             "liquid": "",
             "html": "",
             "show_contact_form": false
-          }
-        },
-        "f2290434-741b-4731-a534-ad679331e164": {
-          "type": "complementary_products",
-          "settings": {
-            "enable_tab": true,
-            "collapse": true,
-            "title": "Pairs well with",
-            "icon": "none",
-            "header_image_svg": "",
-            "header_image_width": 25,
-            "layout": "grid",
-            "number_of_items": 3,
-            "enable_quick_buy_desktop": true,
-            "enable_quick_buy_mobile": true,
-            "enable_quick_buy_drawer": true,
-            "enable_quick_buy_qty_selector": false,
-            "enable_color_picker": false,
-            "enable_quick_buy_compact": false,
-            "products_show_image": true,
-            "products_show_labels": false,
-            "products_show_vendor": false,
-            "products_show_title": true,
-            "products_show_rating": false,
-            "products_show_price": true,
-            "products_show_stock": false
           }
         }
       },
@@ -217,9 +173,7 @@
         "usp_1",
         "usp_2",
         "usp_EYKr4B",
-        "2e2d451c-7968-4d6b-a516-6f6e842c92ee",
-        "eeef3269-90c3-44f1-91c4-65f04ff8b23e",
-        "f2290434-741b-4731-a534-ad679331e164"
+        "eeef3269-90c3-44f1-91c4-65f04ff8b23e"
       ],
       "settings": {
         "width": "boxed",
@@ -230,10 +184,10 @@
         "description_title_size": "h2",
         "product_description_enable_read_more": false,
         "pros_cons_title_size": "h2",
-        "pros": "<p>Sustainably produced, Ideal for everyday use</p>",
+        "pros": "",
         "cons": "<p>May discolor in direct sunlight</p>",
         "specs_title_size": "h2",
-        "specifications": "<p>Weight: 200gr, Usage: Indoor & outdoor</p>",
+        "specifications": "",
         "product_description_mobile_collapse": false,
         "mobile_tabs_title_size": "h4"
       }
