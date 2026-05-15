@@ -443,10 +443,10 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
 .custom-pro-content .custom-buttons { display:flex !important;  justify-content: space-between !important;}
 .custom-pro-content .custom-buttons .shopify-payment-button__button--unbranded {
     padding: 1em 3.7em;
-    min-width: 170px;
+    min-width: 180px;
 }
 .f8pr div.submit>div, .f8pr div.submit>button {
-    min-width: 170px;
+    min-width: 180px;
     flex-basis: 0;
 }
 
