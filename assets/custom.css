@@ -434,6 +434,6 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
 }
 
 .shopee-icon:hover {
-  filter: brightness(0) saturate(100%) invert(18%) sepia(96%) saturate(7481%) hue-rotate(353deg) brightness(96%) contrast(96%);
+  filter: brightness(0) saturate(100%) invert(18%) sepia(96%) saturate(7481%) hue-rotate(353deg) brightness(96%) contrast(96%) !important;
 }
 
