@@ -448,6 +448,7 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
 .f8pr div.submit>div, .f8pr div.submit>button {
     min-width: 180px;
     flex-basis: 0;
+    margin-left:10px;
 }
 
 }
