@@ -146,6 +146,16 @@
 {% else %}
   <i aria-hidden="true" class="icon-{{ social_info[0] }}"></i>
 {% endif %}
+
+
+{% if social_info[0] == 'shopee' %}
+<svg class="shopee-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path fill="currentColor" d="YOUR_SVG_PATH_HERE"/>
+</svg>
+{% else %}
+  <i aria-hidden="true" class="icon-{{ social_info[0] }}"></i>
+{% endif %}
+
     
     <span>{{ social_info[2] }}</span>
     
