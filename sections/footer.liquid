@@ -141,11 +141,11 @@
                   <li>
   <a href="{{ social_info[1] }}" target="_blank">
     
-    {% if social_info[0] == 'shopee' %}
-      <img src="{{ 'shopee-icon.png' | asset_url }}" alt="Shopee" class="social-icon">
-    {% else %}
-      <i aria-hidden="true" class="icon-{{ social_info[0] }}"></i>
-    {% endif %}
+   {% if social_info[0] == 'shopee' %}
+  <img src="{{ 'shopee-icon.svg' | asset_url }}" alt="Shopee" class="social-icon">
+{% else %}
+  <i aria-hidden="true" class="icon-{{ social_info[0] }}"></i>
+{% endif %}
     
     <span>{{ social_info[2] }}</span>
     
