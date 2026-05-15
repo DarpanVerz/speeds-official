@@ -439,4 +439,4 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
 
 .check.box li label span { display:none; }
 
-.custom-pro-content .custom-buttons { dfisplay:flex !important;  justify-content: space-between !important;}
+.custom-pro-content .custom-buttons { display:flex !important;  justify-content: space-between !important;}
