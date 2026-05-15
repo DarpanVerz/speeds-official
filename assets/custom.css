@@ -427,4 +427,7 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
     }
 }
 
-.shopee-icon { width: 19px; top: -2px; }
+.shopee-icon {
+    width: 17px;
+    top: -2px !important;
+}
