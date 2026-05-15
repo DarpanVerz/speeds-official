@@ -141,16 +141,9 @@
                   <li>
   <a href="{{ social_info[1] }}" target="_blank">
     
-   {% if social_info[0] == 'shopee' %}
-  <img src="{{ 'shopee-icon.svg' | asset_url }}" alt="Shopee" class="social-icon shopee-icon">
-{% else %}
-  <i aria-hidden="true" class="icon-{{ social_info[0] }}"></i>
-{% endif %}
-
-
 {% if social_info[0] == 'shopee' %}
 <svg class="shopee-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path fill="currentColor" d="YOUR_SVG_PATH_HERE"/>
+  <path fill="currentColor" d="https://speeds-official.myshopify.com/cdn/shop/t/5/assets/shopee-icon.svg"/>
 </svg>
 {% else %}
   <i aria-hidden="true" class="icon-{{ social_info[0] }}"></i>
