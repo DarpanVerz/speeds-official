@@ -214,16 +214,16 @@
         "1654865266c7ee8f93-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/11_3506b70c-ee28-49b1-bd02-a022eb2d922e.jpg",
+            "image": "shopify://shop_images/7c74ffae-ccf5-43a7-9f94-84b38e442629.png",
             "overlay_opacity": 20,
             "color_palette": "scheme-411f8f89-3b86-4eaa-b706-9f6e6cfec9f1",
             "text_position": "center",
-            "title": "<h1>Swimming Products</h1>",
+            "title": "<h1>Santai Lebih Nyaman Dirumah</h1>",
             "title_underline_style": "none",
             "text": "",
             "show_link": true,
-            "link_text": "DISCOVER NOW",
-            "link_url": "#",
+            "link_text": "Lihat Sekarang",
+            "link_url": "shopify://collections/bean-bags",
             "button_style": "secondary plain",
             "show_overlay_link": true,
             "overlay_url": ""
@@ -232,16 +232,16 @@
         "1654865266c7ee8f93-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/22_4c6bf8ec-d028-43ca-95d8-de2d67e5e659.jpg",
+            "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_44_52_AM.png",
             "overlay_opacity": 0,
             "color_palette": "scheme-2",
             "text_position": "end center",
-            "title": "<h3>New Arrivals</h3>",
+            "title": "<h3>Masak Lebih Mudah di Alam</h3>",
             "title_underline_style": "none",
             "text": "",
             "show_link": true,
-            "link_text": "",
-            "link_url": "/",
+            "link_text": "Lihat Sekarang",
+            "link_url": "shopify://collections/nesting-equipments",
             "button_style": "primary plain",
             "show_overlay_link": true,
             "overlay_url": ""
@@ -250,16 +250,16 @@
         "308e5b21-d3d8-4fdc-bf57-625316fb3592": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/12_60d525ae-7822-4f65-9663-fc36b1eeef41.jpg",
+            "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_49_34_AM.png",
             "overlay_opacity": 0,
             "color_palette": "scheme-2",
             "text_position": "end center",
-            "title": "<h3>Best Seller</h3>",
+            "title": "<h3>Main Air Lebih Menyenangkan</h3>",
             "title_underline_style": "none",
             "text": "",
             "show_link": true,
-            "link_text": "",
-            "link_url": "/",
+            "link_text": "Lihat Sekarang",
+            "link_url": "shopify://collections/kolam-tiup",
             "button_style": "primary plain",
             "show_overlay_link": true,
             "overlay_url": ""
@@ -328,7 +328,7 @@
         "16620576954435429a-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/d40f05a3-f419-4bad-919f-ea85544b9405.png",
+            "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_59_57_AM.png",
             "overlay_opacity_img": 0,
             "color_palette": "scheme-6",
             "overlay_opacity": 0,
@@ -347,7 +347,7 @@
         "16620576954435429a-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_May_9_2026_11_29_41_AM.png",
+            "image": "shopify://shop_images/25d322ff-9e8d-490a-a195-8f873edc4572.png",
             "overlay_opacity_img": 0,
             "color_palette": "scheme-6",
             "overlay_opacity": 0,
