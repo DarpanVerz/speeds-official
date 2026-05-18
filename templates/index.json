@@ -234,7 +234,7 @@
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_44_52_AM.png",
             "overlay_opacity": 0,
-            "color_palette": "scheme-2",
+            "color_palette": "scheme-5",
             "text_position": "end center",
             "title": "<h3>Masak Lebih Mudah di Alam</h3>",
             "title_underline_style": "none",
@@ -406,6 +406,32 @@
     "section_image_hotspots_qffPmj": {
       "type": "section-image-hotspots",
       "blocks": {
+        "hotspot_TT7w8i": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 11,
+            "position_top": 34,
+            "position_left_mobile": 50,
+            "position_top_mobile": 30
+          }
+        },
+        "hotspot_nrBdXt": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 73,
+            "position_top": 61,
+            "position_left_mobile": 50,
+            "position_top_mobile": 30
+          }
+        },
         "hotspot_qAjiEa": {
           "type": "hotspot",
           "settings": {
@@ -413,8 +439,8 @@
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
-            "position_left": 10,
-            "position_top": 39,
+            "position_left": 28,
+            "position_top": 33,
             "position_left_mobile": 70,
             "position_top_mobile": 20
           }
@@ -426,8 +452,8 @@
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
-            "position_left": 35,
-            "position_top": 67,
+            "position_left": 29,
+            "position_top": 70,
             "position_left_mobile": 30,
             "position_top_mobile": 50
           }
@@ -439,14 +465,16 @@
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
-            "position_left": 45,
-            "position_top": 50,
+            "position_left": 53,
+            "position_top": 22,
             "position_left_mobile": 50,
             "position_top_mobile": 70
           }
         }
       },
       "block_order": [
+        "hotspot_TT7w8i",
+        "hotspot_nrBdXt",
         "hotspot_qAjiEa",
         "hotspot_gj9tCh",
         "hotspot_7Wier6"
