@@ -195,6 +195,7 @@ input, select, textarea, .bv_atual, #root .bv_mainselect input { color:#000 !imp
     background: #ffffff;
 }
 
+
 @media only screen and (max-width: 1000px) {
     .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:after {
         color: #fff;
@@ -343,6 +344,9 @@ a.overlay-primary:hover { color:#ee1a24 !important }
 .link-btn a.overlay-primary:hover { color:#fff; }
 
 button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color:#fff; }
+
+/*19-05-2026*/
+.shopify-section-header #header-inner>.link-btn a.text-justify:first-child:after { display: none !important; }
 
 
 @media(max-width:767px){
