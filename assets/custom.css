@@ -346,7 +346,7 @@ a.overlay-primary:hover { color:#ee1a24 !important }
 button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color:#fff; }
 
 /*19-05-2026*/
-.shopify-section-header #header-inner>.link-btn a.text-justify:first-child:after { display: none !important; }
+.shopify-section-header #header-inner>.link-btn a.text-justify:first-child:after { content="" !important; }
 
 
 @media(max-width:767px){
