@@ -264,9 +264,9 @@
   --header_mih:                 {{ section.settings.header_height | split: '|' | last }};
   --custom_top_up_h:       {{ section.settings.top_bar_height | split: '|' | last }};
   }
-  #root .shopify-section-header #header-inner > .link-btn a:first-child:after {
+  /*#root .shopify-section-header #header-inner > .link-btn a:first-child:after {
   content: "\{{ section.settings.menu_icon | split: '|' | last }}";
-  }
+  }*/
   }
   #root #header .f8vl .submit, #root .m6pn.f8vl .submit {
   --secondary_btn_text:             var(--{{ settings.dropdown_color }}_btn_fg);
