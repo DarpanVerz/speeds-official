@@ -234,7 +234,7 @@
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_44_52_AM.png",
             "overlay_opacity": 0,
-            "color_palette": "scheme-5",
+            "color_palette": "scheme-411f8f89-3b86-4eaa-b706-9f6e6cfec9f1",
             "text_position": "end center",
             "title": "<h3>Masak Lebih Mudah di Alam</h3>",
             "title_underline_style": "none",
@@ -252,7 +252,7 @@
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_49_34_AM.png",
             "overlay_opacity": 0,
-            "color_palette": "scheme-2",
+            "color_palette": "scheme-411f8f89-3b86-4eaa-b706-9f6e6cfec9f1",
             "text_position": "end center",
             "title": "<h3>Main Air Lebih Menyenangkan</h3>",
             "title_underline_style": "none",
