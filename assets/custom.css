@@ -348,6 +348,7 @@ button.overlay-tertiaryoverlay-tertiary:hover:before { background:#EE1A24; color
 /*19-05-2026*/
 body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:after { content="\e922"; }
 .custom-pro-content .check.box li label span { display: block !important; }
+.category.orientation-square li p { text-align: center !important; }
 
 @media(max-width:767px){
 .palette-scheme-4 img {
