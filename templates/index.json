@@ -242,7 +242,7 @@
             "show_link": true,
             "link_text": "Lihat Sekarang",
             "link_url": "shopify://collections/nesting-equipments",
-            "button_style": "primary plain",
+            "button_style": "secondary plain",
             "show_overlay_link": true,
             "overlay_url": ""
           }
@@ -260,7 +260,7 @@
             "show_link": true,
             "link_text": "Lihat Sekarang",
             "link_url": "shopify://collections/kolam-tiup",
-            "button_style": "primary plain",
+            "button_style": "secondary plain",
             "show_overlay_link": true,
             "overlay_url": ""
           }
