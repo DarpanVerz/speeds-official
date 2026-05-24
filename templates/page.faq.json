@@ -195,11 +195,11 @@
         "1653481892aca601d3-0": {
           "type": "text",
           "settings": {
-            "faq_question": "When will my order be delivered?",
+            "faq_question": "<strong>Kapan Pesanan Saya Akan Dikirimkan?</strong>",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>We ship worldwide. Your order will be packaged really carefully and delivered wherever you want. Delivery takes between 2-4 business days. You will receive an e-mail after ordering with more information about the delivery.</p>",
+            "faq_answer": "<p>Pesanan yang masuk sebelum pukul 15.00 WIB akan diproses di hari yang sama, sedangkan pesanan setelah pukul 15.00 WIB akan diproses pada hari kerja berikutnya. Estimasi pengiriman dalam kota 1–2 hari kerja dan luar kota 2–5 hari kerja.</p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -210,26 +210,11 @@
         "1653481892aca601d3-1": {
           "type": "text",
           "settings": {
-            "faq_question": "Can I Return my product?",
+            "faq_question": "<strong>Apakah Saya Dapat Mengembalikan Produk Saya?</strong>",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
-        "1653481892aca601d3-2": {
-          "type": "text",
-          "settings": {
-            "faq_question": "I would like to speak with the customer service. How can I get in touch?",
-            "icon": "none",
-            "header_image_svg": "",
-            "header_image_width": 25,
-            "faq_answer": "<p>You can email and call us. We are there for you 24/7, every day. You can visit us in the Netherlands:123 example Eindhoven, NL</p>",
+            "faq_answer": "<p>Ya, pengembalian atau refund dapat diajukan jika produk rusak, tidak sesuai pesanan, atau pesanan dibatalkan sesuai ketentuan. Pengajuan wajib disertai video unboxing tanpa jeda, foto produk, dan nomor pesanan maksimal 2 x 24 jam setelah barang diterima.</p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -240,26 +225,11 @@
         "19bffed1-f52f-4d9c-877f-5374d9a41f2b": {
           "type": "text",
           "settings": {
-            "faq_question": "What can I do if my item (or part of it) is damaged?",
+            "faq_question": "<strong>Apa Yang Dapat Saya Lakukan Jika Barang Saya Rusak Atau Rusak Sebagian?</strong>",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 25,
-            "faq_answer": "<p>We work hard to deliver your items without damage. Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
-        "432c0efd-c93e-48f4-b507-204ff1d1ee9f": {
-          "type": "text",
-          "settings": {
-            "faq_question": "What if I paid too much?",
-            "icon": "none",
-            "header_image_svg": "",
-            "header_image_width": 25,
-            "faq_answer": "<p>We work hard to deliver your items without damage. Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
+            "faq_answer": "<p>Segera hubungi customer service dengan menyertakan video unboxing tanpa jeda, foto resi, foto kerusakan produk, dan nomor pesanan. Pengajuan komplain maksimal 1 x 24 jam setelah barang diterima.</p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -271,9 +241,7 @@
       "block_order": [
         "1653481892aca601d3-0",
         "1653481892aca601d3-1",
-        "1653481892aca601d3-2",
-        "19bffed1-f52f-4d9c-877f-5374d9a41f2b",
-        "432c0efd-c93e-48f4-b507-204ff1d1ee9f"
+        "19bffed1-f52f-4d9c-877f-5374d9a41f2b"
       ],
       "settings": {
         "alignment": "left",
