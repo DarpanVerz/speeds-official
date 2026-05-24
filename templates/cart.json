@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -32,11 +41,15 @@
         "b425d9f9-59f6-4925-978a-e491a14ab7ee"
       ],
       "settings": {
+        "width": "boxed",
+        "title_size": "h1",
         "show_dynamic_buybutton": true,
         "enable_discount_tab": true,
         "show_payment_methods": true,
         "show_order_notes": true,
-        "order_notes_alignment": "right"
+        "order_notes_alignment": "right",
+        "enable_terms_checkbox": false,
+        "terms_text": "<p>I accept the <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">privacy policy</a></p>"
       }
     },
     "53ba9a68-c99f-44db-9749-5863f9de4d8f": {
@@ -44,13 +57,18 @@
       "settings": {
         "number_of_items": 6,
         "text_alignment": "start",
-        "title": "<h3>These products had your attention:</h3>",
+        "width": "boxed",
+        "title": "<h3>Produk Yang Mungkin Anda Suka:</h3>",
+        "title_underline_style": "none",
         "enable_quick_buy_desktop": true,
         "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
         "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
         "enable_quick_buy_compact": true,
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     }
   },
