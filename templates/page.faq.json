@@ -21,9 +21,9 @@
         "16534817559e4372f4-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/White.png",
+            "image": "shopify://shop_images/e0b307dd-b8d8-4f59-a7b0-498c5a273632.png",
             "layout": "background",
-            "overlay_opacity": 0,
+            "overlay_opacity": 90,
             "color_palette": "scheme-1202153a-1168-493d-bd6c-42cac7d8a99f",
             "text_position": "text-start",
             "title": "<h1>Pertanyaan Yang Sering Ditanyakan (FAQ)</h1>",
