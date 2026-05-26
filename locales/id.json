@@ -19,11 +19,11 @@
     }
   },
   "read_more": {
-      "less": "less",
-      "more": "more",
-      "read": "Read",
+      "less": "lebih sedikit",
+      "more": "lagi",
+      "read": "Membaca",
       "read_more": "Baca selengkapnya",
-      "show": "Show",
-      "show_more": "Show more"
+      "show": "Menunjukkan",
+      "show_more": "Tampilkan selengkapnya"
     }
 }
