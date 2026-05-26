@@ -18,8 +18,8 @@
     assign button_menu = false
   endif
 
-  assign hide_country_selector = false
-  assign hide_language_selector = false
+  assign hide_country_selector = true
+  assign hide_language_selector = true
   unless section.settings.enable_country_selector
     assign hide_country_selector = true
   endunless
