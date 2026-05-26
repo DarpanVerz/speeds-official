@@ -17,13 +17,5 @@
     "search_form": {
       "placeholder": "Cari Disini"
     }
-  },
-  "read_more": {
-      "less": "lebih sedikit",
-      "more": "lagi",
-      "read": "Membaca",
-      "read_more": "Baca selengkapnya",
-      "show": "Menunjukkan",
-      "show_more": "Tampilkan selengkapnya"
-    }
+  }
 }
