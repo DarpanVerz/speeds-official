@@ -54,7 +54,7 @@
         assign is_link = true
       endif
     -%}
-    <p class="class-x link-btn"><a href="{{ section.settings.link_url }}" class="aa overlay-{{ button_color }} {% if is_link %}inline strong{% elsif button_style == 'inv' %}inv{% endif %}">{% if is_link %}<span>{% endif %}{{ section.settings.link_text }}{% if is_link %}</span>&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}</a></p>
+    <p class="class-x link-btn"><a href="{{ section.settings.link_url }}" class="overlay-{{ button_color }} {% if is_link %}inline strong{% elsif button_style == 'inv' %}inv{% endif %}">{% if is_link %}<span>{% endif %}{{ section.settings.link_text }}{% if is_link %}</span>&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}</a></p>
   {%- endcapture %}
 {%- endif -%}
 
