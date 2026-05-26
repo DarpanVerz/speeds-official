@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "global": {
     "fix_zindex": {
@@ -4155,7 +4164,7 @@
     "announcement_bar": {
       "name": "Announcement bar",
       "settings": {
-        "paragraph": "In the theme editor, the announcement bar remains visible after you click the close icon. [Read more](https://intercom.help/someoneyouknow/en/articles/6208055-header-settings)",
+        "paragraph": "In the theme editor, the announcement bar remains visible after you click the close icon. [Read mores](https://intercom.help/someoneyouknow/en/articles/6208055-header-settings)",
         "behavior_and_interactions": "Behavior and interaction",
         "blocks": {
           "header": "Announcement",
