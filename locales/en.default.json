@@ -392,8 +392,8 @@
     "navigation": {
       "toggle_submenu": "Toggle submenu {{ item }}",
       "view_all": "All collections",
-      "view_catalog": "Lihat Katalog",
-      "view_more": "Lihat Lebih Banyak Produk"
+      "view_catalog": "View Catalog",
+      "view_more": "See More Products"
     }
   },
   "newsletter": {
