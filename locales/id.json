@@ -7,4 +7,10 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{}
+{
+  "header": {
+    "navigation": {
+      "view_catalog": "Lihat Katalog"
+    }
+  }
+}
