@@ -17,5 +17,13 @@
     "search_form": {
       "placeholder": "Cari Disini"
     }
-  }
+  },
+  "read_more": {
+      "less": "less",
+      "more": "more",
+      "read": "Read",
+      "read_more": "Baca selengkapnya",
+      "show": "Show",
+      "show_more": "Show more"
+    }
 }
