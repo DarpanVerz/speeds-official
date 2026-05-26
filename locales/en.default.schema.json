@@ -4164,7 +4164,7 @@
     "announcement_bar": {
       "name": "Announcement bar",
       "settings": {
-        "paragraph": "In the theme editor, the announcement bar remains visible after you click the close icon. [Read mores](https://intercom.help/someoneyouknow/en/articles/6208055-header-settings)",
+        "paragraph": "In the theme editor, the announcement bar remains visible after you click the close icon. [Read more](https://intercom.help/someoneyouknow/en/articles/6208055-header-settings)",
         "behavior_and_interactions": "Behavior and interaction",
         "blocks": {
           "header": "Announcement",
