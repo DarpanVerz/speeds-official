@@ -12,5 +12,10 @@
     "navigation": {
       "view_catalog": "Lihat Katalog"
     }
+  },
+  "search": {
+    "search_form": {
+      "placeholder": "Cari produk..."
+    }
   }
 }
