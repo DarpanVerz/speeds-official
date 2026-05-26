@@ -294,6 +294,9 @@
       "toggle_accessibility_mode": "Toggle accessibility mode",
       "back_to_top": "Back to top"
     },
+    "read_more": {
+      "read_more": "Read More"
+    },
     "alerts": {
       "error": "Error...",
       "info": "Info",
