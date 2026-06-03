@@ -206,5 +206,19 @@
     "created-ascending": "Berdasarkan Tanggal, Lama ke Baru",
     "created-descending": "Berdasarkan Tanggal, Baru ke Lama"
   }
+},
+"collection": {
+  "all_collections": "Semua Koleksi",
+  "view_all_collections": "Lihat Semua Koleksi",
+  "amount_of_products": {
+    "one": "{{ amount }} produk",
+    "other": "{{ amount }} produk",
+    "zero": "Tidak ada produk"
+  },
+  "sort_by": {
+    "sort_by": "Urutkan Berdasarkan",
+    "grid_view": "Tampilan Grid",
+    "list_view": "Tampilan Daftar"
+  }
 }
 } 
