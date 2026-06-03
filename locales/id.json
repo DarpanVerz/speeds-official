@@ -202,5 +202,10 @@
   "seen_number_of_products_html": "Anda telah melihat <span class='strong'>{{ number1 }}</span> dari <span class='strong'>{{ number2 }}</span> produk",
   "show_more_products": "Tampilkan Lebih Banyak Produk",
   "show_previous_products": "Tampilkan Produk Sebelumnya"
+},
+"product": {
+  "description": "Deskripsi",
+  "vendor": "Merek",
+  "sku": "SKU"
 }
 } 
