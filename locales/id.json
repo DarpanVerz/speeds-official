@@ -21,7 +21,15 @@
   "general": {
     "read_more": {
       "read_more": "Baca Selengkapnya"
+    },
+    "breadcrumbs": {
+      "back": "Kembali",
+      "home": "Beranda"
     }
+  },
+  "collection": {
+    "all_collections": "Semua Koleksi",
+    "view_all_collections": "Lihat Semua Koleksi"
   },
   "newsletter": {
     "title_html": "Berlangganan Newsletter Kami",
