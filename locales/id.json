@@ -104,5 +104,8 @@
 },
 "cart": {
   "title": "Keranjang Belanja"
+},
+"blog": {
+  "breadcrumb": "Artikel"
 }
 } 
