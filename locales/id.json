@@ -191,5 +191,18 @@
       "zero": "Tidak Ada Produk"
     }
   }
+},
+"sort_by": {
+  "sort_by": "Urutkan Berdasarkan",
+  "grid_view": "Tampilan Grid",
+  "list_view": "Tampilan Daftar",
+  "best-selling": "Produk Terlaris",
+  "created-ascending": "Tanggal, Lama ke Baru",
+  "created-descending": "Tanggal, Baru ke Lama",
+  "manual": "Unggulan",
+  "price-ascending": "Harga, Rendah ke Tinggi",
+  "price-descending": "Harga, Tinggi ke Rendah",
+  "title-ascending": "Berdasarkan Abjad, A-Z",
+  "title-descending": "Berdasarkan Abjad, Z-A"
 }
 } 
