@@ -155,5 +155,16 @@
   "messenger": "Messenger",
   "pinterest": "Pin It",
   "twitter": "X"
+},
+"blog": {
+  "breadcrumb": "Blog",
+  "share": "Bagikan:",
+  "written_by": "oleh",
+  "tags": "Tag",
+  "title": "Artikel Kami",
+  "reading_time": {
+    "one": "{{ minutes }} menit membaca",
+    "other": "{{ minutes }} menit membaca"
+  }
 }
 } 
