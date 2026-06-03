@@ -146,5 +146,14 @@
     "back": "Kembali",
     "home": "Beranda"
   }
+},
+"social_share": {
+  "share_this_product": "Bagikan",
+  "facebook": "Bagikan",
+  "whatsapp": "WhatsApp",
+  "email": "Email",
+  "messenger": "Messenger",
+  "pinterest": "Pin It",
+  "twitter": "X"
 }
 } 
