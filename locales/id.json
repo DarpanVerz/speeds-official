@@ -206,6 +206,17 @@
 "product": {
   "description": "Deskripsi",
   "vendor": "Merek",
-  "sku": "SKU"
+  "sku": "SKU",
+  "form": {
+    "add_to_cart": "Tambah ke Keranjang",
+    "quantity": "Jumlah",
+    "choose": "Silakan pilih...",
+    "choose_option": "Pilih Opsi",
+    "view": "Lihat Opsi",
+    "view_options": "Lihat Opsi",
+    "select": "Pilih",
+    "unavailable": "Tidak Tersedia",
+    "not_in_stock": "Stok Habis"
+  }
 }
 } 
