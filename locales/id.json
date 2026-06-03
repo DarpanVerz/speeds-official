@@ -107,5 +107,17 @@
 },
 "blog": {
   "breadcrumb": "Artikel"
+},
+"blog": {
+  "breadcrumb": "Blog",
+  "written_by": "oleh",
+  "reading_time": {
+    "one": "{{ minutes }} menit membaca",
+    "other": "{{ minutes }} menit membaca"
+  }
+},
+"date_formats": {
+  "month_day_year": "%B %d %Y",
+  "month_day_year_basic": "%m/%d/%Y"
 }
 } 
