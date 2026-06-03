@@ -9,8 +9,8 @@
  */
 {
   "header": {
-    "navigation": {
-      "view_catalog": "Lihat Katalog"
+    "navigation": { 
+      "view_more": "Lihat Katalog"
     }
   },
   "search": {
