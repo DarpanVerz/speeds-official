@@ -76,14 +76,106 @@
 "collection": {
   "all_collections": "Semua Koleksi",
   "view_all_collections": "Lihat Semua Koleksi",
+  "amount_of_products": {
+    "one": "{{ amount }} produk",
+    "other": "{{ amount }} produk",
+    "zero": "Tidak ada produk"
+  },
+  "empty_collection_html": "Tidak ada produk dalam koleksi ini.",
+  "sort_by": {
+    "grid_view": "Tampilan Grid",
+    "list_view": "Tampilan Daftar",
+    "sort_by": "Urutkan Berdasarkan",
+    "best-selling": "Produk Terlaris",
+    "created-ascending": "Tanggal, Lama ke Baru",
+    "created-descending": "Tanggal, Baru ke Lama",
+    "manual": "Unggulan",
+    "price-ascending": "Harga, Rendah ke Tinggi",
+    "price-descending": "Harga, Tinggi ke Rendah",
+    "title-ascending": "Abjad, A-Z",
+    "title-descending": "Abjad, Z-A"
+  }
+},
+"header": {
+  "navigation": {
+    "view_more": "Lihat Selengkapnya",
+    "view_catalog": "Lihat Semua Produk"
+  }
+},
+"cart": {
+  "title": "Keranjang Belanja"
+},
+"blog": {
+  "breadcrumb": "Artikel"
+},
+"blog": {
+  "breadcrumb": "Blog",
+  "written_by": "oleh",
+  "reading_time": {
+    "one": "{{ minutes }} menit membaca",
+    "other": "{{ minutes }} menit membaca"
+  }
+},
+"date_formats": {
+  "month_day_year": "%B %d %Y",
+  "month_day_year_basic": "%m/%d/%Y"
+},
+"product": {
+  "form": {
+    "add_to_cart": "Tambah ke Keranjang",
+    "quantity": "Jumlah",
+    "choose": "Silakan pilih...",
+    "choose_option": "Pilih Opsi",
+    "view": "Lihat Opsi",
+    "view_options": "Lihat Opsi",
+    "select": "Pilih",
+    "unavailable": "Tidak Tersedia",
+    "not_in_stock": "Stok Habis"
+  }
+},
+"general": {
+  "read_more": {
+    "read_more": "Baca Selengkapnya",
+    "read": "Baca",
+    "more": "Selengkapnya",
+    "less": "Lebih Sedikit",
+    "show": "Tampilkan",
+    "show_more": "Tampilkan Selengkapnya"
+  },
+  "breadcrumbs": {
+    "back": "Kembali",
+    "home": "Beranda"
+  }
+},
+"social_share": {
+  "share_this_product": "Bagikan",
+  "facebook": "Bagikan",
+  "whatsapp": "WhatsApp",
+  "email": "Email",
+  "messenger": "Messenger",
+  "pinterest": "Pin It",
+  "twitter": "X"
+},
+"blog": {
+  "breadcrumb": "Blog",
+  "share": "Bagikan:",
+  "written_by": "oleh",
+  "tags": "Tag",
+  "title": "Artikel Kami",
+  "reading_time": {
+    "one": "{{ minutes }} menit membaca",
+    "other": "{{ minutes }} menit membaca"
+  }
+},
+"collection": {
+  "all_collections": "Semua Koleksi",
+  "view_all_collections": "Lihat Semua Koleksi",
 
   "amount_of_products": {
     "one": "{{ amount }} produk",
     "other": "{{ amount }} produk",
     "zero": "Tidak ada produk"
   },
-
-  "empty_collection_html": "Tidak ada produk dalam koleksi ini.",
 
   "sort_by": {
     "sort_by": "Urutkan Berdasarkan",
@@ -110,5 +202,21 @@
   "seen_number_of_products_html": "Anda telah melihat <span class='strong'>{{ number1 }}</span> dari <span class='strong'>{{ number2 }}</span> produk",
   "show_more_products": "Tampilkan Lebih Banyak Produk",
   "show_previous_products": "Tampilkan Produk Sebelumnya"
+},
+"product": {
+  "description": "Deskripsi",
+  "vendor": "Merek",
+  "sku": "SKU",
+  "form": {
+    "add_to_cart": "Tambah ke Keranjang",
+    "quantity": "Jumlah",
+    "choose": "Silakan pilih...",
+    "choose_option": "Pilih Opsi",
+    "view": "Lihat Opsi",
+    "view_options": "Lihat Opsi",
+    "select": "Pilih",
+    "unavailable": "Tidak Tersedia",
+    "not_in_stock": "Stok Habis"
+  }
 }
 } 
