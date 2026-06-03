@@ -58,5 +58,19 @@
   },
   "footer": {
   "whatsapp_html": "Hubungi kami via <span class='strong'>WhatsApp</span>"
+},
+"service": {
+  "login": "Masuk",
+  "register": "Daftar",
+  "contact_form": {
+    "send": "Kirim",
+    "name": "Nama",
+    "email": "Email",
+    "phone": "Nomor Telepon",
+    "subject": "Subjek",
+    "message": "Pesan",
+    "required": "Wajib",
+    "title": "Kirim Pesan kepada Kami"
+  }
 }
 } 
