@@ -51,5 +51,9 @@
       "title": "Belum punya akun?",
       "create_account_info": "Buat Akun"
     }
+  },
+  "service": {
+    "login": "Masuk",
+    "register": "Daftar"
   }
 }
