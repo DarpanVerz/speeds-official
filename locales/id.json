@@ -9,7 +9,7 @@
  */
 {
   "header": {
-    "navigation": { 
+    "navigation": {
       "view_more": "Lihat Katalog"
     }
   },
@@ -21,6 +21,13 @@
   "general": {
     "read_more": {
       "read_more": "Baca Selengkapnya"
+    }
+  },
+  "newsletter": {
+    "title_html": "Berlangganan Newsletter Kami",
+    "subtitle_html": "Dapatkan informasi terbaru dan penawaran khusus",
+    "form": {
+      "email_placeholder": "Masukkan alamat email Anda"
     }
   }
 }
