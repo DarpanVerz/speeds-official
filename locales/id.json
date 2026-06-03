@@ -95,5 +95,11 @@
     "title-ascending": "Abjad, A-Z",
     "title-descending": "Abjad, Z-A"
   }
+},
+"header": {
+  "navigation": {
+    "view_more": "Lihat Selengkapnya",
+    "view_catalog": "Lihat Semua Produk"
+  }
 }
 } 
