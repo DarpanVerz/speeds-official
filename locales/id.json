@@ -38,5 +38,18 @@
       "email_placeholder": "Masukkan alamat email Anda",
       "submit_button": "Berlangganan"
     }
+  },
+  "customer": {
+    "login": {
+      "title": "Masuk",
+      "email": "Email",
+      "password": "Kata Sandi",
+      "forgot_password": "Lupa Kata Sandi?",
+      "submit": "Masuk"
+    },
+    "register": {
+      "title": "Belum punya akun?",
+      "create_account_info": "Buat Akun"
+    }
   }
 }
