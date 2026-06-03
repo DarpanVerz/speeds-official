@@ -20,8 +20,14 @@
     {% endif %}
   >
     <li>
-      <a href="/" title="Home">{{ 'general.breadcrumbs.home' | t }}</a>
-    </li>
+  <a href="/" title="{% if request.locale.iso_code == 'id' %}Beranda{% else %}Home{% endif %}">
+    {% if request.locale.iso_code == 'id' %}
+      Beranda
+    {% else %}
+      Home
+    {% endif %}
+  </a>
+</li>
 
     {% if template.name == 'collection' and collection.handle %}
       {% if current_tags %}
