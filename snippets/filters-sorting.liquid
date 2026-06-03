@@ -100,8 +100,14 @@
       {%- if has_quick_links -%}
         <ul>
           <li>
-            <a href="{{ routes.collections_url }}">{{ 'collection.view_all_collections' | t }}</a>
-          </li>
+  <a href="/collections">
+    {% if request.locale.iso_code == 'id' %}
+      Lihat Semua Koleksi
+    {% else %}
+      View all collections
+    {% endif %}
+  </a>
+</li>
           {%- liquid
             assign handles = empty
             assign collection_links = quick_links.links | where: 'type', 'collection_link'
