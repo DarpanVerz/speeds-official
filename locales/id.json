@@ -174,5 +174,16 @@
   "date_formats": {
     "month_day_year": "%B %d %Y",
     "month_day_year_basic": "%m/%d/%Y"
-  }
+  },
+  "search": {
+  "search_form": {
+    "placeholder": "Cari Disini"
+  },
+  "results": "Hasil Pencarian",
+  "results_plus_term": "Hasil pencarian untuk \"{{ term }}\"",
+  "view_all_results": "Lihat Semua Hasil",
+  "suggestions": "Saran",
+  "no_products_found": "Produk tidak ditemukan",
+  "title": "Pencarian"
+}
 }
