@@ -170,12 +170,19 @@
 "collection": {
   "all_collections": "Semua Koleksi",
   "view_all_collections": "Lihat Semua Koleksi",
+
   "amount_of_products": {
     "one": "{{ amount }} produk",
     "other": "{{ amount }} produk",
     "zero": "Tidak ada produk"
   },
-  "empty_collection_html": "Tidak ada produk dalam koleksi ini.",
+
+  "sort_by": {
+    "sort_by": "Urutkan Berdasarkan",
+    "grid_view": "Tampilan Grid",
+    "list_view": "Tampilan Daftar"
+  },
+
   "filters": {
     "filter": "Filter",
     "current_filters": "Filter Saat Ini",
@@ -190,35 +197,10 @@
       "other": "Tampilkan Produk",
       "zero": "Tidak Ada Produk"
     }
-  }
-},
-"collection": {
-  "sort_by": {
-    "sort_by": "Urutkan Berdasarkan",
-    "grid_view": "Tampilan Grid",
-    "list_view": "Tampilan Daftar",
-    "manual": "Unggulan",
-    "best-selling": "Produk Terlaris",
-    "title-ascending": "Berdasarkan Abjad, A-Z",
-    "title-descending": "Berdasarkan Abjad, Z-A",
-    "price-ascending": "Berdasarkan Harga, Rendah ke Tinggi",
-    "price-descending": "Berdasarkan Harga, Tinggi ke Rendah",
-    "created-ascending": "Berdasarkan Tanggal, Lama ke Baru",
-    "created-descending": "Berdasarkan Tanggal, Baru ke Lama"
-  }
-},
-"collection": {
-  "all_collections": "Semua Koleksi",
-  "view_all_collections": "Lihat Semua Koleksi",
-  "amount_of_products": {
-    "one": "{{ amount }} produk",
-    "other": "{{ amount }} produk",
-    "zero": "Tidak ada produk"
   },
-  "sort_by": {
-    "sort_by": "Urutkan Berdasarkan",
-    "grid_view": "Tampilan Grid",
-    "list_view": "Tampilan Daftar"
-  }
+
+  "seen_number_of_products_html": "Anda telah melihat <span class='strong'>{{ number1 }}</span> dari <span class='strong'>{{ number2 }}</span> produk",
+  "show_more_products": "Tampilkan Lebih Banyak Produk",
+  "show_previous_products": "Tampilkan Produk Sebelumnya"
 }
 } 
