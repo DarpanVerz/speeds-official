@@ -101,5 +101,8 @@
     "view_more": "Lihat Selengkapnya",
     "view_catalog": "Lihat Semua Produk"
   }
+},
+"cart": {
+  "title": "Keranjang Belanja"
 }
 } 
