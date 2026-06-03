@@ -166,5 +166,30 @@
     "one": "{{ minutes }} menit membaca",
     "other": "{{ minutes }} menit membaca"
   }
+},
+"collection": {
+  "all_collections": "Semua Koleksi",
+  "view_all_collections": "Lihat Semua Koleksi",
+  "amount_of_products": {
+    "one": "{{ amount }} produk",
+    "other": "{{ amount }} produk",
+    "zero": "Tidak ada produk"
+  },
+  "empty_collection_html": "Tidak ada produk dalam koleksi ini.",
+  "filters": {
+    "filter": "Filter",
+    "current_filters": "Filter Saat Ini",
+    "remove_all_filters": "Hapus Semua Filter",
+    "price": {
+      "title": "Harga",
+      "range_from": "Dari",
+      "range_to": "Sampai"
+    },
+    "show_products": {
+      "one": "Tampilkan Produk",
+      "other": "Tampilkan Produk",
+      "zero": "Tidak Ada Produk"
+    }
+  }
 }
 } 
