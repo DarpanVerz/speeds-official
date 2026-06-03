@@ -132,5 +132,19 @@
     "unavailable": "Tidak Tersedia",
     "not_in_stock": "Stok Habis"
   }
+},
+"general": {
+  "read_more": {
+    "read_more": "Baca Selengkapnya",
+    "read": "Baca",
+    "more": "Selengkapnya",
+    "less": "Lebih Sedikit",
+    "show": "Tampilkan",
+    "show_more": "Tampilkan Selengkapnya"
+  },
+  "breadcrumbs": {
+    "back": "Kembali",
+    "home": "Beranda"
+  }
 }
 } 
