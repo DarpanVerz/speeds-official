@@ -6,7 +6,7 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */
+ */ 
 {
   "header": {
     "navigation": {
@@ -43,7 +43,147 @@
       "email_placeholder": "Masukkan alamat email Anda",
       "submit_button": "Berlangganan"
     }
-  }
+  },
 
-  
-} 
+  "customer": {
+    "login": {
+      "title": "Masuk",
+      "email": "Email",
+      "password": "Kata Sandi",
+      "forgot_password": "Lupa Kata Sandi?",
+      "submit": "Masuk"
+    },
+    "register": {
+      "title": "Belum punya akun?",
+      "create_account_info": "Buat Akun"
+    }
+  },
+
+  "service": {
+    "login": "Masuk",
+    "register": "Daftar",
+    "contact_form": {
+      "send": "Kirim",
+      "name": "Nama",
+      "email": "Email",
+      "phone": "Nomor Telepon",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "required": "Wajib",
+      "title": "Kirim Pesan kepada Kami"
+    }
+  },
+
+  "footer": {
+    "whatsapp_html": "Hubungi kami via <span class='strong'>WhatsApp</span>"
+  },
+
+  "cart": {
+    "title": "Keranjang Belanja"
+  },
+
+  "blog": {
+    "breadcrumb": "Blog",
+    "share": "Bagikan",
+    "written_by": "oleh",
+    "tags": "Tag",
+    "title": "Artikel Kami",
+    "reading_time": {
+      "one": "{{ minutes }} menit membaca",
+      "other": "{{ minutes }} menit membaca"
+    }
+  },
+
+  "social_share": {
+    "share_this_product": "Bagikan Produk Ini",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "messenger": "Messenger",
+    "pinterest": "Pinterest",
+    "twitter": "X"
+  },
+
+  "collection": {
+    "all_collections": "Semua Koleksi",
+    "view_all_collections": "Lihat Semua Koleksi",
+
+    "amount_of_products": {
+      "one": "{{ amount }} produk",
+      "other": "{{ amount }} produk",
+      "zero": "Tidak ada produk"
+    },
+
+    "empty_collection_html": "Tidak ada produk dalam koleksi ini.",
+
+    "sort_by": {
+      "sort_by": "Urutkan Berdasarkan",
+      "grid_view": "Tampilan Grid",
+      "list_view": "Tampilan Daftar",
+      "manual": "Unggulan",
+      "best-selling": "Produk Terlaris",
+      "title-ascending": "Abjad A-Z",
+      "title-descending": "Abjad Z-A",
+      "price-ascending": "Harga Rendah ke Tinggi",
+      "price-descending": "Harga Tinggi ke Rendah",
+      "created-ascending": "Tanggal Lama ke Baru",
+      "created-descending": "Tanggal Baru ke Lama"
+    },
+
+    "filters": {
+      "filter": "Filter",
+      "current_filters": "Filter Saat Ini",
+      "remove_all_filters": "Hapus Semua Filter",
+
+      "price": {
+        "title": "Harga",
+        "range_from": "Dari",
+        "range_to": "Sampai"
+      },
+
+      "show_products": {
+        "one": "Tampilkan Produk",
+        "other": "Tampilkan Produk",
+        "zero": "Tidak Ada Produk"
+      }
+    },
+
+    "seen_number_of_products_html": "Anda telah melihat <span class='strong'>{{ number1 }}</span> dari <span class='strong'>{{ number2 }}</span> produk",
+    "show_more_products": "Tampilkan Lebih Banyak Produk",
+    "show_previous_products": "Tampilkan Produk Sebelumnya"
+  },
+
+  "product": {
+    "description": "Deskripsi",
+    "vendor": "Merek",
+    "sku": "SKU",
+
+    "form": {
+      "add_to_cart": "Tambah ke Keranjang",
+      "quantity": "Jumlah",
+      "choose": "Silakan pilih...",
+      "choose_option": "Pilih Opsi",
+      "view": "Lihat",
+      "view_options": "Lihat Opsi",
+      "select": "Pilih",
+      "unavailable": "Tidak Tersedia",
+      "not_in_stock": "Stok Habis"
+    }
+  },
+
+  "date_formats": {
+    "month_day_year": "%B %d %Y",
+    "month_day_year_basic": "%m/%d/%Y"
+  },
+  "search": {
+  "search_form": {
+    "placeholder": "Cari Disini"
+  },
+  "results": "Hasil Pencarian",
+  "results_plus_term": "Hasil pencarian untuk \"{{ term }}\"",
+  "view_all_results": "Lihat Semua Hasil",
+  "suggestions": "Saran",
+  "no_products_found": "Produk tidak ditemukan",
+  "title": "Pencarian"
+}
+}
