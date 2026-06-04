@@ -25,6 +25,9 @@
   "accessibility": {
     "menu": "Menu"
   },
+  "delivery": {
+      "next_day": "Pengiriman Besok"
+    },
   "alerts": {
     "success": "Berhasil",
     "error": "Terjadi Kesalahan",
