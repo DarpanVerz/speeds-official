@@ -214,5 +214,8 @@
     "submit_button": "Berlangganan",
     "success": "Terima kasih telah berlangganan newsletter kami."
   }
+},
+"shipping": {
+  "next_day_delivery": "Pengiriman Keesokan Hari"
 }
 }
