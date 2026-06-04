@@ -25,6 +25,12 @@
   "accessibility": {
     "menu": "Menu"
   },
+  "alerts": {
+    "success": "Berhasil",
+    "error": "Terjadi Kesalahan",
+    "warning": "Peringatan",
+    "info": "Informasi"
+  },
   "read_more": {
     "read_more": "Baca Selengkapnya",
     "read": "Baca",
@@ -199,6 +205,7 @@
   "subtitle_html": "Maaf, halaman yang Anda cari tidak tersedia atau telah dipindahkan.",
   "continue_shopping": "Lanjut Belanja"
 },
+
 "newsletter": {
   "title_html": "Berlangganan Newsletter Kami",
   "subtitle_html": "Dapatkan informasi terbaru dan penawaran khusus",
