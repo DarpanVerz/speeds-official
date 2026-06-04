@@ -207,5 +207,14 @@
   "title": "Halaman Tidak Ditemukan",
   "subtitle_html": "Maaf, halaman yang Anda cari tidak tersedia atau telah dipindahkan.",
   "continue_shopping": "Lanjut Belanja"
+},
+"newsletter": {
+  "title_html": "Berlangganan Newsletter Kami",
+  "subtitle_html": "Dapatkan informasi terbaru dan penawaran khusus",
+  "form": {
+    "email_placeholder": "Masukkan alamat email Anda",
+    "submit_button": "Berlangganan",
+    "success": "Terima kasih telah berlangganan newsletter kami."
+  }
 }
 }
