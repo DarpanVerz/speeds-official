@@ -21,20 +21,23 @@
     }
   },
 
-  "general": {
-    "read_more": {
-      "read_more": "Baca Selengkapnya",
-      "read": "Baca",
-      "more": "Selengkapnya",
-      "less": "Lebih Sedikit",
-      "show": "Tampilkan",
-      "show_more": "Tampilkan Selengkapnya"
-    },
-    "breadcrumbs": {
-      "back": "Kembali",
-      "home": "Beranda"
-    }
+"general": {
+  "accessibility": {
+    "menu": "Menu"
   },
+  "read_more": {
+    "read_more": "Baca Selengkapnya",
+    "read": "Baca",
+    "more": "Selengkapnya",
+    "less": "Lebih Sedikit",
+    "show": "Tampilkan",
+    "show_more": "Tampilkan Selengkapnya"
+  },
+  "breadcrumbs": {
+    "back": "Kembali",
+    "home": "Beranda"
+  }
+},
 
   "newsletter": {
     "title_html": "Berlangganan Newsletter Kami",
@@ -179,13 +182,20 @@
   "search_form": {
     "placeholder": "Cari Disini"
   },
+  "title": "Pencarian",
   "results": "Hasil Pencarian",
   "results_plus_term": "Hasil pencarian untuk \"{{ term }}\"",
   "view_all_results": "Lihat Semua Hasil",
   "suggestions": "Saran",
   "no_products_found": "Produk tidak ditemukan",
-  "title": "Pencarian"
+
+  "amount_of_results": {
+    "one": "{{ count }} hasil ditemukan",
+    "other": "{{ count }} hasil ditemukan",
+    "zero": "Tidak ada hasil ditemukan"
+  }
 },
+
 "cart": {
   "title": "Keranjang Belanja",
   "empty_title": "Keranjang Anda Kosong",
