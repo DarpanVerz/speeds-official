@@ -185,5 +185,11 @@
   "suggestions": "Saran",
   "no_products_found": "Produk tidak ditemukan",
   "title": "Pencarian"
+},
+"cart": {
+  "title": "Keranjang Belanja",
+  "empty_title": "Keranjang Anda Kosong",
+  "empty_subtitle": "Belum ada produk di keranjang Anda.",
+  "continue_shopping": "Lanjut Belanja"
 }
 }
