@@ -309,7 +309,7 @@
           "type": "buttons",
           "settings": {
             "show_first_link": true,
-            "first_link_text": "Contact us",
+            "first_link_text": "Contact us1",
             "first_link_url": "shopify://pages/contact",
             "first_button_style": "secondary plain",
             "show_second_link": false,
