@@ -53,10 +53,6 @@
             "enable_selling_plans": true
           }
         },
-        "inventory": {
-          "type": "inventory",
-          "settings": {}
-        },
         "upsell_T3XMzj": {
           "type": "upsell",
           "disabled": true,
@@ -162,7 +158,6 @@
         "c7259cb9-7235-4028-b6df-3a68077fed80",
         "short_description",
         "variant_selection",
-        "inventory",
         "upsell_T3XMzj",
         "price",
         "buy_button",
