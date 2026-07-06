@@ -55,13 +55,30 @@
   },
   "general": {
     "accessibility": {
-      "menu": "Menu"
+      "menu": "Menu",
+      "choose_category": "Pilih kategori",
+      "close": "Tutup",
+      "enable_javascript_message": "Mohon aktifkan JavaScript untuk pengalaman yang lebih baik.",
+      "go_to_content": "Lompat ke konten",
+      "go_to_footer": "Pergi ke catatan kaki",
+      "go_to_homepage": "Pergi ke beranda",
+      "go_to_navigation": "Lompat ke navigasi",
+      "go_to_search": "Pergi ke pencarian",
+      "hide": "Sembunyikan",
+      "minimize": "Meminimalkan",
+      "more": "Lainnya",
+      "only_you_can_see_this": "Hanya Anda yang bisa melihat ini",
+      "show": "Tampilkan",
+      "toggle": "Alihkan {{ item }}",
+      "toggle_accessibility_mode": "Alihkan mode aksesibilitas",
+      "back_to_top": "Kembali ke atas"
     },
     "alerts": {
       "success": "Berhasil",
       "error": "Terjadi Kesalahan",
       "warning": "Peringatan",
-      "info": "Informasi"
+      "info": "Informasi",
+      "added_to_cart": "telah ditambahkan ke keranjang belanja Anda."
     },
     "read_more": {
       "read_more": "Baca Selengkapnya",
@@ -74,6 +91,33 @@
     "breadcrumbs": {
       "back": "Kembali",
       "home": "Beranda"
+    },
+    "choose_option": "Pilihlah",
+    "color_palette": {
+      "accent": "Aksen",
+      "black": "Tergelap",
+      "dark": "Gelap",
+      "dark_gradient": "Gradien gelap",
+      "info": "Anda selalu dapat melihat skema warna Anda di sini yang telah Anda atur di 'pengaturan warna', saat Anda mengedit tema. Anda dapat menonaktifkan bilah ini di 'pengaturan tema' - 'warna'.",
+      "light": "Cahaya",
+      "light_2": "Lampu aksen",
+      "light_gradient": "Cahaya gradien",
+      "title": "Skema warna",
+      "white": "Paling ringan"
+    },
+    "shipping_timer": {
+      "shipped_today": "Dikirim hari ini?",
+      "you_have_left_html": "Pesan dalam: {{ time }}"
+    },
+    "countdown": {
+      "days": "Hari-hari",
+      "day": "Hari",
+      "hours": "Jam Kerja",
+      "hour": "Jam",
+      "minutes": "Risalah Rapat",
+      "minute": "Menit",
+      "seconds": "Detik",
+      "second": "Kedua"
     }
   },
   "customer": {
@@ -86,7 +130,68 @@
     },
     "register": {
       "title": "Belum punya akun?",
-      "create_account_info": "Buat Akun"
+      "create_account_info": "Buat Akun",
+      "confirm_password": "Konfirmasi sandi",
+      "first_name": "Nama depan",
+      "last_name": "Nama belakang",
+      "newsletter_signup_text": "Ya, saya ingin menerima buletin agar tidak ketinggalan penawaran menarik.",
+      "password": "Kata sandi",
+      "passwords_dont_match": "Kata sandi tidak cocok",
+      "submit": "Buat akun"
+    },
+    "order": {
+      "cancelled_html": "Pesanan dibatalkan pada {{ date }}",
+      "cancelled_reason": "Alasan membatalkan pesanan ini: {{ reason }}",
+      "date_html": "Ditempatkan pada {{ date }}",
+      "discount": "Diskon",
+      "fulfilled_at": "Pesanan dikirim pada {{ date }}",
+      "fulfillment_html": "Produk Anda telah dikirim. Lacak pengiriman dengan nomor {{ tracking_number }} atau dengan mengeklik di sini: <a href=\"&lt;span%20class='notranslate'&gt;{{%20tracking_url%20}}&lt;/span&gt;\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "image": "Gambar",
+      "line_fulfillment_html": "Produk Anda \"{{ product_title }}\" telah dikirimkan. Lacak pengiriman dengan nomor {{ tracking_number }} atau dengan mengeklik di sini: <a href=\"&lt;span%20class='notranslate'&gt;{{%20tracking_url%20}}&lt;/span&gt;\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "line_price": "Jumlah",
+      "no_shipping_address": "Alamat pengiriman tidak diperlukan untuk pesanan ini.",
+      "note": "Instruksi khusus",
+      "placed_at": "Pesanan dibuat pada {{ date }}",
+      "price": "Harga",
+      "product": "Produk",
+      "quantity": "Kuantitas",
+      "shipping": "Pengiriman",
+      "shipping_address": "Alamat pengiriman",
+      "summary": "Pesanan Anda",
+      "tax": "PPN",
+      "title": "Pesanan {{ order_number }}",
+      "total": "Jumlah",
+      "track_shipment": "Lacak pengiriman",
+      "tracking_company": "Pelacak perusahaan",
+      "tracking_number": "Nomor pelacakan",
+      "tracking_url": "URL pelacakan"
+    },
+    "orders": {
+      "date": "Tanggal",
+      "fulfillment_status": "Status pemenuhan",
+      "track_shipment": "Lacak pengiriman",
+      "fulfilled_at_html": "Dikirim pada {{ date }}",
+      "order_number": "Pesan",
+      "payment_status": "Status pembayaran",
+      "seen_number_of_orders_html": "<span class=\"strong\">{{ number1 }}</span> dari <span class=\"strong\">{{ number2 }}</span> pesanan",
+      "total": "Jumlah",
+      "view_order": "Lihat pesanan"
+    },
+    "phone_number": "Nomor telepon",
+    "recover_password": {
+      "go_back": "Kembali ke halaman masuk",
+      "posted_successfully": "Periksa kotak masuk Anda untuk instruksi lebih lanjut!",
+      "submit": "Kirim",
+      "subtitle": "Tidak masalah, ini akan segera beres!",
+      "text": "Masukkan email Anda dan Anda akan menerima tautan untuk mengatur ulang kata sandi Anda.",
+      "title": "Set ulang kata sandi Anda"
+    },
+    "reset_password": {
+      "new_password": "Kata sandi baru",
+      "repeat_new_password": "Ulangi kata sandi baru",
+      "repeated_password": "Kata sandi diulang",
+      "submit": "Kirim",
+      "title": "Set ulang kata sandi Anda"
     }
   },
   "service": {
@@ -108,7 +213,8 @@
     "open_in_google_maps": "Buka di Google Maps"
   },
   "footer": {
-    "whatsapp_html": "Hubungi kami via <span class='strong'>WhatsApp</span>"
+    "whatsapp_html": "Hubungi kami via <span class='strong'>WhatsApp</span>",
+    "customer_service_img_default_alt": "Gambar layanan pelanggan"
   },
   "cart": {
     "title": "Keranjang Belanja",
@@ -290,7 +396,12 @@
       "redeem_html": "Gunakan kode di keranjang belanja untuk menukarkan kartu hadiah {{ value }} Anda",
       "remaining_html": "{{ balance }} tersisa",
       "shop_link": "Mulai berbelanja",
-      "title": "Kartu hadiah Anda, {{ name }}!"
+      "title": "Kartu hadiah Anda, {{ name }}!",
+      "active": "Berakhir pada {{ expiry }}",
+      "add_to_apple_wallet": "Tambah ke Apple Wallet",
+      "copied_code": "Disalin!",
+      "copy_code": "Salin kode",
+      "disabled": "Kartu hadiah ini tidak aktif"
     },
     "recipient": {
       "form": {
