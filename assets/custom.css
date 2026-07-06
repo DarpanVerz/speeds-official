@@ -392,6 +392,10 @@ body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:
 .template-list-collections .category li { text-align: center !important; }
 
 .custom-pro-content .custom-buttons { flex-wrap: wrap; }
+#root .submit.m10 { width: 100%; }
+.m6pn.toggle .f8pr-button { min-width: auto; width: 100% !important; margin-right: 0 !important; }
+.m6pn.toggle .f8pr-button .overlay-buy_button { width: 100% !important; }
+#root .overlay-dynamic_buy_button.plain-btn { width: 100%; }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /* #root .l4hs > li > div {
