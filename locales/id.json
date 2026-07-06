@@ -6,7 +6,7 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */ 
+ */
 {
   "header": {
     "navigation": {
@@ -14,37 +14,51 @@
       "view_catalog": "Lihat Semua Produk"
     }
   },
-
   "search": {
     "search_form": {
-      "placeholder": "Cari Disini"
+      "placeholder": "Cari Disini",
+      "search_again": "Cari lagi",
+      "submit": "Cari"
+    },
+    "title": "Pencarian",
+    "results": "Hasil Pencarian",
+    "results_plus_term": "Hasil pencarian untuk \"{{ term }}\"",
+    "view_all_results": "Lihat Semua Hasil",
+    "suggestions": "Saran",
+    "no_products_found": "Produk tidak ditemukan",
+    "amount_of_results": {
+      "one": "{{ count }} hasil ditemukan",
+      "other": "{{ count }} hasil ditemukan",
+      "zero": "Tidak ada hasil ditemukan"
+    },
+    "questions_and_advice": "Halaman & postingan blog",
+    "seen_number_of_results_html": "Anda telah melihat <span class=\"strong\">{{ number1 }}</span> dari <span class=\"strong\">{{ number2 }}</span> hasil",
+    "show_more_results": "Tampilkan hasil lainnya",
+    "show_previous_results": "Tampilkan hasil sebelumnya"
+  },
+  "general": {
+    "accessibility": {
+      "menu": "Menu"
+    },
+    "alerts": {
+      "success": "Berhasil",
+      "error": "Terjadi Kesalahan",
+      "warning": "Peringatan",
+      "info": "Informasi"
+    },
+    "read_more": {
+      "read_more": "Baca Selengkapnya",
+      "read": "Baca",
+      "more": "Selengkapnya",
+      "less": "Lebih Sedikit",
+      "show": "Tampilkan",
+      "show_more": "Tampilkan Selengkapnya"
+    },
+    "breadcrumbs": {
+      "back": "Kembali",
+      "home": "Beranda"
     }
   },
-
-"general": {
-  "accessibility": {
-    "menu": "Menu"
-  },
-  "alerts": {
-    "success": "Berhasil",
-    "error": "Terjadi Kesalahan",
-    "warning": "Peringatan",
-    "info": "Informasi"
-  },
-  "read_more": {
-    "read_more": "Baca Selengkapnya",
-    "read": "Baca",
-    "more": "Selengkapnya",
-    "less": "Lebih Sedikit",
-    "show": "Tampilkan",
-    "show_more": "Tampilkan Selengkapnya"
-  },
-  "breadcrumbs": {
-    "back": "Kembali",
-    "home": "Beranda"
-  }
-},
-
   "customer": {
     "login": {
       "title": "Masuk",
@@ -58,7 +72,6 @@
       "create_account_info": "Buat Akun"
     }
   },
-
   "service": {
     "login": "Masuk",
     "register": "Daftar",
@@ -70,18 +83,22 @@
       "subject": "Subjek",
       "message": "Pesan",
       "required": "Wajib",
-      "title": "Kirim Pesan kepada Kami"
-    }
+      "title": "Kirim Pesan kepada Kami",
+      "company": "Perusahaan",
+      "posted_successfully": "Terima kasih telah mengirimkan pesan kepada kami!"
+    },
+    "faq": "Pertanyaan yang sering diajukan",
+    "open_in_google_maps": "Buka di Google Maps"
   },
-
   "footer": {
     "whatsapp_html": "Hubungi kami via <span class='strong'>WhatsApp</span>"
   },
-
   "cart": {
-    "title": "Keranjang Belanja"
+    "title": "Keranjang Belanja",
+    "empty_title": "Keranjang Anda Kosong",
+    "empty_subtitle": "Belum ada produk di keranjang Anda.",
+    "continue_shopping": "Lanjut Belanja"
   },
-
   "blog": {
     "breadcrumb": "Blog",
     "share": "Bagikan",
@@ -93,7 +110,6 @@
       "other": "{{ minutes }} menit membaca"
     }
   },
-
   "social_share": {
     "share_this_product": "Bagikan Produk Ini",
     "facebook": "Facebook",
@@ -103,19 +119,15 @@
     "pinterest": "Pinterest",
     "twitter": "X"
   },
-
   "collection": {
     "all_collections": "Semua Koleksi",
     "view_all_collections": "Lihat Semua Koleksi",
-
     "amount_of_products": {
       "one": "{{ amount }} produk",
       "other": "{{ amount }} produk",
       "zero": "Tidak ada produk"
     },
-
     "empty_collection_html": "Tidak ada produk dalam koleksi ini.",
-
     "sort_by": {
       "sort_by": "Urutkan Berdasarkan",
       "grid_view": "Tampilan Grid",
@@ -129,35 +141,29 @@
       "created-ascending": "Tanggal Lama ke Baru",
       "created-descending": "Tanggal Baru ke Lama"
     },
-
     "filters": {
       "filter": "Filter",
       "current_filters": "Filter Saat Ini",
       "remove_all_filters": "Hapus Semua Filter",
-
       "price": {
         "title": "Harga",
         "range_from": "Dari",
         "range_to": "Sampai"
       },
-
       "show_products": {
         "one": "Tampilkan Produk",
         "other": "Tampilkan Produk",
         "zero": "Tidak Ada Produk"
       }
     },
-
     "seen_number_of_products_html": "Anda telah melihat <span class='strong'>{{ number1 }}</span> dari <span class='strong'>{{ number2 }}</span> produk",
     "show_more_products": "Tampilkan Lebih Banyak Produk",
     "show_previous_products": "Tampilkan Produk Sebelumnya"
   },
-
   "product": {
     "description": "Deskripsi",
     "vendor": "Merek",
     "sku": "SKU",
-
     "form": {
       "add_to_cart": "Tambah ke Keranjang",
       "quantity": "Jumlah",
@@ -170,52 +176,30 @@
       "not_in_stock": "Stok Habis"
     }
   },
-
   "date_formats": {
     "month_day_year": "%B %d %Y",
     "month_day_year_basic": "%m/%d/%Y"
   },
-  "search": {
-  "search_form": {
-    "placeholder": "Cari Disini"
+  "404": {
+    "404": "404",
+    "title": "Halaman Tidak Ditemukan",
+    "subtitle_html": "Maaf, halaman yang Anda cari tidak tersedia atau telah dipindahkan.",
+    "continue_shopping": "Lanjut Belanja"
   },
-  "title": "Pencarian",
-  "results": "Hasil Pencarian",
-  "results_plus_term": "Hasil pencarian untuk \"{{ term }}\"",
-  "view_all_results": "Lihat Semua Hasil",
-  "suggestions": "Saran",
-  "no_products_found": "Produk tidak ditemukan",
-
-  "amount_of_results": {
-    "one": "{{ count }} hasil ditemukan",
-    "other": "{{ count }} hasil ditemukan",
-    "zero": "Tidak ada hasil ditemukan"
+  "newsletter": {
+    "title_html": "Berlangganan Newsletter Kami",
+    "subtitle_html": "Dapatkan informasi terbaru dan penawaran khusus",
+    "form": {
+      "email_placeholder": "Masukkan alamat email Anda",
+      "submit_button": "Berlangganan",
+      "success": "Terima kasih telah berlangganan newsletter kami."
+    }
+  },
+  "shipping": {
+    "next_day_delivery": "Pengiriman Keesokan Hari"
+  },
+  "socials": {
+    "facebook": "Facebook",
+    "followers": "pengikut"
   }
-},
-
-"cart": {
-  "title": "Keranjang Belanja",
-  "empty_title": "Keranjang Anda Kosong",
-  "empty_subtitle": "Belum ada produk di keranjang Anda.",
-  "continue_shopping": "Lanjut Belanja"
-},
-"404": {
-  "404": "404",
-  "title": "Halaman Tidak Ditemukan",
-  "subtitle_html": "Maaf, halaman yang Anda cari tidak tersedia atau telah dipindahkan.",
-  "continue_shopping": "Lanjut Belanja"
-},
-
-"newsletter": {
-  "title_html": "Berlangganan Newsletter Kami",
-  "subtitle_html": "Dapatkan informasi terbaru dan penawaran khusus",
-  "form": {
-    "email_placeholder": "Masukkan alamat email Anda",
-    "submit_button": "Berlangganan",
-    "success": "Terima kasih telah berlangganan newsletter kami."
-  }
-},
-"shipping": {
-  "next_day_delivery": "Pengiriman Keesokan Hari"
-}
 }
