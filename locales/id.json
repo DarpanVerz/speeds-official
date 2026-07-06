@@ -11,8 +11,25 @@
   "header": {
     "navigation": {
       "view_more": "Lihat Katalog",
-      "view_catalog": "Lihat Semua Produk"
-    }
+      "view_catalog": "Lihat Semua Produk",
+      "toggle_submenu": "Alihkan submenu {{ item }}",
+      "view_all": "Semua koleksi"
+    },
+    "account": {
+      "info": "Informasi",
+      "login": "Masuk",
+      "account": "Akun",
+      "logout": "Keluar",
+      "my_account": "Akun saya",
+      "orders": "Pesanan",
+      "overview": "Ringkasan akun",
+      "welcome_user_html": "Hai, <span class=\"strong\">{{ name }}</span>"
+    },
+    "cart": "Keranjang",
+    "country": "Negara/wilayah",
+    "extra_img_default_alt": "Gambar ekstra tajuk",
+    "flag_of": "{{ country }} - bendera",
+    "language": "Bahasa"
   },
   "search": {
     "search_form": {
@@ -173,8 +190,69 @@
       "view_options": "Lihat Opsi",
       "select": "Pilih",
       "unavailable": "Tidak Tersedia",
-      "not_in_stock": "Stok Habis"
-    }
+      "not_in_stock": "Stok Habis",
+      "in_stock": "{{ amount }} tersedia",
+      "one_time_purchase": "Pembelian satu kali",
+      "purchase_options_subtitle": "Anda bisa membatalkan langganan Anda setiap bulan",
+      "purchase_options_title": "Memberikan setiap",
+      "title": "Bentuk produk",
+      "choose_product": "Pilih produk ini",
+      "choose_variant": "Pilih varian",
+      "show_more": "Tampilkan lebih banyak produk",
+      "pre_order": "Pesan di awal",
+      "pre_order_info": "Info pre-order"
+    },
+    "barcode": "Kode batang",
+    "excluding_tax": "Tidak termasuk PPN",
+    "including_tax": "Termasuk PPN",
+    "one_time_purchase": "Pembelian satu kali",
+    "pickup_availability": {
+      "free_pickup": "Penjemputan gratis di",
+      "our_stores": "toko kami",
+      "pick_up_available": "Tersedia",
+      "pick_up_unavailable": "Stok habis",
+      "subtitle": "Cari lokasi di dekat Anda!",
+      "title": "Beli produk ini di salah satu toko kami."
+    },
+    "price_varies_label": "Dari",
+    "pros_and_cons": "Pro dan kontra",
+    "reviews": {
+      "count": {
+        "one": "ulasan",
+        "other": "ulasan"
+      },
+      "number_of_reviews": {
+        "one": "{{ count }} telah meninjau produk ini",
+        "other": "{{ count }} telah meninjau produk ini",
+        "zero": "Produk ini belum memiliki ulasan."
+      },
+      "rating": "{{ rating }} dari {{ total }} bintang",
+      "out_of_5_stars": "dari 5 bintang",
+      "seen_number_of_reviews_html": "<span class=\"strong seen-reviews\"></span> dari <span class=\"strong total-reviews\"></span> ulasan",
+      "title": "Ulasan",
+      "write_a_review": "Tulis ulasan",
+      "write_review_form": {
+        "title": "Tulis ulasan untuk {{ product }}",
+        "rating": "Peringkat",
+        "name": "Nama",
+        "review_body": "Ulasan",
+        "send": "Kirim"
+      }
+    },
+    "new_tag": "Baru",
+    "sale_tag": "Obral",
+    "save": "simpan",
+    "specifications": "Spesifikasi",
+    "stock_tag": "Stok terakhir!",
+    "view_in_your_space": "Lihat di ruang Anda",
+    "volume_pricing": {
+      "price_at_each_html": "Beli {{ quantity }} seharga <b>{{ price }}</b> per item",
+      "minimum_of": "minimal {{ quantity }}",
+      "maximum_of": "maksimal {{ quantity }}",
+      "multiples_of": "peningkatan sebesar {{ quantity }}"
+    },
+    "remote_product": "Dijual oleh toko lain",
+    "remote_product_shop": "Dijual oleh {{ shop_name }}"
   },
   "date_formats": {
     "month_day_year": "%B %d %Y",
@@ -201,5 +279,55 @@
   "socials": {
     "facebook": "Facebook",
     "followers": "pengikut"
+  },
+  "gift_cards": {
+    "issued": {
+      "expired": "Kartu hadiah ini telah kedaluwarsa pada {{ expiry }}",
+      "giftcard": "Kartu hadiah",
+      "page_title": "Ini adalah kartu hadiah {{ value }} Anda untuk {{ shop }}!",
+      "print_page": "Cetak",
+      "qr_image_alt": "Kode QR — pindai untuk menukarkan kartu hadiah",
+      "redeem_html": "Gunakan kode di keranjang belanja untuk menukarkan kartu hadiah {{ value }} Anda",
+      "remaining_html": "{{ balance }} tersisa",
+      "shop_link": "Mulai berbelanja",
+      "title": "Kartu hadiah Anda, {{ name }}!"
+    },
+    "recipient": {
+      "form": {
+        "checkbox": "Saya ingin mengirim ini sebagai hadiah",
+        "email_label": "Email penerima",
+        "email_label_optional_for_no_js_behavior": "Email penerima (opsional)",
+        "name_label": "Nama penerima (opsional)",
+        "name": "Nama",
+        "message_label": "Pesan (opsional)",
+        "message": "Pesan",
+        "max_characters": "{{ max_chars }} karakter maksimal",
+        "send_on": "TTTT-BB-HH",
+        "send_on_label": "Kirim pada (opsional)"
+      }
+    }
+  },
+  "newsletter_popup": {
+    "form": {
+      "submit_button": "Berlangganan",
+      "success": "Anda sekarang sudah terdaftar, terima kasih!"
+    },
+    "text": "Dapatkan diskon terbaru di kotak masuk Anda",
+    "title": "Daftar untuk buletin kami"
+  },
+  "password_page": {
+    "newsletter_form": {
+      "button_text": "Berlangganan",
+      "success_message": "Terima kasih telah mendaftar!",
+      "title": "Daftar dan jadilah yang pertama menerima info tentang toko web ini!"
+    },
+    "or_enter_password": "Untuk masuk, masukkan kata sandi toko",
+    "or_sign_up": "Atau daftar untuk buletin",
+    "password_form": {
+      "button_text": "Masuk",
+      "password": "Kata sandi",
+      "title": "Masukkan kata sandi untuk memasuki toko:"
+    },
+    "title": "Segera dibuka!"
   }
 }
