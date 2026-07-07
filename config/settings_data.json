@@ -97,12 +97,12 @@
       "sticky-add-to-cart": {
         "type": "sticky-add-to-cart",
         "settings": {
-          "enable": false,
+          "enable": true,
           "position": "bottom",
           "color_palette": "",
           "button_style": "buy_button plain",
           "show_variant_picker": true,
-          "show_unavailable_variants": true,
+          "show_unavailable_variants": false,
           "show_tax": false,
           "show_amount_selection": true,
           "preorder": false,
