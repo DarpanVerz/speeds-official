@@ -129,7 +129,8 @@ body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:
 .section-width-boxed h3 { margin-top: 20px !important; }
 .template-page .section-width-boxed { min-height: 250px; }
 .shopify-section-breadcrumbs .n6br { max-width: var(--glw_boxed) !important; }
-
+#filter header { margin-bottom: 20px !important; }
+#filter h4 { margin-top: 20px !important; }
 
 @media(max-width:767px) {
     .palette-scheme-4 img { width: 320px !important; position: absolute !important; top: 60px !important; right: 0px !important; object-fit: contain !important; bottom: 42px; padding-bottom: 78px; }
