@@ -68,7 +68,7 @@
           {{ block.settings.extra_customer_support }}
           <ul class="l4cn">
             {% if shop.phone != empty and shop.phone != blank and block.settings.show_phone_link %}
-              <li><a href="tel:{{ shop.phone }}"><i aria-hidden="true" class="icon-phone"></i> {{ shop.phone }}</a></li>
+              <li><a href="tel:{{ shop.phone | replace: ' ', '' | replace: '-', '' }}"><i aria-hidden="true" class="icon-phone"></i> {{ shop.phone }}</a></li>
             {% endif %}
             {% if shop.email != empty and shop.email != blank and block.settings.show_mail_link %}
               <li><a href="mailto:{{ shop.email }}" class="email"><i aria-hidden="true" class="icon-envelope"></i> {{ shop.email }}</a></li>
