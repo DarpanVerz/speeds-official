@@ -11,7 +11,7 @@ input::placeholder { color: #000 !important; opacity: 1; }
 #nav-bar { justify-content: center; }
 #root #nav-user>ul>li>a i span:before, #header-inner>.link-btn a:before, #nav-user>ul>li.link-btn>a:before { border-color: #ee1a24; background: #ed1a24; }
 .n6br ol li:last-child { text-transform: uppercase; }
-.input-range span #max { width: 113px; }
+.input-range span #max { width: 113px; padding-right: 10px !important; }
 .input-range>span { width: 43%; }
 #newsletter-footer button.overlay-primary { background: #262626 !important; }
 .link-btn a:hover::before { background: #ee1a24 !important; }
