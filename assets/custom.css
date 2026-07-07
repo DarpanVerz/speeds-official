@@ -124,6 +124,9 @@ body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:
 #root #nav ul li a img.social-icon.shopee-icon { width: 20px !important; height: 20px !important; margin-top: -2px; padding: 0 !important; }
 .m2a-delay .wa__btn_popup,.m2a-delay .wa__popup_chat_box { z-index: 9 !important; }
 
+/*07-07-2026*/
+.user-login .form-group a:hover, .user-login .form-group a:hover .link-underline { color: var(--positive_bg) !important; }
+
 @media(max-width:767px) {
     .palette-scheme-4 img { width: 320px !important; position: absolute !important; top: 60px !important; right: 0px !important; object-fit: contain !important; bottom: 42px; padding-bottom: 78px; }
     .blog-section .shopify-section { padding: 50px 5px; }
