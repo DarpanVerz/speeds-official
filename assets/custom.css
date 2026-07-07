@@ -122,7 +122,7 @@ body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:
 #root .overlay-dynamic_buy_button.plain-btn { width: 100%; }
 .wa__btn_popup, .wa__popup_chat_box { z-index: 13 !important; }
 #root #nav ul li a img.social-icon.shopee-icon { width: 20px !important; height: 20px !important; margin-top: -2px; padding: 0 !important; }
-
+.has-nav .wa__btn_popup,.has-nav .wa__popup_chat_box { z-index: 9 !important; }
 
 @media(max-width:767px) {
     .palette-scheme-4 img { width: 320px !important; position: absolute !important; top: 60px !important; right: 0px !important; object-fit: contain !important; bottom: 42px; padding-bottom: 78px; }
