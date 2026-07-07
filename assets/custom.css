@@ -126,6 +126,7 @@ body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:
 
 /*07-07-2026*/
 .user-login .form-group a:hover, .user-login .form-group a:hover .link-underline { color: var(--positive_bg) !important; }
+.section-width-boxed h3 { margin-top: 20px !important; }
 
 @media(max-width:767px) {
     .palette-scheme-4 img { width: 320px !important; position: absolute !important; top: 60px !important; right: 0px !important; object-fit: contain !important; bottom: 42px; padding-bottom: 78px; }
