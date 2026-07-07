@@ -108,14 +108,7 @@ body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:
 .custom-pro-content .check.box li label span { display: block !important; }
 .category.orientation-square li p { text-align: center !important; }
 
-@media(max-width:767px) {
-    .palette-scheme-4 img { width: 320px !important; position: absolute !important; top: 60px !important; right: 0px !important; object-fit: contain !important; bottom: 42px; padding-bottom: 78px; }
-    .blog-section .shopify-section { padding: 50px 5px; }
-    .cols>* { border-left-width: 10px !important; }
-    #root .shopify-section-header #nav>ul.nav-top>li.has-link-accessible { display: none !important; }
-    .blog-section { background: #fff; }
-    .blog-section::before { content: ""; background: #fff; }
-}
+
 .module-color-palette[class*=palette-] .link-btn a.overlay-secondary.inline:hover { color: #EE1A24; }
 #shopify-section-template--27256896586020__1663055785f2c7b641 .blog-section:before, #shopify-section-template--27256896586020__1663055785f2c7b641 .blog-section { background: none; }
 .f8sr .bv_mainselect .bv_ul_inner .li a { color: #000; }
@@ -129,6 +122,16 @@ body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:
 #root .overlay-dynamic_buy_button.plain-btn { width: 100%; }
 .wa__btn_popup, .wa__popup_chat_box { z-index: 13 !important; }
 #root #nav ul li a img.social-icon.shopee-icon { width: 20px !important; height: 20px !important; margin-top: -2px; padding: 0 !important; }
+
+
+@media(max-width:767px) {
+    .palette-scheme-4 img { width: 320px !important; position: absolute !important; top: 60px !important; right: 0px !important; object-fit: contain !important; bottom: 42px; padding-bottom: 78px; }
+    .blog-section .shopify-section { padding: 50px 5px; }
+    .cols>* { border-left-width: 10px !important; }
+    #root .shopify-section-header #nav>ul.nav-top>li.has-link-accessible { display: none !important; }
+    .blog-section { background: #fff; }
+    .blog-section::before { content: ""; background: #fff; }
+}
 @media screen and (min-width:768px) and (max-width:1024px) {
 
     /* #root .l4hs > li > div {
