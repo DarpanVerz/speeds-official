@@ -141,7 +141,7 @@ body .shopify-section-header #header-inner>.link-btn a.text-justify:first-child:
       top: -86px !important;
     } */
     .blog-section, .blog-section:before { background: none !important; }
-    .cols>* { border-left-width: 0 !important; }
+    /* .cols>* { border-left-width: 0 !important; } */
 }
 body:has(.m6pn#cart.active) .wa__widget_container, body:has(.m6pn#cart.active) [class*="whatsapp"] { display: none !important; }
 html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-container { display: none !important; }
