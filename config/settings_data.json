@@ -78,7 +78,7 @@
     "default_product_deliverytime_in_stock": "Next day delivery",
     "default_product_deliverytime_not_in_stock": "1-3 weeks",
     "product_deliverytime_info": "Monday to friday",
-    "default_product_deliverytime_info": "<p><strong>Mid weeks</strong>Monday to friday we offer next day delivery if the product is on stock and exceptions on holidays.<br/><br/><strong>Weekends</strong>We offer no deliveries in the weekends.<br/><br/><strong>International</strong>Depending on where you’re located, we offer next day delivery. Check status on this<br/><br/></p>",
+    "default_product_deliverytime_info": "<p><strong>Mid weeks </strong>Monday to friday we offer next day delivery if the product is on stock and exceptions on holidays.<br/><br/><strong>Weekends </strong>We offer no deliveries in the weekends.<br/><br/><strong>International </strong>Depending on where you’re located, we offer next day delivery. Check status on this<br/><br/></p>",
     "show_deliverytime_always": true,
     "shipping_timer_show_until": "23:59",
     "shipping_timer_show_from": "00",
