@@ -108,7 +108,7 @@
         "top_bar_font_size": "14px",
         "navbar_menu_item_text": "Customer service",
         "navbar_menu_item_icon": "none",
-        "navbar_menu_item_link": "shopify://pages/customer-support",
+        "navbar_menu_item_link": "shopify://pages/dukungan-pelanggan",
         "usp_display_type": "none",
         "enable_usp_slider_arrows": false,
         "enable_usp_slider_autoplay": true,
