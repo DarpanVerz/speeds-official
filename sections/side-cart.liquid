@@ -257,7 +257,7 @@
     </div>
   {%- endif -%}
   {%- if has_free_shipping_amount and cart.requires_shipping -%}
-    <ul class="l4al inline base-font">
+    <ul class="l4al inline base-font hidden">
       {%- if free_shipping_amount > cart.total_price -%}
         {%- assign amount = free_shipping_amount | minus: cart.total_price | money -%}
         <li class="overlay-rose">{{ 'cart.amount_to_free_shipping_long_html' | t: amount: amount }}</li>
