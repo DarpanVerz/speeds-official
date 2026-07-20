@@ -20,16 +20,19 @@
       "blocks": {
         "22fe4f0a-fb8b-4a4b-8b48-63686beda103": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p><strong>Free shipping</strong> above 50,00 </p>"
           }
         },
         "f10988bd-7b8f-4420-9e2e-d6c8e29c2c7f": {
           "type": "shipping_timer",
+          "disabled": true,
           "settings": {}
         },
         "b425d9f9-59f6-4925-978a-e491a14ab7ee": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p>We accept <strong>all payments</strong> from US and EU</p>"
           }
