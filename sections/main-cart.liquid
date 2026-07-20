@@ -416,11 +416,9 @@
                 </li>
               {%- endfor -%}
             {%- endif -%}
-            {% comment %}
             {%- if has_free_shipping_amount and cart.total_price > free_shipping_amount and cart.requires_shipping -%}
               <li class="strong overlay-lime">{{ 'cart.free_shipping' | t }}</li>
             {%- endif -%}
-             {% endcomment %}
             <li class="strong mobile-hide">
               <span>
                 {%- if cart.taxes_included -%}
