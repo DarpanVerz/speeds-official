@@ -255,7 +255,7 @@
         {%- endif -%}
       </ul>
     </div>
-  {%- endif -%}
+  {%- endif -%} {% comment %}
   {%- if has_free_shipping_amount and cart.requires_shipping -%}
     <ul class="l4al inline base-font hidden">
       {%- if free_shipping_amount > cart.total_price -%}
@@ -265,7 +265,7 @@
         <li class="overlay-lime">{{ 'cart.free_shipping_long_html' | t }}</li>
       {%- endif -%}
     </ul>
-  {%- endif -%}
+  {%- endif -%} {% endcomment %}
   <div class="sticky-in-panel">
     <ul class="l4tt m15">
       <li>
