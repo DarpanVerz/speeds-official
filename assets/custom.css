@@ -183,11 +183,7 @@ html body .jdgm-write-review-modal__close-btn {
     top: 15px !important;
     right: 15px !important;
     width: 40px !important;
-    max-width: 40px !important;
-    min-width: 40px !important;
     height: 40px !important;
-    max-height: 40px !important;
-    min-height: 40px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -236,36 +232,42 @@ html body .jdgm-write-review-modal__stars button.jdgm-star {
     align-items: center !important;
     justify-content: center !important;
     width: 36px !important;
-    min-width: 36px !important;
-    max-width: 36px !important;
     height: 36px !important;
-    min-height: 36px !important;
-    max-height: 36px !important;
-    background: transparent !important; 
+    background: transparent !important;
+    background-color: transparent !important;
     border: 0px solid transparent !important;
-    border-radius: 0 !important; 
     padding: 0 !important;
     margin: 0 !important;
-    color: #108474 !important; 
     box-shadow: none !important;
     outline: none !important;
     cursor: pointer !important;
     transition: transform 0.1s ease !important;
 }
 
-/* 4. APPLY MATERIAL SYMBOLS OUTLINED (Default state) */
+/* DESTROY THE THEME'S HIDDEN BUTTON BACKGROUND SHAPE */
+html body .jdgm-write-review-modal__stars button.jdgm-star::after {
+    display: none !important;
+    content: none !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+/* 4. ENABLE LIGATURES & APPLY MATERIAL SYMBOLS (Default state) */
 html body .jdgm-write-review-modal__stars button.jdgm-star::before {
-    font-family: 'Material Symbols Outlined', sans-serif !important;
+    font-family: 'Material Symbols Outlined' !important;
     content: 'star' !important;
+    font-variant-ligatures: normal !important; /* CRITICAL: Allows the word "star" to become an icon */
     font-size: 36px !important;
     line-height: 1 !important;
     visibility: visible !important;
     opacity: 1 !important;
     display: block !important;
     background: transparent !important;
-    color: #108474 !important;
+    color: #108474 !important; /* Speeds Official Green */
+    border: 0 !important;
+    box-shadow: none !important;
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
-    -webkit-font-smoothing: antialiased !important;
 }
 
 /* 5. HOVER & FILLED LOGIC */
