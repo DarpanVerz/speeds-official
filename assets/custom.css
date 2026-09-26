@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=star');
+
 :root { --custom_top_up_fg_hover: #FF8000 !important; --custom_top_main_link_bg: #ee1a24 !important; --secondary_bg: var(--primary_bg_btn); --primary_bg_btn: #262626; --alert_valid: #FF8000; --secondary_bg: #ed1a24; --secondary_bg_btn: #ed1a24; --secondary_bg_btn_dark: #ed1a24; --buy_btn_bg: #EE1A24; --secondary_bg_btn: #EE1A24; --secondary_bg_btn_dark: #EE1A24 !important; --custom_footer_fg_hover: #EE1A24 !important; --secondary_bg_btn_dark: #EE1A24 !important; }
 .l4us li:before { --lime: #FF8000 !important; }
 button:not([class*=overlay-]), .link-btn:not([class*=overlay-]) a:not([class*=overlay-]), #nav-user>ul>li>a i span, #totop a, .overlay-primary, .link-btn.overlay-primary a, .link-btn a.overlay-primary, button.overlay-primary, .overlay-primary button, .s1bx.overlay-primary { --secondary_btn_text: var(--primary_btn_text); --secondary_bg: var(--primary_bg_btn); --secondary_bg_btn: var(--primary_bg_btn); --secondary_bg_btn_dark: #EE1A24; }
@@ -173,14 +175,18 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
 }
 
 
+/* Bagus Added 9/26/2026 3:58 PM
+
 /* 1. SQUARE 'X' CLOSE BUTTON */
 html body .jdgm-write-review-modal__close-btn {
     position: absolute !important;
     top: 15px !important;
     right: 15px !important;
     width: 40px !important;
+    max-width: 40px !important;
     min-width: 40px !important;
     height: 40px !important;
+    max-height: 40px !important;
     min-height: 40px !important;
     display: flex !important;
     align-items: center !important;
@@ -190,6 +196,7 @@ html body .jdgm-write-review-modal__close-btn {
     border-radius: 0 !important;
     padding: 0 !important;
     z-index: 9999 !important;
+    box-shadow: none !important;
 }
 html body .jdgm-write-review-modal__close-btn:hover {
     background-color: #f4f4f4 !important;
@@ -199,46 +206,56 @@ html body .jdgm-write-review-modal__close-btn:hover {
 html body .jdgm-write-review-modal__stars {
     display: flex !important;
     flex-direction: row !important;
+    flex-wrap: nowrap !important;
     align-items: center !important;
     justify-content: center !important;
-    gap: 10px !important;
+    gap: 15px !important;
     margin-top: 25px !important;
 }
 
-/* Re-attach the text labels side-by-side */
 html body .jdgm-write-review-modal__stars::before {
     content: 'Buruk' !important;
     font-size: 16px !important;
     font-weight: 500 !important;
     color: #333333 !important;
+    display: block !important;
 }
 html body .jdgm-write-review-modal__stars::after {
     content: 'Bagus' !important;
     font-size: 16px !important;
     font-weight: 500 !important;
     color: #333333 !important;
+    display: block !important;
 }
 
-/* 3. STRIP BLACK CIRCLES & RESET BUTTONS */
+/* 3. STRIP PILL SHAPES & RESET BUTTONS */
 html body .jdgm-write-review-modal__stars button.jdgm-star {
+    appearance: none !important;
+    -webkit-appearance: none !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     width: 36px !important;
+    min-width: 36px !important;
+    max-width: 36px !important;
     height: 36px !important;
-    background-color: transparent !important; 
-    border: none !important;
+    min-height: 36px !important;
+    max-height: 36px !important;
+    background: transparent !important; 
+    border: 0px solid transparent !important;
     border-radius: 0 !important; 
     padding: 0 !important;
     margin: 0 !important;
     color: #108474 !important; 
+    box-shadow: none !important;
+    outline: none !important;
     cursor: pointer !important;
     transition: transform 0.1s ease !important;
 }
 
 /* 4. APPLY MATERIAL SYMBOLS OUTLINED (Default state) */
 html body .jdgm-write-review-modal__stars button.jdgm-star::before {
-    font-family: 'Material Symbols Outlined' !important;
+    font-family: 'Material Symbols Outlined', sans-serif !important;
     content: 'star' !important;
     font-size: 36px !important;
     line-height: 1 !important;
@@ -246,7 +263,9 @@ html body .jdgm-write-review-modal__stars button.jdgm-star::before {
     opacity: 1 !important;
     display: block !important;
     background: transparent !important;
+    color: #108474 !important;
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 /* 5. HOVER & FILLED LOGIC */
