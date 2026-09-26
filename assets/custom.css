@@ -171,3 +171,94 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
     .custom-pro-content .custom-buttons .shopify-payment-button__button--unbranded { padding: 1em 3.7em; min-width: 180px; }
     .f8pr div.submit>div, .f8pr div.submit>button { min-width: 180px; flex-basis: 0; margin-left: 10px; }
 }
+
+
+/* 1. SQUARE 'X' CLOSE BUTTON */
+html body .jdgm-write-review-modal__close-btn {
+    position: absolute !important;
+    top: 15px !important;
+    right: 15px !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    z-index: 9999 !important;
+}
+html body .jdgm-write-review-modal__close-btn:hover {
+    background-color: #f4f4f4 !important;
+}
+
+/* 2. BURUK - STARS - BAGUS HORIZONTAL LAYOUT */
+html body .jdgm-write-review-modal__stars {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    margin-top: 25px !important;
+}
+
+/* Re-attach the text labels side-by-side */
+html body .jdgm-write-review-modal__stars::before {
+    content: 'Buruk' !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #333333 !important;
+}
+html body .jdgm-write-review-modal__stars::after {
+    content: 'Bagus' !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #333333 !important;
+}
+
+/* 3. STRIP BLACK CIRCLES & RESET BUTTONS */
+html body .jdgm-write-review-modal__stars button.jdgm-star {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 36px !important;
+    height: 36px !important;
+    background-color: transparent !important; 
+    border: none !important;
+    border-radius: 0 !important; 
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #108474 !important; 
+    cursor: pointer !important;
+    transition: transform 0.1s ease !important;
+}
+
+/* 4. APPLY MATERIAL SYMBOLS OUTLINED (Default state) */
+html body .jdgm-write-review-modal__stars button.jdgm-star::before {
+    font-family: 'Material Symbols Outlined' !important;
+    content: 'star' !important;
+    font-size: 36px !important;
+    line-height: 1 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: block !important;
+    background: transparent !important;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
+}
+
+/* 5. HOVER & FILLED LOGIC */
+html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--on::before,
+html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--hovered::before {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
+}
+
+html body .jdgm-write-review-modal__stars:hover button.jdgm-star::before {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
+}
+
+html body .jdgm-write-review-modal__stars button.jdgm-star:hover ~ button.jdgm-star::before {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
+}
