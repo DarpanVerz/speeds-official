@@ -1684,13 +1684,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "/* 1. Fix the Close (X) button placement and square hover area */.jdgm-write-review-modal__close-btn {position: absolute !important; top: 15px !important; right: 15px !important; width: 40px !important; height: 40px !important; display: flex !important; align-items: center !important; justify-content: center !important; background: transparent !important; border: none !important; padding: 0 !important; border-radius: 0 !important; z-index: 999 !important;}",
-      ".jdgm-write-review-modal__close-btn:hover {background-color: #f4f4f4 !important;}",
-      "/* 2. Reveal the hidden stars and fix their sizing */.jdgm-write-review-modal__stars .jdgm-star {background: transparent !important; border: none !important; padding: 0 !important; min-width: 0 !important; /* Overrides theme's wide button defaults */ height: auto !important; margin: 0 2px !important; color: #108474 !important; /* Matches your theme's green */ font-size: 32px !important; cursor: pointer !important;}",
-      "/* Force the correct Judge.me star icon font */.jdgm-write-review-modal__stars .jdgm-star::before {font-family: 'JudgemeStar' !important; display: inline-block !important;}",
-      "/* 3. Align the layout: \"Buruk\" -> 5 Stars -> \"Bagus\" */.jdgm-write-review-modal__stars {display: flex !important; flex-direction: row !important; align-items: center !important; justify-content: center !important; gap: 15px !important; margin-top: 25px !important;}",
-      "/* 4. Style the \"Buruk\" and \"Bagus\" text */.jdgm-write-review-modal__stars::before,.jdgm-write-review-modal__stars::after {font-size: 16px !important; font-weight: 500 !important; color: #333333 !important;}"
-    ]
+    "custom_css": []
   }
 }
