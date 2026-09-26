@@ -177,32 +177,39 @@ html.m6pn-open .wa__widget_container, html.m6pn-open #shop-hcaptcha-badge-contai
 
 /* Bagus Added 9/26/2026 3:58 PM
 
-/* 1. SQUARE 'X' CLOSE BUTTON */
+/* 1. FIX MODAL CONTAINER SO 'X' CAN PIN TO THE CORNER */
+html body .jdgm-write-review-modal__content {
+    position: relative !important;
+    padding-top: 40px !important;
+}
+
+/* 2. SQUARE 'X' CLOSE BUTTON */
 html body .jdgm-write-review-modal__close-btn {
     position: absolute !important;
-    top: 15px !important;
-    right: 15px !important;
+    top: 10px !important;
+    right: 10px !important;
     width: 40px !important;
     height: 40px !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    background: transparent !important;
-    border: none !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
     z-index: 9999 !important;
-    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
+
 html body .jdgm-write-review-modal__close-btn:hover {
     background-color: #f4f4f4 !important;
 }
 
-/* 2. BURUK - STARS - BAGUS HORIZONTAL LAYOUT */
+/* 3. BURUK - STARS - BAGUS HORIZONTAL LAYOUT */
 html body .jdgm-write-review-modal__stars {
     display: flex !important;
     flex-direction: row !important;
-    flex-wrap: nowrap !important;
     align-items: center !important;
     justify-content: center !important;
     gap: 15px !important;
@@ -214,68 +221,57 @@ html body .jdgm-write-review-modal__stars::before {
     font-size: 16px !important;
     font-weight: 500 !important;
     color: #333333 !important;
-    display: block !important;
 }
+
 html body .jdgm-write-review-modal__stars::after {
     content: 'Bagus' !important;
     font-size: 16px !important;
     font-weight: 500 !important;
     color: #333333 !important;
-    display: block !important;
 }
 
-/* 3. STRIP PILL SHAPES & RESET BUTTONS */
+/* 4. STRIP ALL THEME BUTTON HIDERS */
 html body .jdgm-write-review-modal__stars button.jdgm-star {
     appearance: none !important;
-    -webkit-appearance: none !important;
-    display: flex !important;
+    display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 36px !important;
-    height: 36px !important;
+    width: 40px !important;
+    height: 40px !important;
     background: transparent !important;
-    background-color: transparent !important;
-    border: 0px solid transparent !important;
+    border: none !important;
+    box-shadow: none !important;
     padding: 0 !important;
     margin: 0 !important;
-    box-shadow: none !important;
-    outline: none !important;
+    text-indent: 0 !important; /* CRITICAL: Stops theme from hiding the icon text */
+    overflow: visible !important;
     cursor: pointer !important;
     transition: transform 0.1s ease !important;
 }
 
-/* DESTROY THE THEME'S HIDDEN BUTTON BACKGROUND SHAPE */
+/* Kill the hidden shapes behind the buttons */
 html body .jdgm-write-review-modal__stars button.jdgm-star::after {
     display: none !important;
-    content: none !important;
-    background: transparent !important;
-    border: 0 !important;
-    box-shadow: none !important;
 }
 
-/* 4. ENABLE LIGATURES & APPLY MATERIAL SYMBOLS (Default state) */
+/* 5. MATERIAL SYMBOLS LOGIC */
 html body .jdgm-write-review-modal__stars button.jdgm-star::before {
     font-family: 'Material Symbols Outlined' !important;
     content: 'star' !important;
-    font-variant-ligatures: normal !important; /* CRITICAL: Allows the word "star" to become an icon */
-    font-size: 36px !important;
-    line-height: 1 !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-variant-ligatures: normal !important;
+    font-size: 38px !important;
+    color: #108474 !important; /* Speeds Official Green */
+    display: block !important;
     visibility: visible !important;
     opacity: 1 !important;
-    display: block !important;
-    background: transparent !important;
-    color: #108474 !important; /* Speeds Official Green */
-    border: 0 !important;
-    box-shadow: none !important;
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
 }
 
-/* 5. HOVER & FILLED LOGIC */
+/* 6. HOVER & FILLED STATES */
 html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--on::before,
-html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--hovered::before {
-    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
-}
-
+html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--hovered::before,
 html body .jdgm-write-review-modal__stars:hover button.jdgm-star::before {
     font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
 }
