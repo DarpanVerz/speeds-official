@@ -250,9 +250,9 @@ html body .jdgm-write-review-modal__stars button.jdgm-star::before {
 }
 
 /* 5. HOVER & FILLED LOGIC */
+/* Let Judge.me's native JavaScript handle the smooth hovering to prevent gap-blinking */
 html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--on::before,
-html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--hovered::before,
-html body .jdgm-write-review-modal__stars:hover button.jdgm-star::before {
+html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--hovered::before {
     font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
 }
 
