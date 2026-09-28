@@ -259,3 +259,8 @@ html body .jdgm-write-review-modal__stars button.jdgm-star.jdgm--hovered::before
 html body .jdgm-write-review-modal__stars button.jdgm-star:hover ~ button.jdgm-star::before {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48 !important;
 }
+
+/* Hide Judge.me's native duplicate product image */
+html body .jdgm-write-review-modal__product-image {
+    display: none !important;
+}
