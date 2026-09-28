@@ -289,3 +289,8 @@ div#judgeme_product_reviews .jdgm-widget-header__actions {
     margin-top: 0 !important;
     padding-top: 0 !important;
 }
+
+/* Hide the 'Pengiriman hari berikutnya' stock badge on product cards */
+html body .stock.overlay-valid.list-hide.s1tt-cont {
+    display: none !important;
+}
