@@ -267,56 +267,44 @@ html body .jdgm-write-review-modal__product-image {
 
 /* Judge me formatting
 
-/* 1. MATCH THEME HEADING: DARK RED, BOLD, LARGE */
-html body .jdgm-rev-widg__title,
-html body .jdgm-widget-title,
-html body .jdgm-widget-header__title,
-html body h2.jdgm-widget-title {
+/* 1. MATCH THEME TITLE (Dark Red, Extra Bold, Large) */
+div#judgeme_product_reviews .jdgm-widget-title,
+div#judgeme_product_reviews .jdgm-rev-widg__title {
     font-family: inherit !important;
     font-size: 32px !important;
     font-weight: 800 !important;
     color: #6c0101 !important; /* Speeds dark red */
-    text-align: left !important;
     margin: 0 0 5px 0 !important;
     padding: 0 !important;
+    line-height: 1.1 !important;
     display: block !important;
-    line-height: 1.2 !important;
-    visibility: visible !important;
 }
 
-/* 2. ALIGN BUTTONS VERTICALLY TO THE TOP */
-html body .jdgm-rev-widg__header,
-html body .jdgm-widget-header {
+/* 2. ALIGN TOP RIGHT BUTTONS TO THE TOP EDGE */
+div#judgeme_product_reviews .jdgm-widget-header,
+div#judgeme_product_reviews .jdgm-rev-widg__header {
     display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    align-items: flex-start !important; /* Pulls the right-side buttons up to the top line */
+    align-items: flex-start !important; /* Forces buttons to lock to the top */
     justify-content: space-between !important;
-    margin-bottom: 25px !important;
 }
 
-/* 3. TIGHTEN THE RATING TEXT (5.0 1 ulasan) */
-html body .jdgm-rev-widg__summary,
-html body .jdgm-widget-header__rating,
-html body .jdgm-widget-rating {
-    display: flex !important;
-    align-items: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    gap: 8px !important;
+/* Strip invisible margins pushing the buttons down */
+div#judgeme_product_reviews .jdgm-widget-actions,
+div#judgeme_product_reviews .jdgm-widget-header__actions {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
-html body .jdgm-rev-widg__summary-text,
-html body .jdgm-widget-rating__text {
+/* 3. TIGHTEN THE STARS TEXT UNDERNEATH */
+div#judgeme_product_reviews .jdgm-widget-rating,
+div#judgeme_product_reviews .jdgm-rev-widg__summary {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+div#judgeme_product_reviews .jdgm-widget-rating__text,
+div#judgeme_product_reviews .jdgm-rev-widg__summary-text {
     font-size: 16px !important;
     font-weight: 500 !important;
     color: #333333 !important;
-    margin: 0 !important;
-}
-
-/* 4. ENSURE RIGHT-SIDE BUTTONS DON'T HAVE INVISIBLE TOP MARGINS */
-html body .jdgm-widget-actions,
-html body .jdgm-widget-header__actions {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
 }
