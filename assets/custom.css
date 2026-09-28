@@ -265,40 +265,58 @@ html body .jdgm-write-review-modal__product-image {
     display: none !important;
 }
 
+/* Judge me formatting
 
-/* 1. EXPAND WIDGET AND PULL TO THE LEFT EDGE */
-html body .jdgm-widget.jdgm-review-widget {
-    max-width: 100% !important;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-}
-
-/* 2. FORMAT "ULASAN PELANGGAN" LIKE "BARU SAJA DILIHAT" */
-html body .jdgm-rev-widg__title {
-    font-size: 32px !important; /* Matches your theme's large heading size */
-    font-weight: 800 !important; /* Extra bold */
-    color: #6c0101 !important; /* The exact dark red from your theme */
+/* 1. MATCH THEME HEADING: DARK RED, BOLD, LARGE */
+html body .jdgm-rev-widg__title,
+html body .jdgm-widget-title,
+html body .jdgm-widget-header__title,
+html body h2.jdgm-widget-title {
+    font-family: inherit !important;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    color: #6c0101 !important; /* Speeds dark red */
     text-align: left !important;
-    margin-top: 0 !important; /* Pulls it vertically to the top */
-    padding-top: 0 !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+    margin: 0 0 5px 0 !important;
+    padding: 0 !important;
     display: block !important;
+    line-height: 1.2 !important;
     visibility: visible !important;
 }
 
-/* 3. ALIGN "5.0 1 ULASAN" TO BE FLUSH WITH THE TITLE */
+/* 2. ALIGN BUTTONS VERTICALLY TO THE TOP */
 html body .jdgm-rev-widg__header,
-html body .jdgm-rev-widg__summary {
-    text-align: left !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+html body .jdgm-widget-header {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: flex-start !important; /* Pulls the right-side buttons up to the top line */
+    justify-content: space-between !important;
+    margin-bottom: 25px !important;
 }
 
-html body .jdgm-rev-widg__summary-text {
+/* 3. TIGHTEN THE RATING TEXT (5.0 1 ulasan) */
+html body .jdgm-rev-widg__summary,
+html body .jdgm-widget-header__rating,
+html body .jdgm-widget-rating {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    gap: 8px !important;
+}
+
+html body .jdgm-rev-widg__summary-text,
+html body .jdgm-widget-rating__text {
     font-size: 16px !important;
     font-weight: 500 !important;
     color: #333333 !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+    margin: 0 !important;
+}
+
+/* 4. ENSURE RIGHT-SIDE BUTTONS DON'T HAVE INVISIBLE TOP MARGINS */
+html body .jdgm-widget-actions,
+html body .jdgm-widget-header__actions {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
