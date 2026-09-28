@@ -267,44 +267,25 @@ html body .jdgm-write-review-modal__product-image {
 
 /* Judge me formatting
 
-/* 1. MATCH THEME TITLE (Dark Red, Extra Bold, Large) */
+/* 1. HIDE NATIVE JUDGE.ME TITLE */
 div#judgeme_product_reviews .jdgm-widget-title,
 div#judgeme_product_reviews .jdgm-rev-widg__title {
-    font-family: inherit !important;
-    font-size: 32px !important;
-    font-weight: 800 !important;
-    color: #6c0101 !important; /* Speeds dark red */
-    margin: 0 0 5px 0 !important;
-    padding: 0 !important;
-    line-height: 1.1 !important;
-    display: block !important;
+    display: none !important;
 }
 
-/* 2. ALIGN TOP RIGHT BUTTONS TO THE TOP EDGE */
+/* 2. PERFECTLY ALIGN STARS AND BUTTONS */
 div#judgeme_product_reviews .jdgm-widget-header,
 div#judgeme_product_reviews .jdgm-rev-widg__header {
     display: flex !important;
-    align-items: flex-start !important; /* Forces buttons to lock to the top */
+    flex-direction: row !important;
+    align-items: center !important; 
     justify-content: space-between !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
-/* Strip invisible margins pushing the buttons down */
 div#judgeme_product_reviews .jdgm-widget-actions,
 div#judgeme_product_reviews .jdgm-widget-header__actions {
     margin-top: 0 !important;
     padding-top: 0 !important;
-}
-
-/* 3. TIGHTEN THE STARS TEXT UNDERNEATH */
-div#judgeme_product_reviews .jdgm-widget-rating,
-div#judgeme_product_reviews .jdgm-rev-widg__summary {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-}
-
-div#judgeme_product_reviews .jdgm-widget-rating__text,
-div#judgeme_product_reviews .jdgm-rev-widg__summary-text {
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    color: #333333 !important;
 }
