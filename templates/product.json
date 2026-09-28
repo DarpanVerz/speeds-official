@@ -339,17 +339,6 @@
         "fix_zindex": 0
       }
     },
-    "section_custom_html_jEi4Vi": {
-      "type": "section-custom-html",
-      "custom_css": [],
-      "name": "t:sections.custom_html_snippet.presets.name",
-      "settings": {
-        "custom_html": "<h2>Ulasan Pelanggan</h2>",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
     "1790302096e4dbd760": {
       "type": "_blocks",
       "blocks": {
@@ -391,7 +380,6 @@
     "16551999062a9697ac",
     "1655736197e3f3d938",
     "recently-viewed",
-    "section_custom_html_jEi4Vi",
     "1790302096e4dbd760"
   ]
 }
