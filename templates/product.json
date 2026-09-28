@@ -339,13 +339,23 @@
         "fix_zindex": 0
       }
     },
+    "section_custom_html_jEi4Vi": {
+      "type": "section-custom-html",
+      "name": "t:sections.custom_html_snippet.presets.name",
+      "settings": {
+        "custom_html": "<h2 style=\"font-size: 32px; font-weight: 800; color: #6c0101; text-align: left; margin: 0 0 15px 0; padding: 0; line-height: 1.2; letter-spacing: normal;\">\n  Ulasan Pelanggan\n</h2>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "1790302096e4dbd760": {
       "type": "_blocks",
       "blocks": {
         "judge_me_reviews_review_widget_xR9QzU": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "review_data": "sample_data",
+            "review_data": "no_reviews",
             "max_width": 1200,
             "show_shop_reviews": false,
             "empty_state": "empty_widget"
@@ -380,6 +390,7 @@
     "16551999062a9697ac",
     "1655736197e3f3d938",
     "recently-viewed",
+    "section_custom_html_jEi4Vi",
     "1790302096e4dbd760"
   ]
 }
