@@ -297,49 +297,70 @@ html body .stock.overlay-valid.list-hide.s1tt-cont {
 
 /* new code 29 september 2026 4:47 PM
 
-/* 1. MAKE BUTTONS COMPACT AND REMOVE BORDERS */
-html body .jdgm-widget-actions .jdgm-write-rev-link,
-html body .jdgm-widget-actions .jdgm-filter-btn {
-    padding: 10px 20px !important; /* Makes them compact */
-    border: none !important; /* Removes the border */
-    border-radius: 6px !important; /* Soft rounded corners instead of massive pills */
-    box-shadow: none !important;
-    height: auto !important;
-    min-height: unset !important;
-    line-height: 1.2 !important;
+/* 1. NUCLEAR RESET ON JUDGE.ME BUTTONS */
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link,
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn {
+    all: unset !important; /* Vaporizes the theme's double borders and pill shapes */
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #262626 !important; /* Dark grey/black */
+    color: #ffffff !important;
+    padding: 0 20px !important;
+    border-radius: 6px !important; /* Soft corners */
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    box-sizing: border-box !important;
+    height: 40px !important; /* Forces buttons to be the exact same height */
 }
 
-/* 2. ALIGN BUTTONS AND DROPDOWN VERTICALLY */
-html body .jdgm-widget-actions,
-html body .jdgm-widget-header__actions {
+/* Kill theme pseudo-elements that draw the weird outer borders */
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link::before,
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link::after,
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn::before,
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* 2. NUCLEAR RESET ON DROPDOWN */
+div#judgeme_product_reviews select.jdgm-sort-dropdown {
+    all: unset !important; /* Strips theme invisible text styling */
+    appearance: auto !important; /* Brings back the native dropdown arrow */
+    -webkit-appearance: menulist !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    background-color: #ffffff !important;
+    color: #111111 !important; /* Fixes white-on-white text */
+    padding: 0 15px !important;
+    border: 1px solid #e5e5e5 !important; /* Clean, subtle gray border */
+    border-radius: 6px !important;
+    font-size: 14px !important;
+    height: 40px !important; /* Matches button height exactly */
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+}
+
+/* Ensure the dropdown options list is also visible */
+div#judgeme_product_reviews .jdgm-sort-dropdown option {
+    background-color: #ffffff !important;
+    color: #111111 !important;
+}
+
+/* 3. PERFECT ALIGNMENT ROW */
+div#judgeme_product_reviews .jdgm-widget-actions,
+div#judgeme_product_reviews .jdgm-widget-header__actions {
     display: flex !important;
     flex-direction: row !important;
-    align-items: center !important; /* Forces everything to center on the same horizontal line */
-    gap: 10px !important; /* Adds neat, even spacing between the buttons */
+    align-items: center !important; /* Locks them to the same horizontal centerline */
+    gap: 10px !important; /* Clean spacing between the 3 elements */
     margin: 0 !important;
+    padding: 0 !important;
 }
 
-/* Strip weird margins from the dropdown wrapper that push it out of alignment */
-html body .jdgm-sort-dropdown-wrapper {
+/* Strip weird margins from the dropdown wrapper */
+div#judgeme_product_reviews .jdgm-sort-dropdown-wrapper {
     margin: 0 !important;
     display: flex !important;
-    align-items: center !important;
-}
-
-/* Make the dropdown box match the compact height of the buttons */
-html body .jdgm-sort-dropdown {
-    height: auto !important;
-    min-height: unset !important;
-    padding: 10px 30px 10px 15px !important; /* Padding matches the buttons */
-    margin: 0 !important;
-    border: 1px solid #e5e5e5 !important; /* Subtle gray border so it looks like an input */
-    border-radius: 6px !important;
-    line-height: 1.2 !important;
-}
-
-/* 3. FIX INVISIBLE DROPDOWN OPTIONS (White text on white background bug) */
-html body .jdgm-sort-dropdown,
-html body .jdgm-sort-dropdown option {
-    background-color: #ffffff !important;
-    color: #111111 !important; /* Forces the text inside the dropdown to be dark */
 }
