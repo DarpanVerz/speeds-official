@@ -294,3 +294,52 @@ div#judgeme_product_reviews .jdgm-widget-header__actions {
 html body .stock.overlay-valid.list-hide.s1tt-cont {
     display: none !important;
 }
+
+/* new code 29 september 2026 4:47 PM
+
+/* 1. MAKE BUTTONS COMPACT AND REMOVE BORDERS */
+html body .jdgm-widget-actions .jdgm-write-rev-link,
+html body .jdgm-widget-actions .jdgm-filter-btn {
+    padding: 10px 20px !important; /* Makes them compact */
+    border: none !important; /* Removes the border */
+    border-radius: 6px !important; /* Soft rounded corners instead of massive pills */
+    box-shadow: none !important;
+    height: auto !important;
+    min-height: unset !important;
+    line-height: 1.2 !important;
+}
+
+/* 2. ALIGN BUTTONS AND DROPDOWN VERTICALLY */
+html body .jdgm-widget-actions,
+html body .jdgm-widget-header__actions {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important; /* Forces everything to center on the same horizontal line */
+    gap: 10px !important; /* Adds neat, even spacing between the buttons */
+    margin: 0 !important;
+}
+
+/* Strip weird margins from the dropdown wrapper that push it out of alignment */
+html body .jdgm-sort-dropdown-wrapper {
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Make the dropdown box match the compact height of the buttons */
+html body .jdgm-sort-dropdown {
+    height: auto !important;
+    min-height: unset !important;
+    padding: 10px 30px 10px 15px !important; /* Padding matches the buttons */
+    margin: 0 !important;
+    border: 1px solid #e5e5e5 !important; /* Subtle gray border so it looks like an input */
+    border-radius: 6px !important;
+    line-height: 1.2 !important;
+}
+
+/* 3. FIX INVISIBLE DROPDOWN OPTIONS (White text on white background bug) */
+html body .jdgm-sort-dropdown,
+html body .jdgm-sort-dropdown option {
+    background-color: #ffffff !important;
+    color: #111111 !important; /* Forces the text inside the dropdown to be dark */
+}
