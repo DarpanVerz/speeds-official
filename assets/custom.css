@@ -297,67 +297,50 @@ html body .stock.overlay-valid.list-hide.s1tt-cont {
 
 /* new code 29 september 2026 4:47 PM
 
-/* 1. BUTTON FIXES: Strip theme's injected pill layers */
-html body .jdgm-widget-actions .jdgm-write-rev-link,
-html body .jdgm-widget-actions .jdgm-filter-btn {
+/* 1. CLEAN UP THE BUTTONS (Kill theme double-borders) */
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link,
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn {
     background-color: #262626 !important;
     color: #ffffff !important;
     border: none !important;
     border-radius: 6px !important;
     padding: 10px 20px !important;
-    height: 40px !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    box-shadow: none !important;
+    box-shadow: none !important; /* Removes outer theme border */
+    outline: none !important;
+    height: auto !important;
 }
 
-/* Kill Xtra theme's extra borders and inner pill shapes */
-html body .jdgm-widget-actions .jdgm-write-rev-link::before,
-html body .jdgm-widget-actions .jdgm-write-rev-link::after,
-html body .jdgm-widget-actions .jdgm-filter-btn::before,
-html body .jdgm-widget-actions .jdgm-filter-btn::after {
+/* Hide the pseudo-elements the theme uses to draw those pill shapes */
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link::before,
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link::after,
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn::before,
+div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn::after {
     display: none !important;
-}
-
-html body .jdgm-widget-actions .jdgm-write-rev-link span,
-html body .jdgm-widget-actions .jdgm-filter-btn span {
-    background: transparent !important;
-    border: none !important;
-    border-radius: 0 !important;
     box-shadow: none !important;
+    border: none !important;
 }
 
-/* 2. DROPDOWN FIXES: Hide theme duplicate, style the real one */
-html body select.jdgm-sort-dropdown {
-    display: inline-block !important; /* Keep the real one visible */
-    background-color: #ffffff !important;
-    color: #111111 !important; /* Force text to be visible */
-    border: 1px solid #cccccc !important;
-    border-radius: 6px !important;
-    height: 40px !important;
-    padding: 0 30px 0 15px !important;
-    margin: 0 !important;
-}
-
-html body select.jdgm-sort-dropdown option {
-    background-color: #ffffff !important;
+/* 2. FIX INVISIBLE DROPDOWN TEXT (Native and Theme Custom) */
+/* Forces all dropdown lists and options to use dark text so they are readable */
+select option,
+.f8sr ul li,
+.bv_ul_inner li,
+div#judgeme_product_reviews .jdgm-sort-dropdown {
     color: #111111 !important;
 }
 
-/* Hide the Xtra theme's broken custom duplicate dropdown */
-html body .jdgm-sort-dropdown-wrapper .bv_atual,
-html body .jdgm-sort-dropdown-wrapper .f8sr {
-    display: none !important;
-}
-
-/* 3. PERFECT ALIGNMENT */
-html body .jdgm-widget-actions,
-html body .jdgm-widget-header__actions {
+/* 3. ALIGN EVERYTHING HORIZONTALLY */
+div#judgeme_product_reviews .jdgm-rev-widg__header {
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
-    gap: 10px !important; /* Space between buttons */
+    justify-content: space-between !important;
+}
+
+div#judgeme_product_reviews .jdgm-widget-actions {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
     margin: 0 !important;
     padding: 0 !important;
 }
