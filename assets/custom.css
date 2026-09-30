@@ -299,12 +299,12 @@ html body .stock.overlay-valid.list-hide.s1tt-cont {
 
 /* 1. V3 BUTTON FIX: Pill shape, red hover, remove outlines */
 html body #root div#judgeme_product_reviews .jm-button {
-    background: #262626 !important; /* Dark grey */
+    background: #262626 !important; 
     color: #ffffff !important;
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
-    border-radius: 9999px !important; /* PERFECT PILL SHAPE */
+    border-radius: 9999px !important; 
     height: 40px !important;
     min-height: 40px !important;
     padding: 0 20px !important;
@@ -316,32 +316,45 @@ html body #root div#judgeme_product_reviews .jm-button {
     line-height: 1 !important;
     margin: 0 !important;
     cursor: pointer !important;
-    transition: background 0.3s ease !important; /* Smooth hover transition */
+    transition: background 0.3s ease !important;
 }
 
-/* RED HOVER STATE */
 html body #root div#judgeme_product_reviews .jm-button:hover {
-    background: #6c0101 !important; /* Dark red hover */
+    background: #6c0101 !important; 
     color: #ffffff !important;
 }
 
-/* Kill the pseudo-elements Judge.me V3 uses to draw fake borders */
 html body #root div#judgeme_product_reviews .jm-button::before,
 html body #root div#judgeme_product_reviews .jm-button::after {
     display: none !important;
     content: none !important;
 }
 
-/* 2. SPACING FIX: Bring buttons closer together */
-html body #root div#judgeme_product_reviews .jm-review-widget-minimal-header__button-and-filters {
+
+/* 2. THE SPACING FIX: Shrink-wrap all nested invisible containers */
+html body #root div#judgeme_product_reviews .jm-review-widget-minimal-header__button-and-filters,
+html body #root div#judgeme_product_reviews .jm-action-buttons,
+html body #root div#judgeme_product_reviews .jm-review-widget-minimal-header__filters,
+html body #root div#judgeme_product_reviews .jm-filters,
+html body #root div#judgeme_product_reviews .jm-filters__buttons,
+html body #root div#judgeme_product_reviews .jm-sort-filter {
     display: flex !important;
-    flex-direction: row !important;
-    justify-content: flex-end !important; /* Pushes them together to the right */
-    gap: 15px !important; /* Controls the exact gap between 'Tulis ulasan' and the filters */
+    flex: 0 0 auto !important; /* Stops containers from expanding */
+    flex-grow: 0 !important; /* Kills expansion */
+    margin: 0 !important; /* Kills auto-margins that push things apart */
+    width: auto !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
 }
 
-/* 3. V3 DROPDOWN FIX: Kill theme's fake select, force real select to show */
-/* Hide the theme's fake dropdown wrapper entirely inside Judge.me */
+/* Apply an exact 10px gap between the now-tightly-wrapped items */
+html body #root div#judgeme_product_reviews .jm-review-widget-minimal-header__button-and-filters,
+html body #root div#judgeme_product_reviews .jm-filters__buttons {
+    gap: 10px !important;
+}
+
+
+/* 3. V3 DROPDOWN FIX: Native select styling */
 html body #root div#judgeme_product_reviews .bv_atual,
 html body #root div#judgeme_product_reviews .f8sr {
     display: none !important;
@@ -350,10 +363,10 @@ html body #root div#judgeme_product_reviews .f8sr {
     pointer-events: none !important;
 }
 
-/* Force the native select to be visible and styled as a pill */
 html body #root div#judgeme_product_reviews select {
-    display: inline-block !important;
-    opacity: 1 !important; /* Defeats theme's attempt to hide it */
+    display: inline-flex !important;
+    align-items: center !important;
+    opacity: 1 !important; 
     visibility: visible !important;
     position: static !important;
     min-width: 180px !important; 
@@ -362,7 +375,7 @@ html body #root div#judgeme_product_reviews select {
     background-color: #ffffff !important;
     color: #111111 !important; 
     border: 1px solid #cccccc !important;
-    border-radius: 9999px !important; /* Pill shape to match buttons */
+    border-radius: 9999px !important; 
     padding: 0 30px 0 15px !important;
     margin: 0 !important;
     box-sizing: border-box !important;
