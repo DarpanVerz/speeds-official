@@ -455,39 +455,59 @@ html body #root div#judgeme_product_reviews select {
     padding-right: 35px !important; /* Ensures the text never collides with your newly placed arrow */
 }
 
-/* 9. MEDIA GRID ARROWS FIX: Compact square shapes with high contrast */
-/* Reset the button shape and size */
+/* 9. MEDIA GRID ARROWS FIX: Perfect circles, placed on the left and right */
+
+/* Pastikan kontainer utama relatif agar panah bisa melayang di dalamnya */
+html body #root div#judgeme_product_reviews .jm-media-grid,
+html body #root div#judgeme_product_reviews .jm-media-grid__container {
+    position: relative !important;
+}
+
+/* Bentuk dasar tombol: Lingkaran melayang */
 html body #root div#judgeme_product_reviews button.jm-media-grid__arrow {
-    all: unset !important; /* Strips all theme button styling */
+    all: unset !important; 
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 36px !important;  /* Compact square width */
-    height: 36px !important; /* Compact square height */
-    background: rgba(38, 38, 38, 0.85) !important; /* Dark background for visibility */
-    color: #ffffff !important; /* White arrow */
-    border-radius: 4px !important; /* Clean square with very slightly soft edges */
+    width: 40px !important;  /* Ukuran lingkaran */
+    height: 40px !important; 
+    background: rgba(38, 38, 38, 0.85) !important; /* Latar belakang gelap agar kontras */
+    color: #ffffff !important; 
+    border-radius: 50% !important; /* LINGKARAN SEMPURNA */
     cursor: pointer !important;
     transition: background 0.3s ease !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important; /* Drop shadow so it pops on light images */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3) !important;
     z-index: 10 !important;
+    position: absolute !important; /* Melepaskan tombol dari grup */
+    top: 50% !important; /* Menyelaraskan secara vertikal ke tengah */
+    transform: translateY(-50%) !important;
 }
 
-/* Match the red hover effect */
+/* Tarik tombol Kiri (Previous) ke tepi kiri */
+html body #root div#judgeme_product_reviews button.jm-media-grid__arrow--prev {
+    left: 10px !important; 
+}
+
+/* Tarik tombol Kanan (Next) ke tepi kanan */
+html body #root div#judgeme_product_reviews button.jm-media-grid__arrow--next {
+    right: 10px !important; 
+}
+
+/* Efek hover merah gelap */
 html body #root div#judgeme_product_reviews button.jm-media-grid__arrow:hover {
     background: #6c0101 !important;
 }
 
-/* KILL the massive pill-shaped pseudo-elements injected by the Xtra theme */
+/* Hancurkan elemen bayangan tema Xtra yang mengganggu */
 html body #root div#judgeme_product_reviews button.jm-media-grid__arrow::before,
 html body #root div#judgeme_product_reviews button.jm-media-grid__arrow::after {
     display: none !important;
     content: none !important;
 }
 
-/* Make sure the SVG arrow inside is perfectly sized and bright white */
+/* Pastikan ikon panah SVG di dalamnya berukuran pas dan berwarna putih terang */
 html body #root div#judgeme_product_reviews button.jm-media-grid__arrow svg {
-    width: 20px !important;
-    height: 20px !important;
+    width: 22px !important;
+    height: 22px !important;
     stroke: #ffffff !important;
 }
