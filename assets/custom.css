@@ -513,8 +513,8 @@ html body #root div#judgeme_product_reviews button.jm-media-grid__arrow svg {
 }
 
 /* 10. LIGHTBOX MODAL ARROWS: Perfect circles & kill theme shadows */
-html body .jdgm-modal_overlay .jm-navigation_previous,
-html body .jdgm-modal_overlay .jm-navigation_next {
+html body .jdgm-modal__container .jm-navigation__previous,
+html body .jdgm-modal__container .jm-navigation__next {
     all: unset !important; 
     display: flex !important;
     align-items: center !important;
@@ -533,31 +533,30 @@ html body .jdgm-modal_overlay .jm-navigation_next {
     transform: translateY(-50%) !important;
 }
 
-html body .jdgm-modal_overlay .jm-navigation_previous {
+html body .jdgm-modal__container .jm-navigation__previous {
     left: 15px !important; /* Pulls to the left edge */
 }
 
-html body .jdgm-modal_overlay .jm-navigation_next {
+html body .jdgm-modal__container .jm-navigation__next {
     right: 15px !important; /* Pulls to the right edge */
 }
 
-html body .jdgm-modal_overlay .jm-navigation_previous:hover,
-html body .jdgm-modal_overlay .jm-navigation_next:hover {
+html body .jdgm-modal__container .jm-navigation__previous:hover,
+html body .jdgm-modal__container .jm-navigation__next:hover {
     background: #6c0101 !important; /* Dark red hover */
 }
 
 /* Kill theme pseudo-elements on the arrows */
-html body .jdgm-modal_overlay .jm-navigation_previous::before,
-html body .jdgm-modal_overlay .jm-navigation_previous::after,
-html body .jdgm-modal_overlay .jm-navigation_next::before,
-html body .jdgm-modal_overlay .jm-navigation_next::after {
+html body .jdgm-modal__container .jm-navigation__previous::before,
+html body .jdgm-modal__container .jm-navigation__previous::after,
+html body .jdgm-modal__container .jm-navigation__next::before,
+html body .jdgm-modal__container .jm-navigation__next::after {
     display: none !important;
     content: none !important;
 }
 
-
 /* 11. LIGHTBOX CLOSE BUTTON ('X'): Pull inside and make circular */
-html body .jdgm-modal_overlay .jm-indicator_close {
+html body .jdgm-modal__container .jm-indicator__close {
     all: unset !important;
     position: absolute !important;
     top: 15px !important; /* Pulls it down inside the box */
@@ -575,13 +574,13 @@ html body .jdgm-modal_overlay .jm-indicator_close {
     transition: background 0.3s ease !important;
 }
 
-html body .jdgm-modal_overlay .jm-indicator_close:hover {
+html body .jdgm-modal__container .jm-indicator__close:hover {
     background: #6c0101 !important; 
 }
 
 /* Kill theme pseudo-elements on the close button */
-html body .jdgm-modal_overlay .jm-indicator_close::before,
-html body .jdgm-modal_overlay .jm-indicator_close::after {
+html body .jdgm-modal__container .jm-indicator__close::before,
+html body .jdgm-modal__container .jm-indicator__close::after {
     display: none !important;
     content: none !important;
 }
