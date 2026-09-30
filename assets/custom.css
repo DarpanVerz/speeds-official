@@ -297,57 +297,32 @@ html body .stock.overlay-valid.list-hide.s1tt-cont {
 
 /* new code 29 september 2026 4:47 PM----------------------------------------------------------------------
 
-/* 1. SCORCHED EARTH BUTTON FIX */
-/* Force the button itself into a compact, 6px rounded rectangle */
-html body #root div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link,
-html body #root div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn {
+/* 1. V3 BUTTON FIX: Compact width, remove green outline */
+html body #root div#judgeme_product_reviews .jm-button {
     background: #262626 !important; /* Dark grey */
     color: #ffffff !important;
     border: none !important;
     outline: none !important;
-    box-shadow: none !important;
+    box-shadow: none !important; /* Kills the thin green line */
     border-radius: 6px !important; /* Clean, soft corners */
     height: 40px !important;
-    line-height: 40px !important;
-    padding: 0 20px !important;
-    margin: 0 !important;
-    width: auto !important;
+    min-height: 40px !important;
+    padding: 0 20px !important; /* Compact spacing around text */
+    width: max-content !important; /* Prevents stretching */
     min-width: 0 !important;
-    display: inline-block !important;
-}
-
-/* Kill ANY outlines, borders, or backgrounds on parent wrappers injected by the theme */
-html body #root div#judgeme_product_reviews .jdgm-widget-actions > div,
-html body #root div#judgeme_product_reviews .jdgm-widget-actions > span {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-    background: transparent !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border-radius: 0 !important;
-}
-
-/* Kill inner text wrappers and fake pill shapes */
-html body #root div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link *,
-html body #root div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn * {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    outline: none !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1 !important;
     margin: 0 !important;
 }
 
-/* Kill injected theme pseudo-elements */
-html body #root div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link::before,
-html body #root div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link::after,
-html body #root div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn::before,
-html body #root div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn::after {
+/* Kill the pseudo-elements Judge.me V3 uses to draw fake borders */
+html body #root div#judgeme_product_reviews .jm-button::before,
+html body #root div#judgeme_product_reviews .jm-button::after {
     display: none !important;
+    content: none !important;
 }
-
 
 /* 2. DROPDOWN FIX (Untouched - Working Perfectly) */
 html body select.jdgm-sort-dropdown {
@@ -378,18 +353,9 @@ html body .jdgm-sort-dropdown-wrapper .f8sr {
     display: none !important;
 }
 
-
-/* 3. ALIGNMENT FIX */
-html body #root div#judgeme_product_reviews .jdgm-rev-widg__header {
+/* 3. V3 ALIGNMENT FIX */
+html body #root div#judgeme_product_reviews .jm-cluster {
     display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-}
-
-html body #root div#judgeme_product_reviews .jdgm-widget-actions {
-    display: flex !important;
-    align-items: center !important;
-    gap: 10px !important; /* Creates neat spacing between buttons */
-    margin: 0 !important;
-    padding: 0 !important;
+    align-items: center !important; /* Locks buttons to the horizontal center */
+    gap: 10px !important; /* Neat spacing between all elements */
 }
