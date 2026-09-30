@@ -297,23 +297,25 @@ html body .stock.overlay-valid.list-hide.s1tt-cont {
 
 /* new code 29 september 2026 4:47 PM
 
-/* 1. BUTTON FIX: Kill the inner pill shapes and outer borders */
+/* 1. BUTTON FIX: Compact width, remove fake shadows/borders/pills */
 div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link,
 div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn {
-    background: #262626 !important; /* The dark grey color */
+    background: #262626 !important; /* Dark grey */
     color: #ffffff !important;
-    border: none !important; /* Kills the weird outer outline */
+    border: none !important; 
+    outline: none !important;
+    box-shadow: none !important; /* Kills the thin outer line */
     border-radius: 6px !important; /* Clean, soft corners */
     height: 40px !important;
-    padding: 0 20px !important;
+    width: auto !important; /* Makes the width compact */
+    min-width: 0 !important; /* Removes theme's forced stretching */
+    padding: 0 16px !important; /* Tightens the spacing around the text */
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: none !important;
-    overflow: hidden !important;
 }
 
-/* Force everything INSIDE the buttons to be completely flat and transparent */
+/* Force the inner text/spans to be flat and transparent */
 div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link *,
 div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn * {
     background: transparent !important;
@@ -321,9 +323,10 @@ div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn * {
     border-radius: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
+    box-shadow: none !important;
 }
 
-/* Kill injected theme pseudo-elements */
+/* Kill theme pseudo-element borders */
 div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link::before,
 div#judgeme_product_reviews .jdgm-widget-actions .jdgm-write-rev-link::after,
 div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn::before,
@@ -331,15 +334,14 @@ div#judgeme_product_reviews .jdgm-widget-actions .jdgm-filter-btn::after {
     display: none !important;
 }
 
-
-/* 2. DROPDOWN FIX: Fix the squished width and color */
+/* 2. DROPDOWN FIX (Untouched - Working perfectly) */
 div#judgeme_product_reviews select.jdgm-sort-dropdown {
     display: inline-block !important;
-    min-width: 180px !important; /* FORCES the dropdown to be wide enough to read */
+    min-width: 180px !important; 
     width: auto !important;
-    height: 40px !important; /* Matches button height */
+    height: 40px !important; 
     background-color: #ffffff !important;
-    color: #111111 !important; /* Forces black text */
+    color: #111111 !important; 
     border: 1px solid #cccccc !important;
     border-radius: 6px !important;
     padding: 0 30px 0 15px !important;
@@ -361,8 +363,7 @@ div#judgeme_product_reviews .jdgm-sort-dropdown-wrapper .f8sr {
     display: none !important;
 }
 
-
-/* 3. ALIGNMENT FIX: Put them all on the same straight line */
+/* 3. ALIGNMENT FIX */
 div#judgeme_product_reviews .jdgm-rev-widg__header {
     display: flex !important;
     align-items: center !important;
