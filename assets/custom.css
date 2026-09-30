@@ -511,3 +511,66 @@ html body #root div#judgeme_product_reviews button.jm-media-grid__arrow svg {
     height: 22px !important;
     stroke: #ffffff !important;
 }
+
+/* 10. LIGHTBOX MODAL ARROWS: Perfect circles & kill theme shadows */
+html body #root div#judgeme_product_reviews button.jm-navigation__previous,
+html body #root div#judgeme_product_reviews button.jm-navigation__next {
+    all: unset !important; /* Strips all theme styling */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    background: rgba(38, 38, 38, 0.85) !important;
+    color: #ffffff !important;
+    border-radius: 50% !important; /* Perfect circles */
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3) !important;
+    z-index: 9999 !important;
+}
+
+/* Hover state */
+html body #root div#judgeme_product_reviews button.jm-navigation__previous:hover,
+html body #root div#judgeme_product_reviews button.jm-navigation__next:hover {
+    background: #6c0101 !important; /* Dark red hover */
+}
+
+/* Kill theme pseudo-elements on the arrows */
+html body #root div#judgeme_product_reviews button.jm-navigation__previous::before,
+html body #root div#judgeme_product_reviews button.jm-navigation__previous::after,
+html body #root div#judgeme_product_reviews button.jm-navigation__next::before,
+html body #root div#judgeme_product_reviews button.jm-navigation__next::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* 11. LIGHTBOX CLOSE BUTTON ('X'): Pull inside and make circular */
+html body #root div#judgeme_product_reviews button.jm-indicator_close {
+    all: unset !important;
+    position: absolute !important;
+    top: 15px !important; /* Pulls it down inside the box */
+    right: 15px !important; /* Pulls it left inside the box */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 36px !important;
+    height: 36px !important;
+    background: rgba(0, 0, 0, 0.05) !important; /* Subtle gray background */
+    color: #111111 !important;
+    border-radius: 50% !important; /* Circular shape */
+    cursor: pointer !important;
+    z-index: 9999 !important;
+    transition: background 0.3s ease !important;
+}
+
+html body #root div#judgeme_product_reviews button.jm-indicator_close:hover {
+    background: rgba(0, 0, 0, 0.15) !important; /* Slightly darker on hover */
+}
+
+/* Kill theme pseudo-elements on the close button */
+html body #root div#judgeme_product_reviews button.jm-indicator_close::before,
+html body #root div#judgeme_product_reviews button.jm-indicator_close::after {
+    display: none !important;
+    content: none !important;
+}
