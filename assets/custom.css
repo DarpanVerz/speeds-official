@@ -389,9 +389,18 @@ html body #root div#judgeme_product_reviews select option {
     color: #111111 !important;
 }
 
-/* 4. NO REVIEWS STATE FIX: Override the right-align rule just for the empty state */
+/* 4. NO REVIEWS STATE FIX: Center the button horizontally and vertically */
 html body #root div#judgeme_product_reviews .jm-no-reviews-state .jm-action-buttons {
-    justify-content: center !important; /* Centers the button horizontally */
-    width: 100% !important; /* Allows it to take up the full center width */
-    margin: 24px 0 !important; /* Adds the perfect vertical spacing above and below */
+    justify-content: center !important; 
+    width: 100% !important; 
+    margin: 20px 0 !important; /* Perfect vertical spacing */
+}
+
+/* Kill the invisible 269px stretching wrapper */
+html body #root div#judgeme_product_reviews .jm-no-reviews-state .jm-action-buttons > * {
+    flex-grow: 0 !important; 
+    flex: 0 0 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: auto !important;
 }
