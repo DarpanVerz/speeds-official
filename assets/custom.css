@@ -555,7 +555,7 @@ html body .jdgm-modal__container .jm-navigation__next::after {
     content: none !important;
 }
 
-/* 11. LIGHTBOX CLOSE BUTTON ('X'): Pull inside and make circular */
+/* 11. LIGHTBOX CLOSE BUTTON ('X'): Soft grey, no background */
 
 /* Reset div induk yang mendorong tombol ke luar kotak */
 html body .jdgm-modal__container .jm-indicator {
@@ -570,7 +570,7 @@ html body .jdgm-modal__container {
     position: relative !important;
 }
 
-/* Tarik tombol X tepat ke sudut kanan atas kotak putih */
+/* Tarik tombol X tepat ke dalam dan hilangkan lingkarannya */
 html body .jdgm-modal__container .jm-indicator__close {
     all: unset !important;
     position: absolute !important;
@@ -581,16 +581,29 @@ html body .jdgm-modal__container .jm-indicator__close {
     justify-content: center !important;
     width: 36px !important;
     height: 36px !important;
-    background: rgba(38, 38, 38, 0.85) !important; 
-    color: #ffffff !important;
-    border-radius: 50% !important; /* Circular shape */
+    background: transparent !important; /* Menghilangkan lingkaran */
+    color: #888888 !important; /* Warna abu-abu lembut */
+    box-shadow: none !important;
     cursor: pointer !important;
     z-index: 99999 !important;
-    transition: background 0.3s ease !important;
+    transition: all 0.3s ease !important;
 }
 
+/* Ubah warna SVG 'X' menjadi abu-abu lembut */
+html body .jdgm-modal__container .jm-indicator__close svg {
+    stroke: #888888 !important;
+    width: 20px !important;
+    height: 20px !important;
+    transition: stroke 0.3s ease !important;
+}
+
+/* Hover state: Warna abu-abu yang sedikit lebih gelap, tanpa background */
 html body .jdgm-modal__container .jm-indicator__close:hover {
-    background: #6c0101 !important; 
+    background: transparent !important; 
+    color: #111111 !important; 
+}
+html body .jdgm-modal__container .jm-indicator__close:hover svg {
+    stroke: #111111 !important; 
 }
 
 /* Kill theme pseudo-elements on the close button */
