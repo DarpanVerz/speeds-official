@@ -556,11 +556,26 @@ html body .jdgm-modal__container .jm-navigation__next::after {
 }
 
 /* 11. LIGHTBOX CLOSE BUTTON ('X'): Pull inside and make circular */
+
+/* Reset div induk yang mendorong tombol ke luar kotak */
+html body .jdgm-modal__container .jm-indicator {
+    position: static !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+}
+
+/* Pastikan kotak modal utama menjadi titik acuan penempatan (anchor) */
+html body .jdgm-modal__container {
+    position: relative !important;
+}
+
+/* Tarik tombol X tepat ke sudut kanan atas kotak putih */
 html body .jdgm-modal__container .jm-indicator__close {
     all: unset !important;
     position: absolute !important;
-    top: 15px !important; /* Pulls it down inside the box */
-    right: 15px !important; /* Pulls it left inside the box */
+    top: 15px !important; 
+    right: 15px !important; 
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
