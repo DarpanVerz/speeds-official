@@ -388,3 +388,10 @@ html body #root div#judgeme_product_reviews select option {
     background-color: #ffffff !important;
     color: #111111 !important;
 }
+
+/* 4. NO REVIEWS STATE FIX: Center the button horizontally and vertically */
+html body #root div#judgeme_product_reviews .jm-no-reviews-state__action-buttons {
+    justify-content: center !important; /* Centers the button horizontally */
+    width: 100% !important;
+    margin: 15px 0 !important; /* Adds clean vertical spacing above and below */
+}
