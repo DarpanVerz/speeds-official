@@ -454,3 +454,40 @@ html body #root div#judgeme_product_reviews select {
     
     padding-right: 35px !important; /* Ensures the text never collides with your newly placed arrow */
 }
+
+/* 9. MEDIA GRID ARROWS FIX: Compact square shapes with high contrast */
+/* Reset the button shape and size */
+html body #root div#judgeme_product_reviews button.jm-media-grid__arrow {
+    all: unset !important; /* Strips all theme button styling */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 36px !important;  /* Compact square width */
+    height: 36px !important; /* Compact square height */
+    background: rgba(38, 38, 38, 0.85) !important; /* Dark background for visibility */
+    color: #ffffff !important; /* White arrow */
+    border-radius: 4px !important; /* Clean square with very slightly soft edges */
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important; /* Drop shadow so it pops on light images */
+    z-index: 10 !important;
+}
+
+/* Match the red hover effect */
+html body #root div#judgeme_product_reviews button.jm-media-grid__arrow:hover {
+    background: #6c0101 !important;
+}
+
+/* KILL the massive pill-shaped pseudo-elements injected by the Xtra theme */
+html body #root div#judgeme_product_reviews button.jm-media-grid__arrow::before,
+html body #root div#judgeme_product_reviews button.jm-media-grid__arrow::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Make sure the SVG arrow inside is perfectly sized and bright white */
+html body #root div#judgeme_product_reviews button.jm-media-grid__arrow svg {
+    width: 20px !important;
+    height: 20px !important;
+    stroke: #ffffff !important;
+}
