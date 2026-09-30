@@ -413,3 +413,11 @@ html body #root div#judgeme_product_reviews .jm-no-reviews-state .jm-action-butt
 html body #root div#judgeme_product_reviews .jdgm-empty-state {
     display: none !important;
 }
+
+/* 6. MOBILE FIX: Make the sort dropdown compact on small screens */
+@media only screen and (max-width: 768px) {
+    html body #root div#judgeme_product_reviews select {
+        min-width: 0 !important; /* Overrides the 180px desktop width */
+        width: auto !important;  /* Shrink-wraps the text tightly */
+    }
+}
