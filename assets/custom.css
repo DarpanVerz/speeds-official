@@ -438,3 +438,19 @@ html body #root div#judgeme_product_reviews .jdgm-empty-state {
 html body #root div#judgeme_product_reviews .jm-sort-filter__icon {
     display: none !important;
 }
+
+/* 8. CUSTOM DROPDOWN ARROW SPACING */
+html body #root div#judgeme_product_reviews select {
+    appearance: none !important; /* Turns off the stubborn native OS arrow */
+    -webkit-appearance: none !important; /* Turns off the arrow for iOS/Safari */
+    
+    /* Injects a clean, black, custom chevron arrow */
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23111111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E") !important;
+    background-repeat: no-repeat !important;
+    
+    /* This exact line moves the arrow 14px inward from the right edge. 
+       Feel free to change '14px' to '16px' or '12px' to tune it perfectly to your liking! */
+    background-position: right 14px center !important; 
+    
+    padding-right: 35px !important; /* Ensures the text never collides with your newly placed arrow */
+}
