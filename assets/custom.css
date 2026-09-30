@@ -416,18 +416,17 @@ html body #root div#judgeme_product_reviews .jdgm-empty-state {
 
 /* 6. MOBILE FIX: Make the sort dropdown compact on small screens */
 @media only screen and (max-width: 768px) {
-    /* Target the select, the theme's wrapper, and Judge.me's wrapper */
-    html body #root div#judgeme_product_reviews select,
+    /* Target the dropdown and ALL of its sneaky theme wrappers */
+    html body #root div#judgeme_product_reviews .jm-sort-filter,
     html body #root div#judgeme_product_reviews .select-wrapper,
-    html body #root div#judgeme_product_reviews .jm-sort-filter {
+    html body #root div#judgeme_product_reviews select.jdgm-sort-dropdown {
         min-width: 0 !important; 
-        width: auto !important; /* Force shrink-wrap */
-        flex-grow: 0 !important; /* Kill flex expansion */
-        flex: 0 0 auto !important;
+        width: max-content !important; /* Forces it to hug the text, ignoring mobile stretch rules */
+        flex: 0 0 max-content !important; /* Kills any flexbox stretching */
+        display: inline-block !important;
     }
     
-    /* Slightly tighten the padding on mobile so it hugs the text even closer */
-    html body #root div#judgeme_product_reviews select {
-        padding: 0 25px 0 15px !important;
+    html body #root div#judgeme_product_reviews select.jdgm-sort-dropdown {
+        padding: 0 30px 0 15px !important; /* Ensures the arrow doesn't overlap the text */
     }
 }
