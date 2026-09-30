@@ -202,7 +202,11 @@ html body .jdgm-write-review-modal__stars {
     align-items: center !important;
     justify-content: center !important;
     gap: 15px !important;
-    margin-top: 25px !important;
+    margin-top: 0px !important;
+}
+
+html body .jdgm-write-review-modal .jdgm-write-review-modal__form {
+    gap: 10px !important; 
 }
 
 html body .jdgm-write-review-modal__stars::before {
