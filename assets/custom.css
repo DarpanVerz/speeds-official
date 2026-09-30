@@ -433,3 +433,8 @@ html body #root div#judgeme_product_reviews .jdgm-empty-state {
         white-space: nowrap !important;
     }
 }
+
+/* 7. HIDE OVERLAPPING CUSTOM CHEVRON ICON */
+html body #root div#judgeme_product_reviews .jm-sort-filter__icon {
+    display: none !important;
+}
