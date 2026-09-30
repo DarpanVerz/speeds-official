@@ -513,9 +513,9 @@ html body #root div#judgeme_product_reviews button.jm-media-grid__arrow svg {
 }
 
 /* 10. LIGHTBOX MODAL ARROWS: Perfect circles & kill theme shadows */
-html body #root div#judgeme_product_reviews button.jm-navigation__previous,
-html body #root div#judgeme_product_reviews button.jm-navigation__next {
-    all: unset !important; /* Strips all theme styling */
+html body .jdgm-modal_overlay .jm-navigation_previous,
+html body .jdgm-modal_overlay .jm-navigation_next {
+    all: unset !important; 
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -527,26 +527,37 @@ html body #root div#judgeme_product_reviews button.jm-navigation__next {
     cursor: pointer !important;
     transition: background 0.3s ease !important;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3) !important;
-    z-index: 9999 !important;
+    z-index: 99999 !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
 }
 
-/* Hover state */
-html body #root div#judgeme_product_reviews button.jm-navigation__previous:hover,
-html body #root div#judgeme_product_reviews button.jm-navigation__next:hover {
+html body .jdgm-modal_overlay .jm-navigation_previous {
+    left: 15px !important; /* Pulls to the left edge */
+}
+
+html body .jdgm-modal_overlay .jm-navigation_next {
+    right: 15px !important; /* Pulls to the right edge */
+}
+
+html body .jdgm-modal_overlay .jm-navigation_previous:hover,
+html body .jdgm-modal_overlay .jm-navigation_next:hover {
     background: #6c0101 !important; /* Dark red hover */
 }
 
 /* Kill theme pseudo-elements on the arrows */
-html body #root div#judgeme_product_reviews button.jm-navigation__previous::before,
-html body #root div#judgeme_product_reviews button.jm-navigation__previous::after,
-html body #root div#judgeme_product_reviews button.jm-navigation__next::before,
-html body #root div#judgeme_product_reviews button.jm-navigation__next::after {
+html body .jdgm-modal_overlay .jm-navigation_previous::before,
+html body .jdgm-modal_overlay .jm-navigation_previous::after,
+html body .jdgm-modal_overlay .jm-navigation_next::before,
+html body .jdgm-modal_overlay .jm-navigation_next::after {
     display: none !important;
     content: none !important;
 }
 
+
 /* 11. LIGHTBOX CLOSE BUTTON ('X'): Pull inside and make circular */
-html body #root div#judgeme_product_reviews button.jm-indicator_close {
+html body .jdgm-modal_overlay .jm-indicator_close {
     all: unset !important;
     position: absolute !important;
     top: 15px !important; /* Pulls it down inside the box */
@@ -556,21 +567,21 @@ html body #root div#judgeme_product_reviews button.jm-indicator_close {
     justify-content: center !important;
     width: 36px !important;
     height: 36px !important;
-    background: rgba(0, 0, 0, 0.05) !important; /* Subtle gray background */
-    color: #111111 !important;
+    background: rgba(38, 38, 38, 0.85) !important; 
+    color: #ffffff !important;
     border-radius: 50% !important; /* Circular shape */
     cursor: pointer !important;
-    z-index: 9999 !important;
+    z-index: 99999 !important;
     transition: background 0.3s ease !important;
 }
 
-html body #root div#judgeme_product_reviews button.jm-indicator_close:hover {
-    background: rgba(0, 0, 0, 0.15) !important; /* Slightly darker on hover */
+html body .jdgm-modal_overlay .jm-indicator_close:hover {
+    background: #6c0101 !important; 
 }
 
 /* Kill theme pseudo-elements on the close button */
-html body #root div#judgeme_product_reviews button.jm-indicator_close::before,
-html body #root div#judgeme_product_reviews button.jm-indicator_close::after {
+html body .jdgm-modal_overlay .jm-indicator_close::before,
+html body .jdgm-modal_overlay .jm-indicator_close::after {
     display: none !important;
     content: none !important;
 }
