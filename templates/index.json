@@ -15,7 +15,7 @@
         "image_UwVfdj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5_2894970e-b196-4985-901b-b00b3692e99d.jpg",
+            "image": "shopify://shop_images/Soccer_Cone_Dribbling_Practice.png",
             "overlay_opacity": 0,
             "color_palette": "scheme-2",
             "text_position": "text-start",
@@ -41,7 +41,7 @@
         "image_wQVVFN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2_2f843026-85e0-4776-abb9-15e1c00b6c1c.jpg",
+            "image": "shopify://shop_images/Colorful_Slide_in_a_Cozy_Playroom.png",
             "overlay_opacity": 5,
             "color_palette": "scheme-1",
             "text_position": "align-bottom text-start",
@@ -67,7 +67,7 @@
         "image_zrQRwD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/4_31d0c815-fc97-41a1-9676-3190690933d2.jpg",
+            "image": "shopify://shop_images/Lakeside_Camping_Friends_Picnic.png",
             "overlay_opacity": 0,
             "color_palette": "scheme-1",
             "text_position": "text-start",
@@ -99,7 +99,7 @@
         "image_Mc883t": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_44d3a59c-d573-4ceb-905e-69cf4b224ebf.jpg",
+            "image": "shopify://shop_images/Cozy_Family_Camping_Under_the_Stars.png",
             "overlay_opacity": 0,
             "color_palette": "scheme-2",
             "text_position": "text-start",
@@ -215,7 +215,7 @@
         "1654865266c7ee8f93-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/7c74ffae-ccf5-43a7-9f94-84b38e442629.jpg",
+            "image": "shopify://shop_images/Cozy_Pop-Art_Inflatable_Reading_Nook.png",
             "overlay_opacity": 20,
             "color_palette": "scheme-411f8f89-3b86-4eaa-b706-9f6e6cfec9f1",
             "text_position": "center",
@@ -233,8 +233,8 @@
         "1654865266c7ee8f93-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_44_52_AM.jpg",
-            "overlay_opacity": 0,
+            "image": "shopify://shop_images/Outdoor_Camping_Kitchen_Stir-Fry.png",
+            "overlay_opacity": 20,
             "color_palette": "scheme-411f8f89-3b86-4eaa-b706-9f6e6cfec9f1",
             "text_position": "end center",
             "title": "<h3>Masak Lebih Mudah di Alam</h3>",
@@ -251,8 +251,8 @@
         "308e5b21-d3d8-4fdc-bf57-625316fb3592": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_49_34_AM.jpg",
-            "overlay_opacity": 0,
+            "image": "shopify://shop_images/Happy_Holiday_Poolside_Play.png",
+            "overlay_opacity": 20,
             "color_palette": "scheme-411f8f89-3b86-4eaa-b706-9f6e6cfec9f1",
             "text_position": "end center",
             "title": "<h3>Main Air Lebih Menyenangkan</h3>",
@@ -329,7 +329,7 @@
         "16620576954435429a-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_May_18_2026_10_59_57_AM.jpg",
+            "image": "shopify://shop_images/Friends_Gathering_Around_a_Forest_Camp_Table.png",
             "overlay_opacity_img": 0,
             "color_palette": "scheme-6",
             "overlay_opacity": 0,
@@ -348,7 +348,7 @@
         "16620576954435429a-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/25d322ff-9e8d-490a-a195-8f873edc4572.jpg",
+            "image": "shopify://shop_images/Focused_Pull-Up_on_Doorway_Bar.png",
             "overlay_opacity_img": 0,
             "color_palette": "scheme-6",
             "overlay_opacity": 0,
@@ -367,7 +367,7 @@
         "image_U3EnYz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_iiyyv0iiyyv0iiyy.jpg",
+            "image": "shopify://shop_images/Cozy_Scandinavian_Playroom_with_Colorful_Mat.png",
             "overlay_opacity_img": 0,
             "color_palette": "scheme-6",
             "overlay_opacity": 0,
